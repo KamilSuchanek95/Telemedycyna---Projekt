@@ -1,0 +1,58 @@
+
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_mem.o:     file format elf32-littlearm
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_mem.o
+
+Disassembly of section .text.UserToPMABufferCopy:
+
+00000000 <UserToPMABufferCopy>:
+UserToPMABufferCopy():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_mem.c:40
+   0:	b510      	push	{r4, lr}
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_mem.c:41
+   2:	0049      	lsls	r1, r1, #1
+   4:	3201      	adds	r2, #1
+   6:	f101 4180 	add.w	r1, r1, #1073741824	; 0x40000000
+   a:	f501 41c0 	add.w	r1, r1, #24576	; 0x6000
+   e:	0854      	lsrs	r4, r2, #1
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_mem.c:45
+  10:	e008      	b.n	24 <UserToPMABufferCopy+0x24>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_mem.c:50
+  12:	f810 2c01 	ldrb.w	r2, [r0, #-1]
+  16:	f810 3c02 	ldrb.w	r3, [r0, #-2]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_mem.c:45
+  1a:	3c01      	subs	r4, #1
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_mem.c:50
+  1c:	ea43 2302 	orr.w	r3, r3, r2, lsl #8
+  20:	f821 3c04 	strh.w	r3, [r1, #-4]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_mem.c:45
+  24:	3104      	adds	r1, #4
+  26:	3002      	adds	r0, #2
+  28:	2c00      	cmp	r4, #0
+  2a:	d1f2      	bne.n	12 <UserToPMABufferCopy+0x12>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_mem.c:54
+  2c:	bd10      	pop	{r4, pc}
+  2e:	46c0      	nop			(mov r8, r8)
+Disassembly of section .text.PMAToUserBufferCopy:
+
+00000000 <PMAToUserBufferCopy>:
+PMAToUserBufferCopy():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_mem.c:65
+   0:	0049      	lsls	r1, r1, #1
+   2:	3201      	adds	r2, #1
+   4:	f101 4180 	add.w	r1, r1, #1073741824	; 0x40000000
+   8:	f501 41c0 	add.w	r1, r1, #24576	; 0x6000
+   c:	0852      	lsrs	r2, r2, #1
+   e:	e004      	b.n	1a <PMAToUserBufferCopy+0x1a>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_mem.c:72
+  10:	f831 3c04 	ldrh.w	r3, [r1, #-4]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_mem.c:70
+  14:	3a01      	subs	r2, #1
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_mem.c:72
+  16:	f820 3c02 	strh.w	r3, [r0, #-2]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_mem.c:70
+  1a:	3002      	adds	r0, #2
+  1c:	3104      	adds	r1, #4
+  1e:	2a00      	cmp	r2, #0
+  20:	d1f6      	bne.n	10 <PMAToUserBufferCopy+0x10>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_mem.c:75
+  22:	4770      	bx	lr

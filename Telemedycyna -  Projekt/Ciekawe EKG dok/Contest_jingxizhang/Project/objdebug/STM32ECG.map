@@ -1,0 +1,1151 @@
+Archive member included because of file (symbol)
+
+C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+                              C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o (NVIC_PriorityGroupConfig)
+C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+                              C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o (RCC_PLLConfig)
+C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(cortexm3_macro.o)
+                              C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o) (__SETPRIMASK)
+c:/program files/raisonance/ride/arm-gcc/bin/../lib/gcc/arm-none-eabi/4.2.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
+                              C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o (strcmp)
+
+Allocating common symbols
+Common symbol       size              file
+
+OldDMA1ISR          0x4               C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+SaveRState          0x2               C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_int.o
+OldHandler          0x4               C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+yv                  0x14              C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+SaveState           0x2               C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_init.o
+pDataBuff           0x4               C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+prevData            0x2               C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+HROffTime           0x2               C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+ProtocolValue       0x4               C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+HRInterval          0x2               C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+xv                  0x14              C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+HROnOffset          0x1               C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+wIstr               0x2               C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_istr.o
+pProperty           0x4               C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_init.o
+testBuff            0x78              C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o
+EPindex             0x1               C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_init.o
+SaveTState          0x2               C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_int.o
+Device_Info         0x1c              C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_init.o
+pUser_Standard_Requests
+                    0x4               C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_init.o
+StatusInfo          0x2               C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+pInformation        0x4               C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_init.o
+ResumeS             0x2               C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_pwr.o
+strHR               0x4               C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+ECG_Buff            0xf0              C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+scrollOffset        0x2               C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+HR                  0x1               C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+DisplayBuff         0xf0              C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+ptrCircle_API       0x4               C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\Application_Startup.o
+wInterrupt_Mask     0x2               C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_init.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\Application_Startup.o
+ .data          0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\Application_Startup.o
+ .bss           0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\Application_Startup.o
+ .text          0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_istr.o
+ .text          0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+ .bss           0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+ .text          0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_pwr.o
+ .text.PowerOff
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_pwr.o
+ .text          0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+ .data          0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+ .text          0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o
+ .data          0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o
+ .bss           0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o
+ .text.Set_System
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o
+ COMMON         0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o
+ .text          0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_desc.o
+ .data          0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_desc.o
+ .bss           0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_desc.o
+ .text          0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_init.o
+ .data          0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_init.o
+ .bss           0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_init.o
+ .text          0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_int.o
+ .data          0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_int.o
+ .bss           0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_int.o
+ .text.CTR_HP   0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_int.o
+ .text          0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_mem.o
+ .data          0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_mem.o
+ .bss           0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_mem.o
+ .text          0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .data          0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .bss           0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.SetCNTR  0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.GetCNTR  0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.SetISTR  0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.GetISTR  0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.GetFNR   0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.SetDADDR
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.GetDADDR
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.GetBTABLE
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.SetENDPOINT
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.GetENDPOINT
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.GetEPType
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.SetDouBleBuffEPStall
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.GetEPTxStatus
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.GetEPRxStatus
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.SetEP_KIND
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.ClearEP_KIND
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.Set_Status_Out
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.SetEPDoubleBuff
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.ClearEPDoubleBuff
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.GetTxStallStatus
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.GetRxStallStatus
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.ClearEP_CTR_RX
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.ClearEP_CTR_TX
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.ToggleDTOG_RX
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.ToggleDTOG_TX
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.SetEPAddress
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.GetEPAddress
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.SetEPCountRxReg
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.GetEPTxCount
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.GetEPRxCount
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.SetEPDblBuffAddr
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.SetEPDblBuf0Addr
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.SetEPDblBuf1Addr
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.GetEPDblBuf0Addr
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.GetEPDblBuf1Addr
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.SetEPDblBuffCount
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.SetEPDblBuf0Count
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.SetEPDblBuf1Count
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.GetEPDblBuf0Count
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.GetEPDblBuf1Count
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.GetEPDblBufDir
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.FreeUserBuffer
+                0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text.ToWord   0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .text          0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+ .data          0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+ .bss           0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+ .text          0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+ .data          0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+ .bss           0x00000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+ .text          0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .data          0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .bss           0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_DeInit
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_SCBDeInit
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_StructInit
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_GetCurrentPendingIRQChannel
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_GetIRQChannelPendingBitStatus
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_SetIRQChannelPendingBit
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_ClearIRQChannelPendingBit
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_GetCurrentActiveHandler
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_GetIRQChannelActiveBitStatus
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_GetCPUID
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_SetVectorTable
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_GenerateSystemReset
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_GenerateCoreReset
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_SystemLPConfig
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_SystemHandlerConfig
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_GetSystemHandlerPendingBitStatus
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_SetSystemHandlerPendingBit
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_ClearSystemHandlerPendingBit
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_GetSystemHandlerActiveBitStatus
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_GetFaultHandlerSources
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_GetFaultAddress
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_GetBASEPRI
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_BASEPRICONFIG
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_RESETFAULTMASK
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_SETFAULTMASK
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_RESETPRIMASK
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text.NVIC_SETPRIMASK
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .text          0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .data          0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .bss           0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_DeInit
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_HSEConfig
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_AdjustHSICalibrationValue
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_HSICmd
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_PLLConfig
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_PLLCmd
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_SYSCLKConfig
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_GetSYSCLKSource
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_HCLKConfig
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_PCLK1Config
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_PCLK2Config
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_ITConfig
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_ADCCLKConfig
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_LSEConfig
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_LSICmd
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_RTCCLKConfig
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_RTCCLKCmd
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_GetClocksFreq
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_AHBPeriphClockCmd
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_APB2PeriphClockCmd
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_APB2PeriphResetCmd
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_APB1PeriphResetCmd
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_BackupResetCmd
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_ClockSecuritySystemCmd
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_MCOConfig
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_GetFlagStatus
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_WaitForHSEStartUp
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_ClearFlag
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_GetITStatus
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text.RCC_ClearITPendingBit
+                0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .rodata        0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .text          0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(cortexm3_macro.o)
+ .data          0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(cortexm3_macro.o)
+ .bss           0x00000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(cortexm3_macro.o)
+ .data          0x00000000        0x0 c:/program files/raisonance/ride/arm-gcc/bin/../lib/gcc/arm-none-eabi/4.2.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
+ .bss           0x00000000        0x0 c:/program files/raisonance/ride/arm-gcc/bin/../lib/gcc/arm-none-eabi/4.2.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x20000000         0x00004000         xrw
+FLASHB1          0x08000000         0x00006000         r
+FLASH            0x08006000         0x00002000         xr
+EXTMEMB0         0x00000000         0x00000000         xr
+EXTMEMB1         0x00000000         0x00000000         xr
+EXTMEMB2         0x00000000         0x00000000         xr
+EXTMEMB3         0x00000000         0x00000000         xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\Application_Startup.o
+LOAD C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_istr.o
+LOAD C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+LOAD C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_pwr.o
+LOAD C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+LOAD C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o
+LOAD C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_desc.o
+LOAD C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_init.o
+LOAD C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_int.o
+LOAD C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_mem.o
+LOAD C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+LOAD C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+LOAD C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+LOAD C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib
+                0x00000400                __Stack_Size = 0x400
+                0x00000400                PROVIDE (_Stack_Size, __Stack_Size)
+                0x20004c00                __Stack_Init = (_estack - __Stack_Size)
+                0x20004c00                PROVIDE (_Stack_Init, __Stack_Init)
+                0x00000100                _Minimum_Stack_Size = 0x100
+                0x00000000                PROVIDE (Undefined_Handler, 0x0)
+                0x00000000                PROVIDE (SWI_Handler, 0x0)
+                0x00000000                PROVIDE (IRQ_Handler, 0x0)
+                0x00000000                PROVIDE (Prefetch_Handler, 0x0)
+                0x00000000                PROVIDE (Abort_Handler, 0x0)
+                0x00000000                PROVIDE (FIQ_Handler, 0x0)
+                0x00000000                PROVIDE (NMIException, 0x0)
+                0x00000000                PROVIDE (HardFaultException, 0x0)
+                0x00000000                PROVIDE (MemManageException, 0x0)
+                0x00000000                PROVIDE (BusFaultException, 0x0)
+                0x00000000                PROVIDE (UsageFaultException, 0x0)
+                0x00000000                PROVIDE (SVCHandler, 0x0)
+                0x00000000                PROVIDE (DebugMonitor, 0x0)
+                0x00000000                PROVIDE (PendSVC, 0x0)
+                0x00000000                PROVIDE (SysTickHandler, 0x0)
+                0x00000000                PROVIDE (WWDG_IRQHandler, 0x0)
+                0x00000000                PROVIDE (PVD_IRQHandler, 0x0)
+                0x00000000                PROVIDE (TAMPER_IRQHandler, 0x0)
+                0x00000000                PROVIDE (RTC_IRQHandler, 0x0)
+                0x00000000                PROVIDE (FLASH_IRQHandler, 0x0)
+                0x00000000                PROVIDE (RCC_IRQHandler, 0x0)
+                0x00000000                PROVIDE (EXTI0_IRQHandler, 0x0)
+                0x00000000                PROVIDE (EXTI1_IRQHandler, 0x0)
+                0x00000000                PROVIDE (EXTI2_IRQHandler, 0x0)
+                0x00000000                PROVIDE (EXTI3_IRQHandler, 0x0)
+                0x00000000                PROVIDE (EXTI4_IRQHandler, 0x0)
+                0x00000000                PROVIDE (DMAChannel1_IRQHandler, 0x0)
+                0x00000000                PROVIDE (DMAChannel2_IRQHandler, 0x0)
+                0x00000000                PROVIDE (DMAChannel3_IRQHandler, 0x0)
+                0x00000000                PROVIDE (DMAChannel4_IRQHandler, 0x0)
+                0x00000000                PROVIDE (DMAChannel5_IRQHandler, 0x0)
+                0x00000000                PROVIDE (DMAChannel6_IRQHandler, 0x0)
+                0x00000000                PROVIDE (DMAChannel7_IRQHandler, 0x0)
+                0x00000000                PROVIDE (ADC_IRQHandler, 0x0)
+                0x00000000                PROVIDE (USB_HP_CAN_TX_IRQHandler, 0x0)
+                0x00000000                PROVIDE (USB_LP_CAN_RX0_IRQHandler, 0x0)
+                0x00000000                PROVIDE (CAN_RX1_IRQHandler, 0x0)
+                0x00000000                PROVIDE (CAN_SCE_IRQHandler, 0x0)
+                0x00000000                PROVIDE (EXTI9_5_IRQHandler, 0x0)
+                0x00000000                PROVIDE (TIM1_BRK_IRQHandler, 0x0)
+                0x00000000                PROVIDE (TIM1_UP_IRQHandler, 0x0)
+                0x00000000                PROVIDE (TIM1_TRG_COM_IRQHandler, 0x0)
+                0x00000000                PROVIDE (TIM1_CC_IRQHandler, 0x0)
+                0x00000000                PROVIDE (TIM2_IRQHandler, 0x0)
+                0x00000000                PROVIDE (TIM3_IRQHandler, 0x0)
+                0x00000000                PROVIDE (TIM4_IRQHandler, 0x0)
+                0x00000000                PROVIDE (I2C1_EV_IRQHandler, 0x0)
+                0x00000000                PROVIDE (I2C1_ER_IRQHandler, 0x0)
+                0x00000000                PROVIDE (I2C2_EV_IRQHandler, 0x0)
+                0x00000000                PROVIDE (I2C2_ER_IRQHandler, 0x0)
+                0x00000000                PROVIDE (SPI1_IRQHandler, 0x0)
+                0x00000000                PROVIDE (SPI2_IRQHandler, 0x0)
+                0x00000000                PROVIDE (USART1_IRQHandler, 0x0)
+                0x00000000                PROVIDE (USART2_IRQHandler, 0x0)
+                0x00000000                PROVIDE (USART3_IRQHandler, 0x0)
+                0x00000000                PROVIDE (EXTI15_10_IRQHandler, 0x0)
+                0x00000000                PROVIDE (RTCAlarm_IRQHandler, 0x0)
+                0x00000000                PROVIDE (USBWakeUp_IRQHandler, 0x0)
+                0x42000000                PERIPH_BB_BASE = 0x42000000
+                0x22000000                SRAM_BB_BASE = 0x22000000
+                0x20000000                SRAM_BASE = 0x20000000
+                0x40000000                PERIPH_BASE = 0x40000000
+                0x40022000                PROVIDE (FLASH_BASE, 0x40022000)
+                0x1ffff800                PROVIDE (OB_BASE, 0x1ffff800)
+                0x40000000                APB1PERIPH_BASE = PERIPH_BASE
+                0x40010000                APB2PERIPH_BASE = (PERIPH_BASE + 0x10000)
+                0x40020000                AHBPERIPH_BASE = (PERIPH_BASE + 0x20000)
+                0x40000000                PROVIDE (TIM2, (APB1PERIPH_BASE + 0x0))
+                0x40000400                PROVIDE (TIM3, (APB1PERIPH_BASE + 0x400))
+                0x40000800                PROVIDE (TIM4, (APB1PERIPH_BASE + 0x800))
+                0x40002800                PROVIDE (RTC, (APB1PERIPH_BASE + 0x2800))
+                0x40002c00                PROVIDE (WWDG, (APB1PERIPH_BASE + 0x2c00))
+                0x40003000                PROVIDE (IWDG, (APB1PERIPH_BASE + 0x3000))
+                0x40003800                PROVIDE (SPI2, (APB1PERIPH_BASE + 0x3800))
+                0x40004400                PROVIDE (USART2, (APB1PERIPH_BASE + 0x4400))
+                0x40004800                PROVIDE (USART3, (APB1PERIPH_BASE + 0x4800))
+                0x40005400                PROVIDE (I2C1, (APB1PERIPH_BASE + 0x5400))
+                0x40005800                PROVIDE (I2C2, (APB1PERIPH_BASE + 0x5800))
+                0x40006400                PROVIDE (CAN, (APB1PERIPH_BASE + 0x6400))
+                0x40006c00                PROVIDE (BKP, (APB1PERIPH_BASE + 0x6c00))
+                0x40007000                PROVIDE (PWR, (APB1PERIPH_BASE + 0x7000))
+                0x40010000                PROVIDE (AFIO, (APB2PERIPH_BASE + 0x0))
+                0x40010400                PROVIDE (EXTI, (APB2PERIPH_BASE + 0x400))
+                0x40010800                PROVIDE (GPIOA, (APB2PERIPH_BASE + 0x800))
+                0x40010c00                PROVIDE (GPIOB, (APB2PERIPH_BASE + 0xc00))
+                0x40011000                PROVIDE (GPIOC, (APB2PERIPH_BASE + 0x1000))
+                0x40011400                PROVIDE (GPIOD, (APB2PERIPH_BASE + 0x1400))
+                0x40011800                PROVIDE (GPIOE, (APB2PERIPH_BASE + 0x1800))
+                0x40012400                PROVIDE (ADC1, (APB2PERIPH_BASE + 0x2400))
+                0x40012800                PROVIDE (ADC2, (APB2PERIPH_BASE + 0x2800))
+                0x40012c00                PROVIDE (TIM1, (APB2PERIPH_BASE + 0x2c00))
+                0x40013000                PROVIDE (SPI1, (APB2PERIPH_BASE + 0x3000))
+                0x40013800                PROVIDE (USART1, (APB2PERIPH_BASE + 0x3800))
+                0x40020000                PROVIDE (DMA, (AHBPERIPH_BASE + 0x0))
+                0x40020008                PROVIDE (DMA_Channel1, (AHBPERIPH_BASE + 0x8))
+                0x4002001c                PROVIDE (DMA_Channel2, (AHBPERIPH_BASE + 0x1c))
+                0x40020030                PROVIDE (DMA_Channel3, (AHBPERIPH_BASE + 0x30))
+                0x40020044                PROVIDE (DMA_Channel4, (AHBPERIPH_BASE + 0x44))
+                0x40020058                PROVIDE (DMA_Channel5, (AHBPERIPH_BASE + 0x58))
+                0x4002006c                PROVIDE (DMA_Channel6, (AHBPERIPH_BASE + 0x6c))
+                0x40020080                PROVIDE (DMA_Channel7, (AHBPERIPH_BASE + 0x80))
+                0x40021000                PROVIDE (RCC, (AHBPERIPH_BASE + 0x1000))
+                0xe000e000                SCS_BASE = 0xe000e000
+                0xe000e010                PROVIDE (SysTick, (SCS_BASE + 0x10))
+                0xe000e100                PROVIDE (NVIC, (SCS_BASE + 0x100))
+                0xe000ed00                PROVIDE (SCB, (SCS_BASE + 0xd00))
+                0x08009fff                _eflash = 0x8009fff
+                0x20005000                _estack = 0x20005000
+
+.isr_vector     0x08006000       0x10
+                0x08006000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08006000       0x10 C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\Application_Startup.o
+                0x08006000                ApplicationItem
+                0x08006010                . = ALIGN (0x4)
+
+.flashtext      0x08006010        0x0
+                0x08006010                . = ALIGN (0x4)
+ *(.flashtext)
+                0x08006010                . = ALIGN (0x4)
+
+.text           0x08006010     0x1b30
+                0x08006010                . = ALIGN (0x4)
+ *(.text)
+ .text          0x08006010       0x50 c:/program files/raisonance/ride/arm-gcc/bin/../lib/gcc/arm-none-eabi/4.2.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
+                0x08006010                strcmp
+ *(.text.*)
+ .text.Application_Entry
+                0x08006060       0x50 C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\Application_Startup.o
+ .text.USB_Istr
+                0x080060b0       0xe0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_istr.o
+                0x080060b0                USB_Istr
+ .text.ECG_Status_In
+                0x08006190        0x4 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+                0x08006190                ECG_Status_In
+ .text.ECG_Status_Out
+                0x08006194        0x4 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+                0x08006194                ECG_Status_Out
+ .text.ECG_Data_Setup
+                0x08006198       0x68 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+                0x08006198                ECG_Data_Setup
+ .text.ECG_Get_Interface_Setting
+                0x08006200        0x8 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+                0x08006200                ECG_Get_Interface_Setting
+ .text.ECG_SetProtocol
+                0x08006208       0x18 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+                0x08006208                ECG_SetProtocol
+ .text.ECG_NoData_Setup
+                0x08006220       0x24 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+                0x08006220                ECG_NoData_Setup
+ .text.ECG_GetProtocolValue
+                0x08006244       0x1c C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+                0x08006244                ECG_GetProtocolValue
+ .text.ECG_GetHIDDescriptor
+                0x08006260       0x10 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+                0x08006260                ECG_GetHIDDescriptor
+ .text.ECG_GetReportDescriptor
+                0x08006270       0x10 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+                0x08006270                ECG_GetReportDescriptor
+ .text.ECG_GetStringDescriptor
+                0x08006280       0x1c C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+                0x08006280                ECG_GetStringDescriptor
+ .text.ECG_GetConfigDescriptor
+                0x0800629c       0x10 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+                0x0800629c                ECG_GetConfigDescriptor
+ .text.ECG_GetDeviceDescriptor
+                0x080062ac       0x10 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+                0x080062ac                ECG_GetDeviceDescriptor
+ .text.ECG_Reset
+                0x080062bc       0x8c C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+                0x080062bc                ECG_Reset
+ .text.ECG_init
+                0x08006348       0x4c C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+                0x08006348                ECG_init
+ .text.PowerOn  0x08006394       0x28 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_pwr.o
+                0x08006394                PowerOn
+ .text.Suspend  0x080063bc       0x1c C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_pwr.o
+                0x080063bc                Suspend
+ .text.Resume_Init
+                0x080063d8       0x1c C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_pwr.o
+                0x080063d8                Resume_Init
+ .text.Resume   0x080063f4       0x8c C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_pwr.o
+                0x080063f4                Resume
+ .text.DrawTrace
+                0x08006480       0x74 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+                0x08006480                DrawTrace
+ .text.DetectHR
+                0x080064f4       0xc0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+                0x080064f4                DetectHR
+ .text.Filter   0x080065b4      0x10c C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+                0x080065b4                Filter
+ .text.MsgVersion
+                0x080066c0       0x9c C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+                0x080066c0                MsgVersion
+ .text.Application_Handler
+                0x0800675c      0x170 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+                0x0800675c                Application_Handler
+ .text.Application_Ini
+                0x080068cc       0xa8 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+                0x080068cc                Application_Ini
+ .text.USB_Interrupts_Stop
+                0x08006974       0x34 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o
+                0x08006974                USB_Interrupts_Stop
+ .text.USB_Interrupts_Config
+                0x080069a8       0x38 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o
+                0x080069a8                USB_Interrupts_Config
+ .text.Set_USBClock
+                0x080069e0       0x14 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o
+                0x080069e0                Set_USBClock
+ .text.USB_Init
+                0x080069f4       0x38 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_init.o
+                0x080069f4                USB_Init
+ .text.CTR_LP   0x08006a2c      0x18c C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_int.o
+                0x08006a2c                CTR_LP
+ .text.UserToPMABufferCopy
+                0x08006bb8       0x30 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_mem.o
+                0x08006bb8                UserToPMABufferCopy
+ .text.PMAToUserBufferCopy
+                0x08006be8       0x24 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_mem.o
+                0x08006be8                PMAToUserBufferCopy
+ .text.SetBTABLE
+                0x08006c0c       0x14 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+                0x08006c0c                SetBTABLE
+ .text.SetEPType
+                0x08006c20       0x1c C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+                0x08006c20                SetEPType
+ .text.SetEPTxStatus
+                0x08006c3c       0x30 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+                0x08006c3c                SetEPTxStatus
+ .text.SetEPRxStatus
+                0x08006c6c       0x30 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+                0x08006c6c                SetEPRxStatus
+ .text.SetEPTxValid
+                0x08006c9c       0x1c C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+                0x08006c9c                SetEPTxValid
+ .text.SetEPRxValid
+                0x08006cb8       0x1c C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+                0x08006cb8                SetEPRxValid
+ .text.Clear_Status_Out
+                0x08006cd4       0x18 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+                0x08006cd4                Clear_Status_Out
+ .text.ClearDTOG_RX
+                0x08006cec       0x28 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+                0x08006cec                ClearDTOG_RX
+ .text.ClearDTOG_TX
+                0x08006d14       0x28 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+                0x08006d14                ClearDTOG_TX
+ .text.SetEPTxAddr
+                0x08006d3c       0x20 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+                0x08006d3c                SetEPTxAddr
+ .text.SetEPRxAddr
+                0x08006d5c       0x20 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+                0x08006d5c                SetEPRxAddr
+ .text.GetEPTxAddr
+                0x08006d7c       0x1c C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+                0x08006d7c                GetEPTxAddr
+ .text.GetEPRxAddr
+                0x08006d98       0x1c C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+                0x08006d98                GetEPRxAddr
+ .text.SetEPTxCount
+                0x08006db4       0x1c C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+                0x08006db4                SetEPTxCount
+ .text.SetEPRxCount
+                0x08006dd0       0x40 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+                0x08006dd0                SetEPRxCount
+ .text.ByteSwap
+                0x08006e10        0xc C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+                0x08006e10                ByteSwap
+ .text.Standard_GetConfiguration
+                0x08006e1c       0x28 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+                0x08006e1c                Standard_GetConfiguration
+ .text.Standard_SetConfiguration
+                0x08006e44       0x38 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+                0x08006e44                Standard_SetConfiguration
+ .text.Standard_GetInterface
+                0x08006e7c       0x28 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+                0x08006e7c                Standard_GetInterface
+ .text.Standard_SetInterface
+                0x08006ea4       0x4c C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+                0x08006ea4                Standard_SetInterface
+ .text.Standard_GetStatus
+                0x08006ef0       0x9c C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+                0x08006ef0                Standard_GetStatus
+ .text.Standard_SetEndPointFeature
+                0x08006f8c       0x8c C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+                0x08006f8c                Standard_SetEndPointFeature
+ .text.Standard_SetDeviceFeature
+                0x08007018       0x24 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+                0x08007018                Standard_SetDeviceFeature
+ .text.Standard_GetDescriptorData
+                0x0800703c       0x20 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+                0x0800703c                Standard_GetDescriptorData
+ .text.SetDeviceAddress
+                0x0800705c       0x40 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+                0x0800705c                SetDeviceAddress
+ .text.NOP_Process
+                0x0800709c        0x4 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+                0x0800709c                NOP_Process
+ .text.Post0_Process
+                0x080070a0       0x44 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+                0x080070a0                Post0_Process
+ .text.Out0_Process
+                0x080070e4       0xd0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+                0x080070e4                Out0_Process
+ .text.DataStageIn
+                0x080071b4       0x80 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+ .text.In0_Process
+                0x08007234       0x5c C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+                0x08007234                In0_Process
+ .text.Standard_ClearFeature
+                0x08007290       0xe4 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+                0x08007290                Standard_ClearFeature
+ .text.Setup0_Process
+                0x08007374      0x2e4 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+                0x08007374                Setup0_Process
+ .text.InitTIM1
+                0x08007658       0x70 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+                0x08007658                InitTIM1
+ .text.ResetTIM1
+                0x080076c8       0x10 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+                0x080076c8                ResetTIM1
+ .text.InitDMA1
+                0x080076d8       0x6c C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+                0x080076d8                InitDMA1
+ .text.ResetDMA1
+                0x08007744       0x5c C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+                0x08007744                ResetDMA1
+ .text.InitADC  0x080077a0       0x2c C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+                0x080077a0                InitADC
+ .text.ResetADC
+                0x080077cc       0x38 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+                0x080077cc                ResetADC
+ .text.InitGPIO
+                0x08007804       0x20 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+                0x08007804                InitGPIO
+ .text.ResetGPIO
+                0x08007824       0x20 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+                0x08007824                ResetGPIO
+ .text.ECG_NVIC_Configuration
+                0x08007844       0x24 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+                0x08007844                ECG_NVIC_Configuration
+ .text.ECGInit  0x08007868       0x34 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+                0x08007868                ECGInit
+ .text.DMA1_ISR
+                0x0800789c       0x34 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+                0x0800789c                DMA1_ISR
+ .text.DMA1_Interrupts_Stop
+                0x080078d0       0x30 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+                0x080078d0                DMA1_Interrupts_Stop
+ .text.ECGReset
+                0x08007900       0x18 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+                0x08007900                ECGReset
+ .text.NVIC_PriorityGroupConfig
+                0x08007918       0x14 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+                0x08007918                NVIC_PriorityGroupConfig
+ .text.NVIC_Init
+                0x0800792c       0xb0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+                0x0800792c                NVIC_Init
+ .text.NVIC_SystemHandlerPriorityConfig
+                0x080079dc       0x64 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+                0x080079dc                NVIC_SystemHandlerPriorityConfig
+ .text.RCC_USBCLKConfig
+                0x08007a40        0xc C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+                0x08007a40                RCC_USBCLKConfig
+ .text.RCC_APB1PeriphClockCmd
+                0x08007a4c       0x24 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+                0x08007a4c                RCC_APB1PeriphClockCmd
+ *(.rodata)
+ .rodata        0x08007a70        0x9 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+                0x08007a70                Application_Name
+ .rodata        0x08007a79       0xad C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_desc.o
+                0x08007aec                ECG_StringProduct
+                0x08007ac2                ECG_StringLangID
+                0x08007b0c                ECG_StringSerial
+                0x08007a79                ECG_DeviceDescriptor
+                0x08007aad                ECG_ReportDescriptor
+                0x08007ac6                ECG_StringVendor
+                0x08007a8b                ECG_ConfigDescriptor
+ *(.rodata*)
+ .rodata.str1.1
+                0x08007b26       0x19 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+ *(.glue_7)
+ *fill*         0x08007b3f        0x1 00
+ .glue_7        0x08007b40        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\Application_Startup.o
+ .glue_7        0x08007b40        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_istr.o
+ .glue_7        0x08007b40        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+ .glue_7        0x08007b40        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_pwr.o
+ .glue_7        0x08007b40        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+ .glue_7        0x08007b40        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o
+ .glue_7        0x08007b40        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_desc.o
+ .glue_7        0x08007b40        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_init.o
+ .glue_7        0x08007b40        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_int.o
+ .glue_7        0x08007b40        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_mem.o
+ .glue_7        0x08007b40        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .glue_7        0x08007b40        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+ .glue_7        0x08007b40        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+ .glue_7        0x08007b40        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .glue_7        0x08007b40        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .glue_7        0x08007b40        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(cortexm3_macro.o)
+ .glue_7        0x08007b40        0x0 c:/program files/raisonance/ride/arm-gcc/bin/../lib/gcc/arm-none-eabi/4.2.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
+ *(.glue_7t)
+ .glue_7t       0x08007b40        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\Application_Startup.o
+ .glue_7t       0x08007b40        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_istr.o
+ .glue_7t       0x08007b40        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+ .glue_7t       0x08007b40        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_pwr.o
+ .glue_7t       0x08007b40        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+ .glue_7t       0x08007b40        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o
+ .glue_7t       0x08007b40        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_desc.o
+ .glue_7t       0x08007b40        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_init.o
+ .glue_7t       0x08007b40        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_int.o
+ .glue_7t       0x08007b40        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_mem.o
+ .glue_7t       0x08007b40        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .glue_7t       0x08007b40        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+ .glue_7t       0x08007b40        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+ .glue_7t       0x08007b40        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .glue_7t       0x08007b40        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .glue_7t       0x08007b40        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(cortexm3_macro.o)
+ .glue_7t       0x08007b40        0x0 c:/program files/raisonance/ride/arm-gcc/bin/../lib/gcc/arm-none-eabi/4.2.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
+                0x08007b40                . = ALIGN (0x4)
+                0x08007b40                _etext = .
+                0x08007b40                _sidata = _etext
+
+.vfp11_veneer   0x20000000        0x0
+ .vfp11_veneer  0x20000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\Application_Startup.o
+ .vfp11_veneer  0x20000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_istr.o
+ .vfp11_veneer  0x20000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+ .vfp11_veneer  0x20000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_pwr.o
+ .vfp11_veneer  0x20000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+ .vfp11_veneer  0x20000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o
+ .vfp11_veneer  0x20000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_desc.o
+ .vfp11_veneer  0x20000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_init.o
+ .vfp11_veneer  0x20000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_int.o
+ .vfp11_veneer  0x20000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_mem.o
+ .vfp11_veneer  0x20000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .vfp11_veneer  0x20000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+ .vfp11_veneer  0x20000000        0x0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+ .vfp11_veneer  0x20000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .vfp11_veneer  0x20000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .vfp11_veneer  0x20000000        0x0 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(cortexm3_macro.o)
+
+.data           0x20000000       0xd4 load address 0x08007b40
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _sdata = .
+ *(.data)
+ .data          0x20000000       0x38 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_istr.o
+                0x2000001c                pEpInt_OUT
+                0x20000000                pEpInt_IN
+ .data          0x20000038       0x98 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+                0x20000038                Mouse_Hid_Descriptor
+                0x20000070                Device_Descriptor
+                0x20000078                Device_Property
+                0x20000048                String_Descriptor
+                0x200000ac                User_Standard_Requests
+                0x20000040                ECG_Report_Descriptor
+                0x20000068                Config_Descriptor
+                0x200000a8                Device_Table
+ .data          0x200000d0        0x1 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_pwr.o
+                0x200000d0                fSuspendEnabled
+ *(.data.*)
+                0x200000d4                . = ALIGN (0x4)
+ *fill*         0x200000d1        0x3 00
+                0x200000d4                _edata = .
+                0x00000000                toobig = (((_sidata + _edata) - _sdata) > _eflash)?!!!!!!!!! FLASH IS FULL !!!!!!!!!:0x0
+
+.bss            0x200000d4      0x274 load address 0x08007c14
+                0x200000d4                . = ALIGN (0x4)
+                0x200000d4                _sbss = .
+ *(.bss)
+ .bss           0x200000d4        0x1 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_istr.o
+                0x200000d4                bIntPackSOF
+ .bss           0x200000d5        0x1 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_pwr.o
+                0x200000d5                bDeviceState
+ .bss           0x200000d6        0x2 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+                0x200000d6                bHROn
+                0x200000d7                bShowThreshold
+ *(COMMON)
+ COMMON         0x200000d8        0x4 C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\Application_Startup.o
+                0x200000d8                ptrCircle_API
+ COMMON         0x200000dc        0x2 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_istr.o
+                0x200000dc                wIstr
+ *fill*         0x200000de        0x2 00
+ COMMON         0x200000e0        0x4 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+                0x200000e0                ProtocolValue
+ COMMON         0x200000e4        0x2 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_pwr.o
+                0x200000e4                ResumeS
+ *fill*         0x200000e6        0x2 00
+ COMMON         0x200000e8      0x12e C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+                0x200000e8                OldHandler
+                0x200000ec                yv
+                0x20000100                prevData
+                0x20000102                HROffTime
+                0x20000104                HRInterval
+                0x20000108                xv
+                0x2000011c                HROnOffset
+                0x2000011d                strHR
+                0x20000122                scrollOffset
+                0x20000124                HR
+                0x20000126                DisplayBuff
+ *fill*         0x20000216        0x2 00
+ COMMON         0x20000218       0x32 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_init.o
+                0x20000218                SaveState
+                0x2000021c                pProperty
+                0x20000220                EPindex
+                0x20000224                Device_Info
+                0x20000240                pUser_Standard_Requests
+                0x20000244                pInformation
+                0x20000248                wInterrupt_Mask
+ COMMON         0x2000024a        0x4 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_int.o
+                0x2000024a                SaveRState
+                0x2000024c                SaveTState
+ COMMON         0x2000024e        0x2 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+                0x2000024e                StatusInfo
+ COMMON         0x20000250       0xf8 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+                0x20000250                OldDMA1ISR
+                0x20000254                pDataBuff
+                0x20000258                ECG_Buff
+                0x20000348                . = ALIGN (0x4)
+                0x20000348                _ebss = .
+                0x20000348                PROVIDE (end, _ebss)
+                0x20000348                PROVIDE (_end, _ebss)
+
+._usrstack      0x20000348      0x100 load address 0x08007e88
+                0x20000348                . = ALIGN (0x4)
+                0x20000348                _susrstack = .
+                0x20000448                . = (. + _Minimum_Stack_Size)
+ *fill*         0x20000348      0x100 00
+                0x20000448                . = ALIGN (0x4)
+                0x20000448                _eusrstack = .
+
+.b1text         0x08000000        0x4
+ FILL mask 0xffffffff
+ *(.b1text)
+ .b1text        0x08000000        0x4 C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\Application_Startup.o
+                0x08000000                dummy
+ */()
+
+.eb0text
+ *(.eb0text)
+ *(.eb0rodata)
+ *(.eb0rodata*)
+
+.eb1text
+ *(.eb1text)
+ *(.eb1rodata)
+ *(.eb1rodata*)
+
+.eb2text
+ *(.eb2text)
+ *(.eb2rodata)
+ *(.eb2rodata*)
+
+.eb3text
+ *(.eb3text)
+ *(.eb3rodata)
+ *(.eb3rodata*)
+
+DISCARD         0x20000448       0x48 load address 0x08007f88
+ libc.a(*)
+ .debug_frame   0x20000448       0x20 c:/program files/raisonance/ride/arm-gcc/bin/../lib/gcc/arm-none-eabi/4.2.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x20000468       0x27 c:/program files/raisonance/ride/arm-gcc/bin/../lib/gcc/arm-none-eabi/4.2.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
+ *fill*         0x2000048f        0x1 00
+ .vfp11_veneer  0x20000490        0x0 c:/program files/raisonance/ride/arm-gcc/bin/../lib/gcc/arm-none-eabi/4.2.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
+ libm.a(*)
+ libgcc.a(*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000      0x339
+ *(.comment)
+ .comment       0x00000000       0x37 C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\Application_Startup.o
+ .comment       0x00000037       0x37 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_istr.o
+ .comment       0x0000006e       0x37 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+ .comment       0x000000a5       0x37 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_pwr.o
+ .comment       0x000000dc       0x37 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+ .comment       0x00000113       0x37 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o
+ .comment       0x0000014a       0x37 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_desc.o
+ .comment       0x00000181       0x37 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_init.o
+ .comment       0x000001b8       0x37 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_int.o
+ .comment       0x000001ef       0x37 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_mem.o
+ .comment       0x00000226       0x37 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .comment       0x0000025d       0x37 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+ .comment       0x00000294       0x37 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+ .comment       0x000002cb       0x37 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .comment       0x00000302       0x37 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x4e0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_istr.o
+ .debug_aranges
+                0x00000020       0x88 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+ .debug_aranges
+                0x000000a8       0x40 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_pwr.o
+ .debug_aranges
+                0x000000e8       0x48 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+ .debug_aranges
+                0x00000130       0x38 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o
+ .debug_aranges
+                0x00000168       0x20 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_init.o
+ .debug_aranges
+                0x00000188       0x28 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_int.o
+ .debug_aranges
+                0x000001b0       0x28 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_mem.o
+ .debug_aranges
+                0x000001d8      0x1f0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .debug_aranges
+                0x000003c8       0x98 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+ .debug_aranges
+                0x00000460       0x80 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+
+.debug_pubnames
+                0x00000000      0xd01
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x56 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_istr.o
+ .debug_pubnames
+                0x00000056      0x215 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+ .debug_pubnames
+                0x0000026b       0x83 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_pwr.o
+ .debug_pubnames
+                0x000002ee      0x12d C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+ .debug_pubnames
+                0x0000041b       0x71 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o
+ .debug_pubnames
+                0x0000048c       0xb2 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_desc.o
+ .debug_pubnames
+                0x0000053e       0x98 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_init.o
+ .debug_pubnames
+                0x000005d6       0x46 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_int.o
+ .debug_pubnames
+                0x0000061c       0x42 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_mem.o
+ .debug_pubnames
+                0x0000065e      0x419 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .debug_pubnames
+                0x00000a77      0x18a C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+ .debug_pubnames
+                0x00000c01      0x100 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+
+.debug_info     0x00000000     0x41f7
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x2a5 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_istr.o
+ .debug_info    0x000002a5      0x8fa C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+ .debug_info    0x00000b9f      0x22f C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_pwr.o
+ .debug_info    0x00000dce      0x59d C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+ .debug_info    0x0000136b      0x258 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o
+ .debug_info    0x000015c3      0x16e C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_desc.o
+ .debug_info    0x00001731      0x448 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_init.o
+ .debug_info    0x00001b79      0x1a1 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_int.o
+ .debug_info    0x00001d1a      0x15a C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_mem.o
+ .debug_info    0x00001e74      0xc85 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .debug_info    0x00002af9      0xbbd C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+ .debug_info    0x000036b6      0xb41 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+
+.debug_abbrev   0x00000000     0x106d
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0xf3 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_istr.o
+ .debug_abbrev  0x000000f3      0x1ce C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+ .debug_abbrev  0x000002c1      0x131 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_pwr.o
+ .debug_abbrev  0x000003f2      0x216 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+ .debug_abbrev  0x00000608       0xfe C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o
+ .debug_abbrev  0x00000706       0x6e C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_desc.o
+ .debug_abbrev  0x00000774       0xfc C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_init.o
+ .debug_abbrev  0x00000870       0xd6 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_int.o
+ .debug_abbrev  0x00000946       0x97 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_mem.o
+ .debug_abbrev  0x000009dd      0x1bf C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .debug_abbrev  0x00000b9c      0x2c8 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+ .debug_abbrev  0x00000e64      0x209 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+
+.debug_line     0x00000000     0x1a65
+ *(.debug_line)
+ .debug_line    0x00000000      0x1ac C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_istr.o
+ .debug_line    0x000001ac      0x2d3 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+ .debug_line    0x0000047f      0x24a C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_pwr.o
+ .debug_line    0x000006c9      0x206 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+ .debug_line    0x000008cf      0x159 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o
+ .debug_line    0x00000a28       0xf4 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_desc.o
+ .debug_line    0x00000b1c      0x121 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_init.o
+ .debug_line    0x00000c3d      0x16f C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_int.o
+ .debug_line    0x00000dac      0x127 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_mem.o
+ .debug_line    0x00000ed3      0x5b2 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .debug_line    0x00001485      0x352 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+ .debug_line    0x000017d7      0x28e C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+
+.debug_frame    0x00000000      0xa8c
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x2c C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_istr.o
+ .debug_frame   0x0000002c      0x13c C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+ .debug_frame   0x00000168       0x68 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_pwr.o
+ .debug_frame   0x000001d0       0xe0 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+ .debug_frame   0x000002b0       0x78 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o
+ .debug_frame   0x00000328       0x28 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_init.o
+ .debug_frame   0x00000350       0x48 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_int.o
+ .debug_frame   0x00000398       0x38 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_mem.o
+ .debug_frame   0x000003d0      0x400 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .debug_frame   0x000007d0      0x1a4 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+ .debug_frame   0x00000974      0x118 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+
+.debug_str      0x00000000     0x1ec5
+ *(.debug_str)
+ .debug_str     0x00000000      0x264 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_istr.o
+                                0x2ca (size before relaxing)
+ .debug_str     0x00000264      0x646 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+                                0x899 (size before relaxing)
+ .debug_str     0x000008aa       0xb7 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_pwr.o
+                                0x224 (size before relaxing)
+ .debug_str     0x00000961      0x3e3 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+                                0x463 (size before relaxing)
+ .debug_str     0x00000d44      0x275 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o
+                                0x33d (size before relaxing)
+ .debug_str     0x00000fb9       0x67 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_desc.o
+                                0x149 (size before relaxing)
+ .debug_str     0x00001020       0xb3 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_init.o
+                                0x469 (size before relaxing)
+ .debug_str     0x000010d3       0x9d C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_int.o
+                                0x11e (size before relaxing)
+ .debug_str     0x00001170       0xc1 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_mem.o
+                                0x11f (size before relaxing)
+ .debug_str     0x00001231      0x434 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+                                0x4a7 (size before relaxing)
+ .debug_str     0x00001665      0x364 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+                                0x953 (size before relaxing)
+ .debug_str     0x000019c9      0x4fc C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+                                0x6fa (size before relaxing)
+
+.debug_loc      0x00000000     0x143f
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x1f C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_istr.o
+ .debug_loc     0x0000001f      0x217 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+ .debug_loc     0x00000236       0x79 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_pwr.o
+ .debug_loc     0x000002af      0x274 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+ .debug_loc     0x00000523       0x7c C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o
+ .debug_loc     0x0000059f       0x1f C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_init.o
+ .debug_loc     0x000005be       0xbe C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_int.o
+ .debug_loc     0x0000067c       0xa7 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_mem.o
+ .debug_loc     0x00000723      0x5b6 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .debug_loc     0x00000cd9      0x64f C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+ .debug_loc     0x00001328      0x117 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+START GROUP
+LOAD c:/program files/raisonance/ride/arm-gcc/bin/../lib/gcc/arm-none-eabi/4.2.1/thumb2\libgcc.a
+LOAD c:/program files/raisonance/ride/arm-gcc/bin/../lib/gcc/arm-none-eabi/4.2.1/../../../../arm-none-eabi/lib/thumb2\libc.a
+END GROUP
+OUTPUT(C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\STM32ECG.elf elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x31 C:\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\Application_Startup.o
+ .ARM.attributes
+                0x00000031       0x31 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_istr.o
+ .ARM.attributes
+                0x00000062       0x31 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_prop.o
+ .ARM.attributes
+                0x00000093       0x31 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_pwr.o
+ .ARM.attributes
+                0x000000c4       0x31 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\Application.o
+ .ARM.attributes
+                0x000000f5       0x31 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o
+ .ARM.attributes
+                0x00000126       0x2f C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_desc.o
+ .ARM.attributes
+                0x00000155       0x31 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_init.o
+ .ARM.attributes
+                0x00000186       0x31 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_int.o
+ .ARM.attributes
+                0x000001b7       0x31 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_mem.o
+ .ARM.attributes
+                0x000001e8       0x31 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .ARM.attributes
+                0x00000219       0x31 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+ .ARM.attributes
+                0x0000024a       0x31 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+ .ARM.attributes
+                0x0000027b       0x31 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_nvic.o)
+ .ARM.attributes
+                0x000002ac       0x31 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(stm32f10x_rcc.o)
+ .ARM.attributes
+                0x000002dd       0x21 C:\Program Files\Raisonance\Ride\Lib\ARM\STM32F10x_thumb.lib(cortexm3_macro.o)
+
+.debug_ranges   0x00000000      0x1d0
+ .debug_ranges  0x00000000       0xd8 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_regs.o
+ .debug_ranges  0x000000d8       0xf8 C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o

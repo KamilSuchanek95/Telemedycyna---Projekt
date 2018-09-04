@@ -1,0 +1,981 @@
+<!-- DWF2XML 0.01.30 - Raisonance Dwarf information extractor -->
+<aoffile Filename="STM32ECG" dwarf="1">
+ <modulelist>
+  <module Name="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_istr.c" >
+   <type Family="Base" Name="long int" ID="29"/>
+   <type Family="Base" Name="short int" ID="36"/>
+   <type Family="Base" Name="signed char" ID="43"/>
+   <type Family="Base" Name="long unsigned int" ID="50"/>
+   <type Family="Base" Name="short unsigned int" ID="68"/>
+   <type Family="typedef" Name="u16" Line="44" ID="57" toTI="68"/>
+   <type Family="Base" Name="unsigned char" ID="85"/>
+   <type Family="typedef" Name="u8" Line="45" ID="75" toTI="85"/>
+   <type Family="typedef" Name="bool" Line="64" ID="113" toTI="92"/>
+   <type Family="Pointer" TI="124" toTI="75"/>
+   <type Family="typedef" Name="RESULT" Line="56" ID="167" toTI="130"/>
+   <type Family="Pointer" TI="194" toTI="178"/>
+   <type Family="ComponentList" Name="_DEVICE_PROP" Line="131" ID="200">
+   <type Family="Pointer" TI="383" toTI="381"/>
+    <Component Name="Init" TI="212" Line="132" Offs="0"/>
+   <type Family="Pointer" TI="383" toTI="381"/>
+    <Component Name="Reset" TI="226" Line="133" Offs="4"/>
+   <type Family="Pointer" TI="383" toTI="381"/>
+    <Component Name="Process_Status_IN" TI="240" Line="136" Offs="8"/>
+   <type Family="Pointer" TI="383" toTI="381"/>
+    <Component Name="Process_Status_OUT" TI="254" Line="137" Offs="12"/>
+   <type Family="Pointer" TI="405" toTI="389"/>
+    <Component Name="Class_Data_Setup" TI="268" Line="155" Offs="16"/>
+    <Component Name="Class_NoData_Setup" TI="282" Line="166" Offs="20"/>
+   <type Family="Pointer" TI="432" toTI="411"/>
+    <Component Name="Class_Get_Interface_Setting" TI="296" Line="176" Offs="24"/>
+    <Component Name="GetDeviceDescriptor" TI="310" Line="178" Offs="28"/>
+    <Component Name="GetConfigDescriptor" TI="324" Line="179" Offs="32"/>
+    <Component Name="GetStringDescriptor" TI="338" Line="180" Offs="36"/>
+    <Component Name="RxEP_buffer" TI="352" Line="182" Offs="40"/>
+    <Component Name="MaxPacketSize" TI="366" Line="183" Offs="44"/>
+   </type>
+   <type Family="Pointer" TI="383" toTI="381"/>
+   <type Family="typedef" Name="DEVICE_PROP" Line="186" ID="438" toTI="200"/>
+   <function Name="USB_Istr" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_istr.c" Line="68">
+   </function >
+   <variable Name="wIstr" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_istr.c" Line="30" Addr="0x200000DC" TI="549"/>
+   <variable Name="bIntPackSOF" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_istr.c" Line="31" Addr="0x200000D4" TI="616"/>
+   <type Family="Pointer" TI="383" toTI="381"/>
+   <type Family="array" ID="621" toTI="383"/>
+   <type Family="Pointer" TI="383" toTI="381"/>
+   <type Family="array" ID="621" toTI="383"/>
+   <variable Name="pEpInt_IN" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_istr.c" Line="37" Addr="0x20000000" TI="621"/>
+   <type Family="Pointer" TI="383" toTI="381"/>
+   <type Family="array" ID="621" toTI="383"/>
+   <variable Name="pEpInt_OUT" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_istr.c" Line="48" Addr="0x2000001C" TI="621"/>
+  </module>
+  <module Name="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" >
+   <type Family="Base" Name="long int" ID="706"/>
+   <type Family="Base" Name="short int" ID="713"/>
+   <type Family="Base" Name="signed char" ID="720"/>
+   <type Family="Base" Name="long unsigned int" ID="738"/>
+   <type Family="typedef" Name="u32" Line="43" ID="727" toTI="738"/>
+   <type Family="Base" Name="short unsigned int" ID="756"/>
+   <type Family="typedef" Name="u16" Line="44" ID="745" toTI="756"/>
+   <type Family="Base" Name="unsigned char" ID="773"/>
+   <type Family="typedef" Name="u8" Line="45" ID="763" toTI="773"/>
+   <type Family="ComponentList" Name="OneDescriptor" Line="41" ID="919">
+   <type Family="Pointer" TI="960" toTI="763"/>
+    <Component Name="Descriptor" TI="931" Line="42" Offs="0"/>
+    <Component Name="Descriptor_Size" TI="945" Line="43" Offs="4"/>
+   </type>
+   <type Family="typedef" Name="ONE_DESCRIPTOR" Line="45" ID="966" toTI="919"/>
+   <type Family="typedef" Name="RESULT" Line="56" ID="1014" toTI="977"/>
+   <type Family="ComponentList" Name="_ENDPOINT_INFO" Line="61" ID="1025">
+    <Component Name="Usb_wLength" TI="1037" Line="84" Offs="0"/>
+    <Component Name="Usb_wOffset" TI="1051" Line="85" Offs="2"/>
+    <Component Name="PacketSize" TI="1065" Line="86" Offs="4"/>
+   <type Family="Pointer" TI="1110" toTI="1094"/>
+    <Component Name="CopyData" TI="1079" Line="87" Offs="8"/>
+   </type>
+   <type Family="typedef" Name="ENDPOINT_INFO" Line="89" ID="1116" toTI="1025"/>
+   <type Family="ComponentList" Name="_DEVICE" Line="94" ID="1127">
+    <Component Name="Total_Endpoint" TI="1139" Line="95" Offs="0"/>
+    <Component Name="Total_Configuration" TI="1153" Line="96" Offs="1"/>
+   </type>
+   <type Family="typedef" Name="DEVICE" Line="98" ID="1168" toTI="1127"/>
+   <type Family="ComponentList" Name="BW" Line="104" ID="1179">
+    <Component Name="bb1" TI="1190" Line="105" Offs="0"/>
+    <Component Name="bb0" TI="1204" Line="106" Offs="1"/>
+   </type>
+   <type Family="ComponentList" Line="101" ID="1219">
+    <Component Name="w" TI="1227" Line="102" Offs="0"/>
+    <Component Name="bw" TI="1236" Line="108" Offs="0"/>
+   </type>
+   <type Family="typedef" Name="u16_u8" Line="109" ID="1247" toTI="1219"/>
+   <type Family="ComponentList" Name="_DEVICE_INFO" Line="112" ID="1258">
+    <Component Name="USBbmRequestType" TI="1270" Line="113" Offs="0"/>
+    <Component Name="USBbRequest" TI="1284" Line="114" Offs="1"/>
+    <Component Name="USBwValues" TI="1298" Line="115" Offs="2"/>
+    <Component Name="USBwIndexs" TI="1312" Line="116" Offs="4"/>
+    <Component Name="USBwLengths" TI="1326" Line="117" Offs="6"/>
+    <Component Name="ControlState" TI="1340" Line="119" Offs="8"/>
+    <Component Name="Current_Feature" TI="1354" Line="120" Offs="9"/>
+    <Component Name="Current_Configuration" TI="1368" Line="121" Offs="10"/>
+    <Component Name="Current_Interface" TI="1382" Line="122" Offs="11"/>
+    <Component Name="Current_AlternateSetting" TI="1396" Line="123" Offs="12"/>
+    <Component Name="Ctrl_Info" TI="1410" Line="126" Offs="16"/>
+   </type>
+   <type Family="typedef" Name="DEVICE_INFO" Line="128" ID="1425" toTI="1258"/>
+   <type Family="ComponentList" Name="_DEVICE_PROP" Line="131" ID="1436">
+   <type Family="Pointer" TI="1619" toTI="1617"/>
+    <Component Name="Init" TI="1448" Line="132" Offs="0"/>
+   <type Family="Pointer" TI="1619" toTI="1617"/>
+    <Component Name="Reset" TI="1462" Line="133" Offs="4"/>
+   <type Family="Pointer" TI="1619" toTI="1617"/>
+    <Component Name="Process_Status_IN" TI="1476" Line="136" Offs="8"/>
+   <type Family="Pointer" TI="1619" toTI="1617"/>
+    <Component Name="Process_Status_OUT" TI="1490" Line="137" Offs="12"/>
+   <type Family="Pointer" TI="1641" toTI="1625"/>
+    <Component Name="Class_Data_Setup" TI="1504" Line="155" Offs="16"/>
+    <Component Name="Class_NoData_Setup" TI="1518" Line="166" Offs="20"/>
+   <type Family="Pointer" TI="1668" toTI="1647"/>
+    <Component Name="Class_Get_Interface_Setting" TI="1532" Line="176" Offs="24"/>
+    <Component Name="GetDeviceDescriptor" TI="1546" Line="178" Offs="28"/>
+    <Component Name="GetConfigDescriptor" TI="1560" Line="179" Offs="32"/>
+    <Component Name="GetStringDescriptor" TI="1574" Line="180" Offs="36"/>
+    <Component Name="RxEP_buffer" TI="1588" Line="182" Offs="40"/>
+    <Component Name="MaxPacketSize" TI="1602" Line="183" Offs="44"/>
+   </type>
+   <type Family="Pointer" TI="1619" toTI="1617"/>
+   <type Family="typedef" Name="DEVICE_PROP" Line="186" ID="1674" toTI="1436"/>
+   <type Family="ComponentList" Name="_USER_STANDARD_REQUESTS" Line="189" ID="1685">
+   <type Family="Pointer" TI="1619" toTI="1617"/>
+    <Component Name="User_GetConfiguration" TI="1697" Line="190" Offs="0"/>
+   <type Family="Pointer" TI="1619" toTI="1617"/>
+    <Component Name="User_SetConfiguration" TI="1711" Line="191" Offs="4"/>
+   <type Family="Pointer" TI="1619" toTI="1617"/>
+    <Component Name="User_GetInterface" TI="1725" Line="192" Offs="8"/>
+   <type Family="Pointer" TI="1619" toTI="1617"/>
+    <Component Name="User_SetInterface" TI="1739" Line="193" Offs="12"/>
+   <type Family="Pointer" TI="1619" toTI="1617"/>
+    <Component Name="User_GetStatus" TI="1753" Line="194" Offs="16"/>
+   <type Family="Pointer" TI="1619" toTI="1617"/>
+    <Component Name="User_ClearFeature" TI="1767" Line="195" Offs="20"/>
+   <type Family="Pointer" TI="1619" toTI="1617"/>
+    <Component Name="User_SetEndPointFeature" TI="1781" Line="196" Offs="24"/>
+   <type Family="Pointer" TI="1619" toTI="1617"/>
+    <Component Name="User_SetDeviceFeature" TI="1795" Line="197" Offs="28"/>
+   <type Family="Pointer" TI="1619" toTI="1617"/>
+    <Component Name="User_SetDeviceAddress" TI="1809" Line="198" Offs="32"/>
+   </type>
+   <type Family="typedef" Name="USER_STANDARD_REQUESTS" Line="200" ID="1824" toTI="1685"/>
+   <function Name="ECG_Status_In" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="179">
+   </function >
+   <function Name="ECG_Status_Out" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="190">
+   </function >
+   <function Name="ECG_Data_Setup" TI="1014" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="201">
+    <parameter Name="RequestNo" TI="763" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="201" Addr="0x0" Param="Yes"/>
+    <variable Name="CopyRoutine" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="202" Addr="0x2" TI="1110"/>
+   </function >
+   <function Name="ECG_Get_Interface_Setting" TI="1014" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="332">
+    <parameter Name="Interface" TI="763" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="332" Addr="0x0" Param="Yes"/>
+    <parameter Name="AlternateSetting" TI="763" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="332" Addr="0x1" Param="Yes"/>
+   </function >
+   <function Name="ECG_SetProtocol" TI="1014" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="352">
+   </function >
+   <function Name="ECG_NoData_Setup" TI="1014" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="248">
+    <parameter Name="RequestNo" TI="763" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="248" Addr="0x0" Param="Yes"/>
+   </function >
+   <function Name="ECG_GetProtocolValue" TI="960" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="366">
+    <parameter Name="Length" TI="745" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="366" Addr="0x0" Param="Yes"/>
+   </function >
+   <function Name="ECG_GetHIDDescriptor" TI="960" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="318">
+    <parameter Name="Length" TI="745" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="318" Addr="0x0" Param="Yes"/>
+   </function >
+   <function Name="ECG_GetReportDescriptor" TI="960" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="306">
+    <parameter Name="Length" TI="745" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="306" Addr="0x0" Param="Yes"/>
+   </function >
+   <function Name="ECG_GetStringDescriptor" TI="960" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="293">
+    <parameter Name="Length" TI="745" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="293" Addr="0x0" Param="Yes"/>
+   </function >
+   <function Name="ECG_GetConfigDescriptor" TI="960" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="281">
+    <parameter Name="Length" TI="745" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="281" Addr="0x0" Param="Yes"/>
+   </function >
+   <function Name="ECG_GetDeviceDescriptor" TI="960" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="269">
+    <parameter Name="Length" TI="745" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="269" Addr="0x0" Param="Yes"/>
+   </function >
+   <function Name="ECG_Reset" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="144">
+   </function >
+   <function Name="ECG_init" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="117">
+   </function >
+   <variable Name="Device_Property" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="44" Addr="0x20000078" TI="1674"/>
+   <variable Name="User_Standard_Requests" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="59" Addr="0x200000AC" TI="1824"/>
+   <variable Name="Device_Table" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="38" Addr="0x200000A8" TI="1168"/>
+   <type Family="Pointer" TI="2577" toTI="1425"/>
+   <type Family="array" ID="2596" toTI="763"/>
+   <type Family="array" ID="2633" toTI="763"/>
+   <type Family="array" ID="2667" toTI="763"/>
+   <type Family="array" ID="2701" toTI="763"/>
+   <type Family="array" ID="2735" toTI="763"/>
+   <type Family="array" ID="2769" toTI="763"/>
+   <type Family="array" ID="2803" toTI="763"/>
+   <variable Name="ProtocolValue" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="32" Addr="0x200000E0" TI="727"/>
+   <variable Name="Device_Descriptor" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="72" Addr="0x20000070" TI="966"/>
+   <variable Name="Config_Descriptor" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="78" Addr="0x20000068" TI="966"/>
+   <variable Name="ECG_Report_Descriptor" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="84" Addr="0x20000040" TI="966"/>
+   <variable Name="Mouse_Hid_Descriptor" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="90" Addr="0x20000038" TI="966"/>
+   <type Family="array" ID="2940" toTI="966"/>
+   <variable Name="String_Descriptor" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_prop.c" Line="96" Addr="0x20000048" TI="2940"/>
+  </module>
+  <module Name="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_pwr.c" >
+   <type Family="Base" Name="long int" ID="3004"/>
+   <type Family="Base" Name="short int" ID="3011"/>
+   <type Family="Base" Name="signed char" ID="3018"/>
+   <type Family="Base" Name="long unsigned int" ID="3025"/>
+   <type Family="Base" Name="short unsigned int" ID="3043"/>
+   <type Family="typedef" Name="u16" Line="37" ID="3032" toTI="3043"/>
+   <type Family="Base" Name="unsigned char" ID="3060"/>
+   <type Family="typedef" Name="u8" Line="38" ID="3050" toTI="3060"/>
+   <type Family="typedef" Name="bool" Line="52" ID="3088" toTI="3067"/>
+   <type Family="typedef" Name="RESULT" Line="56" ID="3139" toTI="3102"/>
+   <type Family="typedef" Name="RESUME_STATE" Line="36" ID="3211" toTI="3150"/>
+   <type Family="ComponentList" Line="35" ID="3222">
+    <Component Name="eState" TI="3230" Line="36" Offs="0"/>
+    <Component Name="bESOFcnt" TI="3244" Line="37" Offs="1"/>
+   </type>
+   <function Name="PowerOn" TI="3139" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_pwr.c" Line="53">
+   </function >
+   <function Name="Suspend" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_pwr.c" Line="109">
+    <variable Name="wCNTR" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_pwr.c" Line="110" Addr="0x2" TI="3032"/>
+   </function >
+   <function Name="Resume_Init" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_pwr.c" Line="143">
+   </function >
+   <function Name="Resume" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_pwr.c" Line="177">
+    <parameter Name="eResumeSetVal" TI="3211" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_pwr.c" Line="177" Addr="0x0" Param="Yes"/>
+    <variable Name="wCNTR" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_pwr.c" Line="178" Addr="0x3" TI="3032"/>
+   </function >
+   <variable Name="bDeviceState" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_pwr.c" Line="31" Addr="0x200000D5" TI="3264"/>
+   <variable Name="fSuspendEnabled" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_pwr.c" Line="32" Addr="0x200000D0" TI="3510"/>
+   <variable Name="ResumeS" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_pwr.c" Line="38" Addr="0x200000E4" TI="3222"/>
+  </module>
+  <module Name="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" >
+   <type Family="Base" Name="long int" ID="3567"/>
+   <type Family="Base" Name="short int" ID="3574"/>
+   <type Family="Base" Name="signed char" ID="3581"/>
+   <type Family="Base" Name="long unsigned int" ID="3599"/>
+   <type Family="typedef" Name="u32" Line="36" ID="3588" toTI="3599"/>
+   <type Family="Base" Name="short unsigned int" ID="3617"/>
+   <type Family="typedef" Name="u16" Line="37" ID="3606" toTI="3617"/>
+   <type Family="Base" Name="unsigned char" ID="3634"/>
+   <type Family="typedef" Name="u8" Line="38" ID="3624" toTI="3634"/>
+   <type Family="typedef" Name="bool" Line="52" ID="3662" toTI="3641"/>
+   <type Family="Pointer" TI="3730" toTI="3736"/>
+   <type Family="typedef" Name="tCircleFunc0" Line="76" ID="3719" toTI="3730"/>
+   <type Family="Pointer" TI="3883" toTI="3889"/>
+   <type Family="typedef" Name="tHandler" Line="116" ID="3872" toTI="3883"/>
+   <type Family="Pointer" TI="3883" toTI="3889"/>
+   <type Family="Base" Name="char" ID="4059"/>
+   <type Family="Base" Name="int" ID="4110"/>
+   <type Family="Base" Name="unsigned int" ID="4117"/>
+   <function Name="DrawTrace" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="246">
+    <parameter Name="offset" TI="3574" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="246" Addr="0x0" Param="Yes"/>
+    <variable Name="i" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="247" Addr="0x7" TI="3574"/>
+    <variable Name="end" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="247" Addr="0x9" TI="3574"/>
+   <type Family="Pointer" TI="4274" toTI="3574"/>
+   </function >
+   <function Name="DetectHR" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="265">
+    <variable Name="i" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="266" Addr="0x6" TI="3624"/>
+    <variable Name="pWork" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="267" Addr="0x7" TI="4274"/>
+   </function >
+   <function Name="Filter" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="304">
+    <parameter Name="pSrc" TI="4274" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="304" Addr="0x0" Param="Yes"/>
+    <parameter Name="len" TI="3574" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="304" Addr="0x1" Param="Yes"/>
+    <variable Name="pEnd" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="308" Addr="0x5" TI="4274"/>
+    <variable Name="value" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="309" Addr="0x3" TI="3574"/>
+    <variable Name="val" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="356" Addr="0x2" TI="3574"/>
+   </function >
+   <function Name="MsgVersion" TI="4066" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="428">
+    <variable Name="hh" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="429" Addr="0x340FFFEC" TI="4110"/>
+    <variable Name="mm" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="429" Addr="0x340FFFE8" TI="4110"/>
+    <variable Name="ss" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="429" Addr="0x34000004" TI="4110"/>
+    <variable Name="ss2" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="429" Addr="0x34000000" TI="4110"/>
+   </function >
+   <function Name="Application_Handler" TI="4066" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="174">
+   </function >
+   <function Name="Application_Ini" TI="4066" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="133">
+   </function >
+   <type Family="array" ID="4603" toTI="3719"/>
+   <type Family="Pointer" TI="4627" toTI="4603"/>
+   <type Family="Pointer" TI="4646" toTI="3606"/>
+   <type Family="array" ID="4652" toTI="3606"/>
+   <variable Name="DisplayBuff" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="99" Addr="0x20000126" TI="4652"/>
+   <variable Name="prevData" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="100" Addr="0x20000100" TI="3606"/>
+   <type Family="array" ID="4704" toTI="3567"/>
+   <variable Name="xv" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="101" Addr="0x20000108" TI="4704"/>
+   <variable Name="yv" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="102" Addr="0x200000EC" TI="4704"/>
+   <variable Name="scrollOffset" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="103" Addr="0x20000122" TI="3574"/>
+   <type Family="Pointer" TI="3883" toTI="3889"/>
+   <type Family="typedef" Name="tHandler" Line="116" ID="3872" toTI="3883"/>
+   <variable Name="OldHandler" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="104" Addr="0x200000E8" TI="3872"/>
+   <variable Name="HRInterval" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="105" Addr="0x20000104" TI="3574"/>
+   <variable Name="HROffTime" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="106" Addr="0x20000102" TI="3574"/>
+   <variable Name="HROnOffset" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="107" Addr="0x2000011C" TI="3624"/>
+   <variable Name="HR" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="108" Addr="0x20000124" TI="3624"/>
+   <type Family="array" ID="4861" toTI="4059"/>
+   <variable Name="strHR" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="109" Addr="0x2000011D" TI="4861"/>
+   <variable Name="bShowThreshold" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="110" Addr="0x200000D7" TI="3662"/>
+   <variable Name="bHROn" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="111" Addr="0x200000D6" TI="3662"/>
+   <type Family="array" ID="4931" toTI="4059"/>
+   <variable Name="Application_Name" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="123" Addr="0x8007A70" TI="4965"/>
+  </module>
+  <module Name="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\hw_config.c" >
+   <type Family="Base" Name="long int" ID="5004"/>
+   <type Family="Base" Name="short int" ID="5011"/>
+   <type Family="Base" Name="signed char" ID="5018"/>
+   <type Family="Base" Name="long unsigned int" ID="5025"/>
+   <type Family="Base" Name="short unsigned int" ID="5043"/>
+   <type Family="typedef" Name="u16" Line="37" ID="5032" toTI="5043"/>
+   <type Family="Base" Name="unsigned char" ID="5060"/>
+   <type Family="typedef" Name="u8" Line="38" ID="5050" toTI="5060"/>
+   <type Family="typedef" Name="FunctionalState" Line="56" ID="5109" toTI="5088"/>
+   <type Family="typedef" Name="GPIOSpeed_TypeDef" Line="36" ID="5150" toTI="5123"/>
+   <type Family="typedef" Name="GPIOMode_TypeDef" Line="51" ID="5219" toTI="5161"/>
+   <type Family="ComponentList" Line="60" ID="5230">
+    <Component Name="GPIO_Pin" TI="5238" Line="61" Offs="0"/>
+    <Component Name="GPIO_Speed" TI="5252" Line="62" Offs="2"/>
+    <Component Name="GPIO_Mode" TI="5266" Line="63" Offs="3"/>
+   </type>
+   <type Family="typedef" Name="GPIO_InitTypeDef" Line="64" ID="5281" toTI="5230"/>
+   <type Family="ComponentList" Line="32" ID="5292">
+    <Component Name="NVIC_IRQChannel" TI="5300" Line="33" Offs="0"/>
+    <Component Name="NVIC_IRQChannelPreemptionPriority" TI="5314" Line="34" Offs="1"/>
+    <Component Name="NVIC_IRQChannelSubPriority" TI="5328" Line="35" Offs="2"/>
+    <Component Name="NVIC_IRQChannelCmd" TI="5342" Line="36" Offs="3"/>
+   </type>
+   <type Family="typedef" Name="NVIC_InitTypeDef" Line="37" ID="5357" toTI="5292"/>
+   <type Family="Base" Name="char" ID="5368"/>
+   <type Family="Base" Name="int" ID="5375"/>
+   <type Family="Base" Name="unsigned int" ID="5382"/>
+   <function Name="USB_Interrupts_Stop" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\hw_config.c" Line="102">
+    <variable Name="NVIC_InitStructure" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\hw_config.c" Line="103" Addr="0x340FFFF4" TI="5357"/>
+   </function >
+   <function Name="USB_Interrupts_Config" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\hw_config.c" Line="77">
+    <variable Name="NVIC_InitStructure" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\hw_config.c" Line="78" Addr="0x340FFFF4" TI="5357"/>
+   </function >
+   <function Name="Set_USBClock" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\hw_config.c" Line="61">
+   </function >
+   <type Family="array" ID="5536" toTI="5032"/>
+   <variable Name="testBuff" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\hw_config.c" Line="8" Addr="0x0" TI="5536"/>
+  </module>
+  <module Name="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_desc.c" >
+   <type Family="Base" Name="long int" ID="5604"/>
+   <type Family="Base" Name="short int" ID="5611"/>
+   <type Family="Base" Name="signed char" ID="5618"/>
+   <type Family="Base" Name="long unsigned int" ID="5625"/>
+   <type Family="Base" Name="short unsigned int" ID="5632"/>
+   <type Family="Base" Name="unsigned char" ID="5649"/>
+   <type Family="typedef" Name="u8" Line="45" ID="5639" toTI="5649"/>
+   <type Family="array" ID="5656" toTI="5639"/>
+   <variable Name="ECG_DeviceDescriptor" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_desc.c" Line="20" Addr="0x8007A79" TI="5693"/>
+   <type Family="array" ID="5698" toTI="5639"/>
+   <variable Name="ECG_ConfigDescriptor" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_desc.c" Line="49" Addr="0x8007A8B" TI="5732"/>
+   <type Family="array" ID="5737" toTI="5639"/>
+   <variable Name="ECG_ReportDescriptor" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_desc.c" Line="98" Addr="0x8007AAD" TI="5771"/>
+   <type Family="array" ID="5776" toTI="5639"/>
+   <variable Name="ECG_StringLangID" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_desc.c" Line="259" Addr="0x8007AC2" TI="5811"/>
+   <type Family="array" ID="5816" toTI="5639"/>
+   <variable Name="ECG_StringVendor" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_desc.c" Line="268" Addr="0x8007AC6" TI="5851"/>
+   <type Family="array" ID="5856" toTI="5639"/>
+   <variable Name="ECG_StringProduct" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_desc.c" Line="278" Addr="0x8007AEC" TI="5891"/>
+   <type Family="array" ID="5896" toTI="5639"/>
+   <variable Name="ECG_StringSerial" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\usb_desc.c" Line="285" Addr="0x8007B0C" TI="5931"/>
+  </module>
+  <module Name="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_init.c" >
+   <type Family="Base" Name="long int" ID="5966"/>
+   <type Family="Base" Name="short int" ID="5973"/>
+   <type Family="Base" Name="signed char" ID="5980"/>
+   <type Family="Base" Name="long unsigned int" ID="5987"/>
+   <type Family="Base" Name="short unsigned int" ID="6005"/>
+   <type Family="typedef" Name="u16" Line="44" ID="5994" toTI="6005"/>
+   <type Family="Base" Name="unsigned char" ID="6022"/>
+   <type Family="typedef" Name="u8" Line="45" ID="6012" toTI="6022"/>
+   <type Family="Pointer" TI="6029" toTI="6012"/>
+   <type Family="typedef" Name="RESULT" Line="56" ID="6072" toTI="6035"/>
+   <type Family="ComponentList" Name="_ENDPOINT_INFO" Line="61" ID="6083">
+    <Component Name="Usb_wLength" TI="6095" Line="84" Offs="0"/>
+    <Component Name="Usb_wOffset" TI="6109" Line="85" Offs="2"/>
+    <Component Name="PacketSize" TI="6123" Line="86" Offs="4"/>
+   <type Family="Pointer" TI="6168" toTI="6152"/>
+    <Component Name="CopyData" TI="6137" Line="87" Offs="8"/>
+   </type>
+   <type Family="typedef" Name="ENDPOINT_INFO" Line="89" ID="6174" toTI="6083"/>
+   <type Family="ComponentList" Name="BW" Line="104" ID="6185">
+    <Component Name="bb1" TI="6196" Line="105" Offs="0"/>
+    <Component Name="bb0" TI="6210" Line="106" Offs="1"/>
+   </type>
+   <type Family="ComponentList" Line="101" ID="6225">
+    <Component Name="w" TI="6233" Line="102" Offs="0"/>
+    <Component Name="bw" TI="6242" Line="108" Offs="0"/>
+   </type>
+   <type Family="typedef" Name="u16_u8" Line="109" ID="6253" toTI="6225"/>
+   <type Family="ComponentList" Name="_DEVICE_INFO" Line="112" ID="6264">
+    <Component Name="USBbmRequestType" TI="6276" Line="113" Offs="0"/>
+    <Component Name="USBbRequest" TI="6290" Line="114" Offs="1"/>
+    <Component Name="USBwValues" TI="6304" Line="115" Offs="2"/>
+    <Component Name="USBwIndexs" TI="6318" Line="116" Offs="4"/>
+    <Component Name="USBwLengths" TI="6332" Line="117" Offs="6"/>
+    <Component Name="ControlState" TI="6346" Line="119" Offs="8"/>
+    <Component Name="Current_Feature" TI="6360" Line="120" Offs="9"/>
+    <Component Name="Current_Configuration" TI="6374" Line="121" Offs="10"/>
+    <Component Name="Current_Interface" TI="6388" Line="122" Offs="11"/>
+    <Component Name="Current_AlternateSetting" TI="6402" Line="123" Offs="12"/>
+    <Component Name="Ctrl_Info" TI="6416" Line="126" Offs="16"/>
+   </type>
+   <type Family="typedef" Name="DEVICE_INFO" Line="128" ID="6431" toTI="6264"/>
+   <type Family="ComponentList" Name="_DEVICE_PROP" Line="131" ID="6442">
+   <type Family="Pointer" TI="6625" toTI="6623"/>
+    <Component Name="Init" TI="6454" Line="132" Offs="0"/>
+   <type Family="Pointer" TI="6625" toTI="6623"/>
+    <Component Name="Reset" TI="6468" Line="133" Offs="4"/>
+   <type Family="Pointer" TI="6625" toTI="6623"/>
+    <Component Name="Process_Status_IN" TI="6482" Line="136" Offs="8"/>
+   <type Family="Pointer" TI="6625" toTI="6623"/>
+    <Component Name="Process_Status_OUT" TI="6496" Line="137" Offs="12"/>
+   <type Family="Pointer" TI="6647" toTI="6631"/>
+    <Component Name="Class_Data_Setup" TI="6510" Line="155" Offs="16"/>
+    <Component Name="Class_NoData_Setup" TI="6524" Line="166" Offs="20"/>
+   <type Family="Pointer" TI="6674" toTI="6653"/>
+    <Component Name="Class_Get_Interface_Setting" TI="6538" Line="176" Offs="24"/>
+    <Component Name="GetDeviceDescriptor" TI="6552" Line="178" Offs="28"/>
+    <Component Name="GetConfigDescriptor" TI="6566" Line="179" Offs="32"/>
+    <Component Name="GetStringDescriptor" TI="6580" Line="180" Offs="36"/>
+    <Component Name="RxEP_buffer" TI="6594" Line="182" Offs="40"/>
+    <Component Name="MaxPacketSize" TI="6608" Line="183" Offs="44"/>
+   </type>
+   <type Family="Pointer" TI="6625" toTI="6623"/>
+   <type Family="typedef" Name="DEVICE_PROP" Line="186" ID="6680" toTI="6442"/>
+   <type Family="ComponentList" Name="_USER_STANDARD_REQUESTS" Line="189" ID="6691">
+   <type Family="Pointer" TI="6625" toTI="6623"/>
+    <Component Name="User_GetConfiguration" TI="6703" Line="190" Offs="0"/>
+   <type Family="Pointer" TI="6625" toTI="6623"/>
+    <Component Name="User_SetConfiguration" TI="6717" Line="191" Offs="4"/>
+   <type Family="Pointer" TI="6625" toTI="6623"/>
+    <Component Name="User_GetInterface" TI="6731" Line="192" Offs="8"/>
+   <type Family="Pointer" TI="6625" toTI="6623"/>
+    <Component Name="User_SetInterface" TI="6745" Line="193" Offs="12"/>
+   <type Family="Pointer" TI="6625" toTI="6623"/>
+    <Component Name="User_GetStatus" TI="6759" Line="194" Offs="16"/>
+   <type Family="Pointer" TI="6625" toTI="6623"/>
+    <Component Name="User_ClearFeature" TI="6773" Line="195" Offs="20"/>
+   <type Family="Pointer" TI="6625" toTI="6623"/>
+    <Component Name="User_SetEndPointFeature" TI="6787" Line="196" Offs="24"/>
+   <type Family="Pointer" TI="6625" toTI="6623"/>
+    <Component Name="User_SetDeviceFeature" TI="6801" Line="197" Offs="28"/>
+   <type Family="Pointer" TI="6625" toTI="6623"/>
+    <Component Name="User_SetDeviceAddress" TI="6815" Line="198" Offs="32"/>
+   </type>
+   <type Family="typedef" Name="USER_STANDARD_REQUESTS" Line="200" ID="6830" toTI="6691"/>
+   <function Name="USB_Init" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_init.c" Line="58">
+   </function >
+   <variable Name="Device_Info" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_init.c" Line="43" Addr="0x20000224" TI="6431"/>
+   <variable Name="EPindex" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_init.c" Line="28" Addr="0x20000220" TI="6012"/>
+   <type Family="Pointer" TI="6942" toTI="6431"/>
+   <variable Name="pInformation" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_init.c" Line="33" Addr="0x20000244" TI="6942"/>
+   <type Family="Pointer" TI="6966" toTI="6680"/>
+   <variable Name="pProperty" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_init.c" Line="36" Addr="0x2000021C" TI="6966"/>
+   <type Family="Pointer" TI="6990" toTI="6830"/>
+   <variable Name="pUser_Standard_Requests" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_init.c" Line="44" Addr="0x20000240" TI="6990"/>
+   <variable Name="SaveState" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_init.c" Line="41" Addr="0x20000218" TI="5994"/>
+   <variable Name="wInterrupt_Mask" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_init.c" Line="42" Addr="0x20000248" TI="5994"/>
+  </module>
+  <module Name="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_int.c" >
+   <type Family="Base" Name="long int" ID="7062"/>
+   <type Family="Base" Name="short int" ID="7069"/>
+   <type Family="Base" Name="signed char" ID="7076"/>
+   <type Family="Base" Name="long unsigned int" ID="7094"/>
+   <type Family="typedef" Name="u32" Line="43" ID="7083" toTI="7094"/>
+   <type Family="Base" Name="short unsigned int" ID="7112"/>
+   <type Family="typedef" Name="u16" Line="44" ID="7101" toTI="7112"/>
+   <type Family="Base" Name="unsigned char" ID="7129"/>
+   <type Family="typedef" Name="u8" Line="45" ID="7119" toTI="7129"/>
+   <type Family="Pointer" TI="7138" toTI="7136"/>
+   <function Name="CTR_LP" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_int.c" Line="46">
+    <variable Name="wEPVal" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_int.c" Line="47" Addr="0x5" TI="7083"/>
+    <variable Name="_wRegVal" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_int.c" Line="64" Addr="0x3" TI="7101"/>
+    <variable Name="_wRegVal" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_int.c" Line="65" Addr="0x3" TI="7101"/>
+    <variable Name="_wRegVal" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_int.c" Line="119" Addr="0x2" TI="7101"/>
+    <variable Name="_wRegVal" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_int.c" Line="120" Addr="0x2" TI="7101"/>
+   </function >
+   <variable Name="SaveRState" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_int.c" Line="27" Addr="0x2000024A" TI="7101"/>
+   <variable Name="SaveTState" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_int.c" Line="28" Addr="0x2000024C" TI="7101"/>
+   <type Family="Pointer" TI="7138" toTI="7136"/>
+   <type Family="array" ID="7404" toTI="7138"/>
+   <type Family="Pointer" TI="7138" toTI="7136"/>
+   <type Family="array" ID="7404" toTI="7138"/>
+   <type Family="Pointer" TI="7138" toTI="7136"/>
+   <type Family="array" ID="7404" toTI="7138"/>
+  </module>
+  <module Name="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_mem.c" >
+   <type Family="Base" Name="long int" ID="7479"/>
+   <type Family="Base" Name="short int" ID="7486"/>
+   <type Family="Base" Name="signed char" ID="7493"/>
+   <type Family="Base" Name="long unsigned int" ID="7511"/>
+   <type Family="typedef" Name="u32" Line="43" ID="7500" toTI="7511"/>
+   <type Family="Base" Name="short unsigned int" ID="7529"/>
+   <type Family="typedef" Name="u16" Line="44" ID="7518" toTI="7529"/>
+   <type Family="Base" Name="unsigned char" ID="7546"/>
+   <type Family="typedef" Name="u8" Line="45" ID="7536" toTI="7546"/>
+   <type Family="Pointer" TI="7553" toTI="7536"/>
+   <function Name="UserToPMABufferCopy" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_mem.c" Line="40">
+    <parameter Name="pbUsrBuf" TI="7553" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_mem.c" Line="40" Addr="0x0" Param="Yes"/>
+    <parameter Name="wPMABufAddr" TI="7518" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_mem.c" Line="40" Addr="0x1" Param="Yes"/>
+    <parameter Name="wNBytes" TI="7518" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_mem.c" Line="40" Addr="0x2" Param="Yes"/>
+    <variable Name="i" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_mem.c" Line="42" Addr="0x4" TI="7500"/>
+   <type Family="Pointer" TI="7683" toTI="7518"/>
+   </function >
+   <function Name="PMAToUserBufferCopy" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_mem.c" Line="65">
+    <parameter Name="pbUsrBuf" TI="7553" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_mem.c" Line="65" Addr="0x0" Param="Yes"/>
+    <parameter Name="wPMABufAddr" TI="7518" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_mem.c" Line="65" Addr="0x1" Param="Yes"/>
+    <parameter Name="wNBytes" TI="7518" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_mem.c" Line="65" Addr="0x2" Param="Yes"/>
+    <variable Name="i" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_mem.c" Line="67" Addr="0x2" TI="7500"/>
+   <type Family="Pointer" TI="7789" toTI="7500"/>
+   </function >
+  </module>
+  <module Name="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" >
+   <type Family="Base" Name="long int" ID="7825"/>
+   <type Family="Base" Name="short int" ID="7832"/>
+   <type Family="Base" Name="signed char" ID="7839"/>
+   <type Family="Base" Name="long unsigned int" ID="7857"/>
+   <type Family="typedef" Name="u32" Line="43" ID="7846" toTI="7857"/>
+   <type Family="Base" Name="short unsigned int" ID="7875"/>
+   <type Family="typedef" Name="u16" Line="44" ID="7864" toTI="7875"/>
+   <type Family="Base" Name="unsigned char" ID="7892"/>
+   <type Family="typedef" Name="u8" Line="45" ID="7882" toTI="7892"/>
+   <type Family="typedef" Name="EP_DBUF_DIR" Line="32" ID="7930" toTI="7899"/>
+   <function Name="SetBTABLE" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="123">
+    <parameter Name="wRegValue" TI="7864" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="123" Addr="0x0" Param="Yes"/>
+   </function >
+   <function Name="SetEPType" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="173">
+    <parameter Name="bEpNum" TI="7882" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="173" Addr="0x0" Param="Yes"/>
+    <parameter Name="wType" TI="7864" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="173" Addr="0x1" Param="Yes"/>
+   </function >
+   <function Name="SetEPTxStatus" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="198">
+    <parameter Name="bEpNum" TI="7882" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="198" Addr="0x0" Param="Yes"/>
+    <parameter Name="wState" TI="7864" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="198" Addr="0x1" Param="Yes"/>
+    <variable Name="_wRegVal" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="199" Addr="0x2" TI="7864"/>
+   </function >
+   <function Name="SetEPRxStatus" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="211">
+    <parameter Name="bEpNum" TI="7882" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="211" Addr="0x0" Param="Yes"/>
+    <parameter Name="wState" TI="7864" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="211" Addr="0x1" Param="Yes"/>
+    <variable Name="_wRegVal" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="212" Addr="0x2" TI="7864"/>
+   </function >
+   <function Name="SetEPTxValid" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="269">
+    <parameter Name="bEpNum" TI="7882" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="269" Addr="0x0" Param="Yes"/>
+    <variable Name="_wRegVal" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="270" Addr="0x3" TI="7864"/>
+   </function >
+   <function Name="SetEPRxValid" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="281">
+    <parameter Name="bEpNum" TI="7882" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="281" Addr="0x0" Param="Yes"/>
+    <variable Name="_wRegVal" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="282" Addr="0x3" TI="7864"/>
+   </function >
+   <function Name="Clear_Status_Out" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="316">
+    <parameter Name="bEpNum" TI="7882" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="316" Addr="0x0" Param="Yes"/>
+   </function >
+   <function Name="ClearDTOG_RX" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="426">
+    <parameter Name="bEpNum" TI="7882" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="426" Addr="0x0" Param="Yes"/>
+   </function >
+   <function Name="ClearDTOG_TX" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="437">
+    <parameter Name="bEpNum" TI="7882" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="437" Addr="0x0" Param="Yes"/>
+   </function >
+   <function Name="SetEPTxAddr" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="472">
+    <parameter Name="bEpNum" TI="7882" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="472" Addr="0x0" Param="Yes"/>
+    <parameter Name="wAddr" TI="7864" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="472" Addr="0x1" Param="Yes"/>
+   </function >
+   <function Name="SetEPRxAddr" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="484">
+    <parameter Name="bEpNum" TI="7882" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="484" Addr="0x0" Param="Yes"/>
+    <parameter Name="wAddr" TI="7864" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="484" Addr="0x1" Param="Yes"/>
+   </function >
+   <function Name="GetEPTxAddr" TI="7864" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="495">
+    <parameter Name="bEpNum" TI="7882" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="495" Addr="0x0" Param="Yes"/>
+   </function >
+   <function Name="GetEPRxAddr" TI="7864" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="506">
+    <parameter Name="bEpNum" TI="7882" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="506" Addr="0x0" Param="Yes"/>
+   </function >
+   <function Name="SetEPTxCount" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="518">
+    <parameter Name="bEpNum" TI="7882" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="518" Addr="0x0" Param="Yes"/>
+    <parameter Name="wCount" TI="7864" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="518" Addr="0x1" Param="Yes"/>
+   </function >
+   <type Family="Pointer" TI="9809" toTI="7846"/>
+   <function Name="SetEPRxCount" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="542">
+    <parameter Name="bEpNum" TI="7882" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="542" Addr="0x0" Param="Yes"/>
+    <parameter Name="wCount" TI="7864" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="542" Addr="0x1" Param="Yes"/>
+    <variable Name="wNBlocks" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="543" Addr="0x3" TI="7864"/>
+   </function >
+   <function Name="ByteSwap" TI="7864" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="744">
+    <parameter Name="wSwW" TI="7864" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.c" Line="744" Addr="0x0" Param="Yes"/>
+   </function >
+  </module>
+  <module Name="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" >
+   <type Family="Base" Name="long int" ID="11030"/>
+   <type Family="Base" Name="short int" ID="11037"/>
+   <type Family="Base" Name="signed char" ID="11044"/>
+   <type Family="Base" Name="long unsigned int" ID="11062"/>
+   <type Family="typedef" Name="u32" Line="43" ID="11051" toTI="11062"/>
+   <type Family="Base" Name="short unsigned int" ID="11080"/>
+   <type Family="typedef" Name="u16" Line="44" ID="11069" toTI="11080"/>
+   <type Family="Base" Name="unsigned char" ID="11097"/>
+   <type Family="typedef" Name="u8" Line="45" ID="11087" toTI="11097"/>
+   <type Family="ComponentList" Name="OneDescriptor" Line="41" ID="11379">
+   <type Family="Pointer" TI="11420" toTI="11087"/>
+    <Component Name="Descriptor" TI="11391" Line="42" Offs="0"/>
+    <Component Name="Descriptor_Size" TI="11405" Line="43" Offs="4"/>
+   </type>
+   <type Family="typedef" Name="ONE_DESCRIPTOR" Line="45" ID="11426" toTI="11379"/>
+   <type Family="typedef" Name="RESULT" Line="56" ID="11474" toTI="11437"/>
+   <type Family="ComponentList" Name="_ENDPOINT_INFO" Line="61" ID="11485">
+    <Component Name="Usb_wLength" TI="11497" Line="84" Offs="0"/>
+    <Component Name="Usb_wOffset" TI="11511" Line="85" Offs="2"/>
+    <Component Name="PacketSize" TI="11525" Line="86" Offs="4"/>
+   <type Family="Pointer" TI="11570" toTI="11554"/>
+    <Component Name="CopyData" TI="11539" Line="87" Offs="8"/>
+   </type>
+   <type Family="typedef" Name="ENDPOINT_INFO" Line="89" ID="11576" toTI="11485"/>
+   <type Family="ComponentList" Name="_DEVICE" Line="94" ID="11587">
+    <Component Name="Total_Endpoint" TI="11599" Line="95" Offs="0"/>
+    <Component Name="Total_Configuration" TI="11613" Line="96" Offs="1"/>
+   </type>
+   <type Family="typedef" Name="DEVICE" Line="98" ID="11628" toTI="11587"/>
+   <type Family="ComponentList" Name="BW" Line="104" ID="11639">
+    <Component Name="bb1" TI="11650" Line="105" Offs="0"/>
+    <Component Name="bb0" TI="11664" Line="106" Offs="1"/>
+   </type>
+   <type Family="ComponentList" Line="101" ID="11679">
+    <Component Name="w" TI="11687" Line="102" Offs="0"/>
+    <Component Name="bw" TI="11696" Line="108" Offs="0"/>
+   </type>
+   <type Family="typedef" Name="u16_u8" Line="109" ID="11707" toTI="11679"/>
+   <type Family="ComponentList" Name="_DEVICE_INFO" Line="112" ID="11718">
+    <Component Name="USBbmRequestType" TI="11730" Line="113" Offs="0"/>
+    <Component Name="USBbRequest" TI="11744" Line="114" Offs="1"/>
+    <Component Name="USBwValues" TI="11758" Line="115" Offs="2"/>
+    <Component Name="USBwIndexs" TI="11772" Line="116" Offs="4"/>
+    <Component Name="USBwLengths" TI="11786" Line="117" Offs="6"/>
+    <Component Name="ControlState" TI="11800" Line="119" Offs="8"/>
+    <Component Name="Current_Feature" TI="11814" Line="120" Offs="9"/>
+    <Component Name="Current_Configuration" TI="11828" Line="121" Offs="10"/>
+    <Component Name="Current_Interface" TI="11842" Line="122" Offs="11"/>
+    <Component Name="Current_AlternateSetting" TI="11856" Line="123" Offs="12"/>
+    <Component Name="Ctrl_Info" TI="11870" Line="126" Offs="16"/>
+   </type>
+   <type Family="typedef" Name="DEVICE_INFO" Line="128" ID="11885" toTI="11718"/>
+   <type Family="ComponentList" Name="_DEVICE_PROP" Line="131" ID="11896">
+   <type Family="Pointer" TI="12079" toTI="12077"/>
+    <Component Name="Init" TI="11908" Line="132" Offs="0"/>
+   <type Family="Pointer" TI="12079" toTI="12077"/>
+    <Component Name="Reset" TI="11922" Line="133" Offs="4"/>
+   <type Family="Pointer" TI="12079" toTI="12077"/>
+    <Component Name="Process_Status_IN" TI="11936" Line="136" Offs="8"/>
+   <type Family="Pointer" TI="12079" toTI="12077"/>
+    <Component Name="Process_Status_OUT" TI="11950" Line="137" Offs="12"/>
+   <type Family="Pointer" TI="12101" toTI="12085"/>
+    <Component Name="Class_Data_Setup" TI="11964" Line="155" Offs="16"/>
+    <Component Name="Class_NoData_Setup" TI="11978" Line="166" Offs="20"/>
+   <type Family="Pointer" TI="12128" toTI="12107"/>
+    <Component Name="Class_Get_Interface_Setting" TI="11992" Line="176" Offs="24"/>
+    <Component Name="GetDeviceDescriptor" TI="12006" Line="178" Offs="28"/>
+    <Component Name="GetConfigDescriptor" TI="12020" Line="179" Offs="32"/>
+    <Component Name="GetStringDescriptor" TI="12034" Line="180" Offs="36"/>
+    <Component Name="RxEP_buffer" TI="12048" Line="182" Offs="40"/>
+    <Component Name="MaxPacketSize" TI="12062" Line="183" Offs="44"/>
+   </type>
+   <type Family="Pointer" TI="12079" toTI="12077"/>
+   <type Family="typedef" Name="DEVICE_PROP" Line="186" ID="12134" toTI="11896"/>
+   <type Family="ComponentList" Name="_USER_STANDARD_REQUESTS" Line="189" ID="12145">
+   <type Family="Pointer" TI="12079" toTI="12077"/>
+    <Component Name="User_GetConfiguration" TI="12157" Line="190" Offs="0"/>
+   <type Family="Pointer" TI="12079" toTI="12077"/>
+    <Component Name="User_SetConfiguration" TI="12171" Line="191" Offs="4"/>
+   <type Family="Pointer" TI="12079" toTI="12077"/>
+    <Component Name="User_GetInterface" TI="12185" Line="192" Offs="8"/>
+   <type Family="Pointer" TI="12079" toTI="12077"/>
+    <Component Name="User_SetInterface" TI="12199" Line="193" Offs="12"/>
+   <type Family="Pointer" TI="12079" toTI="12077"/>
+    <Component Name="User_GetStatus" TI="12213" Line="194" Offs="16"/>
+   <type Family="Pointer" TI="12079" toTI="12077"/>
+    <Component Name="User_ClearFeature" TI="12227" Line="195" Offs="20"/>
+   <type Family="Pointer" TI="12079" toTI="12077"/>
+    <Component Name="User_SetEndPointFeature" TI="12241" Line="196" Offs="24"/>
+   <type Family="Pointer" TI="12079" toTI="12077"/>
+    <Component Name="User_SetDeviceFeature" TI="12255" Line="197" Offs="28"/>
+   <type Family="Pointer" TI="12079" toTI="12077"/>
+    <Component Name="User_SetDeviceAddress" TI="12269" Line="198" Offs="32"/>
+   </type>
+   <type Family="typedef" Name="USER_STANDARD_REQUESTS" Line="200" ID="12284" toTI="12145"/>
+   <function Name="Standard_GetConfiguration" TI="11420" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="61">
+    <parameter Name="Length" TI="11069" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="61" Addr="0x0" Param="Yes"/>
+   </function >
+   <function Name="Standard_SetConfiguration" TI="11474" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="82">
+   </function >
+   <function Name="Standard_GetInterface" TI="11420" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="107">
+    <parameter Name="Length" TI="11069" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="107" Addr="0x0" Param="Yes"/>
+   </function >
+   <function Name="Standard_SetInterface" TI="11474" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="128">
+   </function >
+   <function Name="Standard_GetStatus" TI="11420" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="163">
+    <parameter Name="Length" TI="11069" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="163" Addr="0x0" Param="Yes"/>
+    <variable Name="Related_Endpoint" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="202" Addr="0x2" TI="11087"/>
+    <variable Name="wIndex0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="203" Addr="0x3" TI="11087"/>
+   </function >
+   <function Name="Standard_SetEndPointFeature" TI="11474" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="330">
+    <variable Name="wIndex0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="331" Addr="0x1" TI="11051"/>
+    <variable Name="rEP" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="333" Addr="0x0" TI="11051"/>
+    <variable Name="Status" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="334" Addr="0x4" TI="11051"/>
+    <variable Name="_wRegVal" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="362" Addr="0x3" TI="11069"/>
+    <variable Name="_wRegVal" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="368" Addr="0x3" TI="11069"/>
+   </function >
+   <function Name="Standard_SetDeviceFeature" TI="11474" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="384">
+   </function >
+   <function Name="Standard_GetDescriptorData" TI="11420" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="410">
+    <parameter Name="Length" TI="11069" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="410" Addr="0x0" Param="Yes"/>
+   <type Family="Pointer" TI="12808" toTI="11426"/>
+    <parameter Name="pDesc" TI="12808" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="410" Addr="0x1" Param="Yes"/>
+   </function >
+   <function Name="SetDeviceAddress" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="972">
+    <parameter Name="Val" TI="11087" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="972" Addr="0x0" Param="Yes"/>
+   </function >
+   <function Name="NOP_Process" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="992">
+   </function >
+   <function Name="Post0_Process" TI="11087" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="952">
+   </function >
+   <type Family="Pointer" TI="12990" toTI="11576"/>
+   <function Name="Out0_Process" TI="11087" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="911">
+    <variable Name="ControlState" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="912" Addr="0x2" TI="11051"/>
+    <variable Name="Buffer" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="439" Addr="0x5" TI="0"/>
+    <variable Name="Length" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="440" Addr="0x4" TI="0"/>
+   </function >
+   <function Name="DataStageIn" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="488">
+    <variable Name="ControlState" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="491" Addr="0x7" TI="11051"/>
+    <variable Name="DataBuffer" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="493" Addr="0x5" TI="11420"/>
+    <variable Name="Length" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="494" Addr="0x4" TI="11051"/>
+   </function >
+   <function Name="In0_Process" TI="11087" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="871">
+    <variable Name="ControlState" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="872" Addr="0x2" TI="11051"/>
+   </function >
+   <function Name="Standard_ClearFeature" TI="11474" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="241">
+    <variable Name="Type_Rec" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="242" Addr="0x0" TI="11051"/>
+    <variable Name="Status" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="243" Addr="0x0" TI="11051"/>
+   <type Family="Pointer" TI="13432" toTI="11628"/>
+    <variable Name="wIndex0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="255" Addr="0x1" TI="11051"/>
+    <variable Name="rEP" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="256" Addr="0x4" TI="11051"/>
+    <variable Name="_wRegVal" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="305" Addr="0x3" TI="11069"/>
+    <variable Name="_wRegVal" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="310" Addr="0x3" TI="11069"/>
+   </function >
+   <function Name="Setup0_Process" TI="11087" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="827">
+   <type Family="ComponentList" Line="830" ID="13658">
+    <Component Name="b" TI="13667" Line="831" Offs="0"/>
+   <type Family="Pointer" TI="13872" toTI="11069"/>
+    <Component Name="w" TI="13677" Line="832" Offs="0"/>
+   </type>
+    <variable Name="Result" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="537" Addr="0x0" TI="0"/>
+    <variable Name="ControlState" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="539" Addr="0x2" TI="0"/>
+    <variable Name="CopyRoutine" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="661" Addr="0x1" TI="0"/>
+    <variable Name="Result" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="662" Addr="0x0" TI="0"/>
+    <variable Name="Related_Endpoint" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="665" Addr="0x2" TI="0"/>
+    <variable Name="Status" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="666" Addr="0x0" TI="0"/>
+    <variable Name="wValue1" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="677" Addr="0x3" TI="0"/>
+   </function >
+   <type Family="Pointer" TI="13943" toTI="11885"/>
+   <type Family="Pointer" TI="13962" toTI="12134"/>
+   <type Family="Pointer" TI="13981" toTI="12284"/>
+   <variable Name="StatusInfo" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_core.c" Line="43" Addr="0x2000024E" TI="11707"/>
+  </module>
+  <module Name="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\ECG_Acquisition.c" >
+   <type Family="Base" Name="long int" ID="14039"/>
+   <type Family="Base" Name="short int" ID="14046"/>
+   <type Family="Base" Name="signed char" ID="14053"/>
+   <type Family="Base" Name="long unsigned int" ID="14071"/>
+   <type Family="typedef" Name="u32" Line="36" ID="14060" toTI="14071"/>
+   <type Family="Base" Name="short unsigned int" ID="14089"/>
+   <type Family="typedef" Name="u16" Line="37" ID="14078" toTI="14089"/>
+   <type Family="Base" Name="unsigned char" ID="14106"/>
+   <type Family="typedef" Name="u8" Line="38" ID="14096" toTI="14106"/>
+   <type Family="typedef" Name="FunctionalState" Line="56" ID="14144" toTI="14123"/>
+   <type Family="ComponentList" Line="42" ID="14155">
+    <Component Name="SR" TI="14163" Line="43" Offs="0"/>
+    <Component Name="CR1" TI="14176" Line="44" Offs="4"/>
+    <Component Name="CR2" TI="14190" Line="45" Offs="8"/>
+    <Component Name="SMPR1" TI="14204" Line="46" Offs="12"/>
+    <Component Name="SMPR2" TI="14218" Line="47" Offs="16"/>
+    <Component Name="JOFR1" TI="14232" Line="48" Offs="20"/>
+    <Component Name="JOFR2" TI="14246" Line="49" Offs="24"/>
+    <Component Name="JOFR3" TI="14260" Line="50" Offs="28"/>
+    <Component Name="JOFR4" TI="14274" Line="51" Offs="32"/>
+    <Component Name="HTR" TI="14288" Line="52" Offs="36"/>
+    <Component Name="LTR" TI="14302" Line="53" Offs="40"/>
+    <Component Name="SQR1" TI="14316" Line="54" Offs="44"/>
+    <Component Name="SQR2" TI="14330" Line="55" Offs="48"/>
+    <Component Name="SQR3" TI="14344" Line="56" Offs="52"/>
+    <Component Name="JSQR" TI="14358" Line="57" Offs="56"/>
+    <Component Name="JDR1" TI="14372" Line="58" Offs="60"/>
+    <Component Name="JDR2" TI="14386" Line="59" Offs="64"/>
+    <Component Name="JDR3" TI="14400" Line="60" Offs="68"/>
+    <Component Name="JDR4" TI="14414" Line="61" Offs="72"/>
+    <Component Name="DR" TI="14428" Line="62" Offs="76"/>
+   </type>
+   <type Family="ComponentList" Line="148" ID="14445">
+    <Component Name="CCR" TI="14453" Line="149" Offs="0"/>
+    <Component Name="CNDTR" TI="14467" Line="150" Offs="4"/>
+    <Component Name="CPAR" TI="14481" Line="151" Offs="8"/>
+    <Component Name="CMAR" TI="14495" Line="152" Offs="12"/>
+   </type>
+   <type Family="ComponentList" Line="156" ID="14510">
+    <Component Name="ISR" TI="14518" Line="157" Offs="0"/>
+    <Component Name="IFCR" TI="14532" Line="158" Offs="4"/>
+   </type>
+   <type Family="ComponentList" Line="200" ID="14547">
+    <Component Name="CRL" TI="14555" Line="201" Offs="0"/>
+    <Component Name="CRH" TI="14569" Line="202" Offs="4"/>
+    <Component Name="IDR" TI="14583" Line="203" Offs="8"/>
+    <Component Name="ODR" TI="14597" Line="204" Offs="12"/>
+    <Component Name="BSRR" TI="14611" Line="205" Offs="16"/>
+    <Component Name="BRR" TI="14625" Line="206" Offs="20"/>
+    <Component Name="LCKR" TI="14639" Line="207" Offs="24"/>
+   </type>
+   <type Family="ComponentList" Line="251" ID="14654">
+   <type Family="array" ID="14834" toTI="14071"/>
+    <Component Name="Enable" TI="14663" Line="252" Offs="0"/>
+   <type Family="array" ID="14855" toTI="14060"/>
+    <Component Name="RESERVED0" TI="14677" Line="253" Offs="8"/>
+    <Component Name="Disable" TI="14691" Line="254" Offs="128"/>
+    <Component Name="RSERVED1" TI="14706" Line="255" Offs="136"/>
+    <Component Name="Set" TI="14721" Line="256" Offs="256"/>
+    <Component Name="RESERVED2" TI="14737" Line="257" Offs="264"/>
+    <Component Name="Clear" TI="14753" Line="258" Offs="384"/>
+    <Component Name="RESERVED3" TI="14769" Line="259" Offs="392"/>
+    <Component Name="Active" TI="14785" Line="260" Offs="512"/>
+   <type Family="array" ID="14891" toTI="14060"/>
+    <Component Name="RESERVED4" TI="14801" Line="261" Offs="520"/>
+   <type Family="array" ID="14907" toTI="14071"/>
+    <Component Name="Priority" TI="14817" Line="262" Offs="768"/>
+   </type>
+   <type Family="ComponentList" Line="266" ID="14928">
+    <Component Name="CPUID" TI="14937" Line="267" Offs="0"/>
+    <Component Name="IRQControlState" TI="14952" Line="268" Offs="4"/>
+    <Component Name="ExceptionTableOffset" TI="14967" Line="269" Offs="8"/>
+    <Component Name="AIRC" TI="14982" Line="270" Offs="12"/>
+    <Component Name="SysCtrl" TI="14997" Line="271" Offs="16"/>
+    <Component Name="ConfigCtrl" TI="15012" Line="272" Offs="20"/>
+   <type Family="array" ID="15133" toTI="14071"/>
+    <Component Name="SystemPriority" TI="15027" Line="273" Offs="24"/>
+    <Component Name="SysHandlerCtrl" TI="15042" Line="274" Offs="36"/>
+    <Component Name="ConfigFaultStatus" TI="15057" Line="275" Offs="40"/>
+    <Component Name="HardFaultStatus" TI="15072" Line="276" Offs="44"/>
+    <Component Name="DebugFaultStatus" TI="15087" Line="277" Offs="48"/>
+    <Component Name="MemoryManageFaultAddr" TI="15102" Line="278" Offs="52"/>
+    <Component Name="BusFaultAddr" TI="15117" Line="279" Offs="56"/>
+   </type>
+   <type Family="ComponentList" Line="291" ID="15154">
+    <Component Name="CR" TI="15163" Line="292" Offs="0"/>
+    <Component Name="CFGR" TI="15177" Line="293" Offs="4"/>
+    <Component Name="CIR" TI="15192" Line="294" Offs="8"/>
+    <Component Name="APB2RSTR" TI="15207" Line="295" Offs="12"/>
+    <Component Name="APB1RSTR" TI="15222" Line="296" Offs="16"/>
+    <Component Name="AHBENR" TI="15237" Line="297" Offs="20"/>
+    <Component Name="APB2ENR" TI="15252" Line="298" Offs="24"/>
+    <Component Name="APB1ENR" TI="15267" Line="299" Offs="28"/>
+    <Component Name="BDCR" TI="15282" Line="300" Offs="32"/>
+    <Component Name="CSR" TI="15297" Line="301" Offs="36"/>
+   </type>
+   <type Family="ComponentList" Line="359" ID="15313">
+    <Component Name="CR1" TI="15322" Line="360" Offs="0"/>
+    <Component Name="RESERVED0" TI="15337" Line="361" Offs="2"/>
+    <Component Name="CR2" TI="15352" Line="362" Offs="4"/>
+    <Component Name="RESERVED1" TI="15367" Line="363" Offs="6"/>
+    <Component Name="SMCR" TI="15382" Line="364" Offs="8"/>
+    <Component Name="RESERVED2" TI="15397" Line="365" Offs="10"/>
+    <Component Name="DIER" TI="15412" Line="366" Offs="12"/>
+    <Component Name="RESERVED3" TI="15427" Line="367" Offs="14"/>
+    <Component Name="SR" TI="15442" Line="368" Offs="16"/>
+    <Component Name="RESERVED4" TI="15456" Line="369" Offs="18"/>
+    <Component Name="EGR" TI="15471" Line="370" Offs="20"/>
+    <Component Name="RESERVED5" TI="15486" Line="371" Offs="22"/>
+    <Component Name="CCMR1" TI="15501" Line="372" Offs="24"/>
+    <Component Name="RESERVED6" TI="15516" Line="373" Offs="26"/>
+    <Component Name="CCMR2" TI="15531" Line="374" Offs="28"/>
+    <Component Name="RESERVED7" TI="15546" Line="375" Offs="30"/>
+    <Component Name="CCER" TI="15561" Line="376" Offs="32"/>
+    <Component Name="RESERVED8" TI="15576" Line="377" Offs="34"/>
+    <Component Name="CNT" TI="15591" Line="378" Offs="36"/>
+    <Component Name="RESERVED9" TI="15606" Line="379" Offs="38"/>
+    <Component Name="PSC" TI="15621" Line="380" Offs="40"/>
+    <Component Name="RESERVED10" TI="15636" Line="381" Offs="42"/>
+    <Component Name="ARR" TI="15651" Line="382" Offs="44"/>
+    <Component Name="RESERVED11" TI="15666" Line="383" Offs="46"/>
+    <Component Name="RCR" TI="15681" Line="384" Offs="48"/>
+    <Component Name="RESERVED12" TI="15696" Line="385" Offs="50"/>
+    <Component Name="CCR1" TI="15711" Line="386" Offs="52"/>
+    <Component Name="RESERVED13" TI="15726" Line="387" Offs="54"/>
+    <Component Name="CCR2" TI="15741" Line="388" Offs="56"/>
+    <Component Name="RESERVED14" TI="15756" Line="389" Offs="58"/>
+    <Component Name="CCR3" TI="15771" Line="390" Offs="60"/>
+    <Component Name="RESERVED15" TI="15786" Line="391" Offs="62"/>
+    <Component Name="CCR4" TI="15801" Line="392" Offs="64"/>
+    <Component Name="RESERVED16" TI="15816" Line="393" Offs="66"/>
+    <Component Name="BDTR" TI="15831" Line="394" Offs="68"/>
+    <Component Name="RESERVED17" TI="15846" Line="395" Offs="70"/>
+    <Component Name="DCR" TI="15861" Line="396" Offs="72"/>
+    <Component Name="RESERVED18" TI="15876" Line="397" Offs="74"/>
+    <Component Name="DMAR" TI="15891" Line="398" Offs="76"/>
+    <Component Name="RESERVED19" TI="15906" Line="399" Offs="78"/>
+   </type>
+   <type Family="ComponentList" Line="32" ID="15922">
+    <Component Name="NVIC_IRQChannel" TI="15930" Line="33" Offs="0"/>
+    <Component Name="NVIC_IRQChannelPreemptionPriority" TI="15944" Line="34" Offs="1"/>
+    <Component Name="NVIC_IRQChannelSubPriority" TI="15958" Line="35" Offs="2"/>
+    <Component Name="NVIC_IRQChannelCmd" TI="15972" Line="36" Offs="3"/>
+   </type>
+   <type Family="typedef" Name="NVIC_InitTypeDef" Line="37" ID="15987" toTI="15922"/>
+   <type Family="ComponentList" Line="33" ID="15998">
+    <Component Name="TIM1_Prescaler" TI="16006" Line="34" Offs="0"/>
+    <Component Name="TIM1_CounterMode" TI="16020" Line="35" Offs="2"/>
+    <Component Name="TIM1_Period" TI="16034" Line="36" Offs="4"/>
+    <Component Name="TIM1_ClockDivision" TI="16048" Line="37" Offs="6"/>
+    <Component Name="TIM1_RepetitionCounter" TI="16062" Line="38" Offs="8"/>
+   </type>
+   <type Family="typedef" Name="TIM1_TimeBaseInitTypeDef" Line="39" ID="16077" toTI="15998"/>
+   <type Family="ComponentList" Line="43" ID="16088">
+    <Component Name="TIM1_OCMode" TI="16096" Line="44" Offs="0"/>
+    <Component Name="TIM1_OutputState" TI="16110" Line="45" Offs="2"/>
+    <Component Name="TIM1_OutputNState" TI="16124" Line="46" Offs="4"/>
+    <Component Name="TIM1_Pulse" TI="16138" Line="47" Offs="6"/>
+    <Component Name="TIM1_OCPolarity" TI="16152" Line="48" Offs="8"/>
+    <Component Name="TIM1_OCNPolarity" TI="16166" Line="49" Offs="10"/>
+    <Component Name="TIM1_OCIdleState" TI="16180" Line="50" Offs="12"/>
+    <Component Name="TIM1_OCNIdleState" TI="16194" Line="51" Offs="14"/>
+   </type>
+   <type Family="typedef" Name="TIM1_OCInitTypeDef" Line="52" ID="16209" toTI="16088"/>
+   <type Family="Pointer" TI="16274" toTI="16280"/>
+   <type Family="typedef" Name="tCircleFunc0" Line="76" ID="16263" toTI="16274"/>
+   <type Family="Pointer" TI="16334" toTI="16340"/>
+   <type Family="typedef" Name="tHandler" Line="116" ID="16323" toTI="16334"/>
+   <type Family="Pointer" TI="16334" toTI="16340"/>
+   <type Family="Base" Name="char" ID="16342"/>
+   <type Family="Base" Name="int" ID="16349"/>
+   <type Family="Base" Name="unsigned int" ID="16356"/>
+   <function Name="InitTIM1" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\ECG_Acquisition.c" Line="49">
+    <variable Name="prescaleValue" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\ECG_Acquisition.c" Line="55" Addr="0x2" TI="16349"/>
+   </function >
+   <function Name="ResetTIM1" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\ECG_Acquisition.c" Line="120">
+   </function >
+   <function Name="InitDMA1" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\ECG_Acquisition.c" Line="125">
+   </function >
+   <function Name="ResetDMA1" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\ECG_Acquisition.c" Line="172">
+   </function >
+   <function Name="InitADC" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\ECG_Acquisition.c" Line="188">
+   </function >
+   <function Name="ResetADC" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\ECG_Acquisition.c" Line="226">
+   </function >
+   <function Name="InitGPIO" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\ECG_Acquisition.c" Line="239">
+   </function >
+   <function Name="ResetGPIO" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\ECG_Acquisition.c" Line="261">
+   </function >
+   <function Name="ECG_NVIC_Configuration" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\ECG_Acquisition.c" Line="269">
+    <variable Name="tmpreg" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\ECG_Acquisition.c" Line="271" Addr="0x3" TI="14060"/>
+   </function >
+   <function Name="ECGInit" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\ECG_Acquisition.c" Line="23">
+   </function >
+   <function Name="DMA1_ISR" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\ECG_Acquisition.c" Line="335">
+   </function >
+   <function Name="DMA1_Interrupts_Stop" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\ECG_Acquisition.c" Line="320">
+    <variable Name="NVIC_InitStructure" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\ECG_Acquisition.c" Line="321" Addr="0x340FFFF4" TI="15987"/>
+   </function >
+   <function Name="ECGReset" TI="0" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\ECG_Acquisition.c" Line="40">
+   </function >
+   <type Family="array" ID="16780" toTI="16263"/>
+   <type Family="Pointer" TI="16804" toTI="16780"/>
+   <type Family="Pointer" TI="16828" toTI="14078"/>
+   <variable Name="pDataBuff" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\ECG_Acquisition.c" Line="16" Addr="0x20000254" TI="16828"/>
+   <type Family="array" ID="16834" toTI="14078"/>
+   <variable Name="ECG_Buff" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\ECG_Acquisition.c" Line="15" Addr="0x20000258" TI="16834"/>
+   <type Family="Pointer" TI="16334" toTI="16340"/>
+   <type Family="typedef" Name="tHandler" Line="116" ID="16323" toTI="16334"/>
+   <variable Name="OldDMA1ISR" FileName="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\ECG_Acquisition.c" Line="17" Addr="0x20000250" TI="16323"/>
+  </module>
+ </modulelist>
+</aoffile>
+

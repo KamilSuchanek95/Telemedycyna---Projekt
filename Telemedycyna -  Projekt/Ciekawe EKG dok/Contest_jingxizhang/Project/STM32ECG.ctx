@@ -1,0 +1,70 @@
+
+<Debug>
+	<Views>
+		<View File="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="320" focus="1" />
+		<View File="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\ECG_Acquisition.c" Line="228" />
+		<View File="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\ECG_Acquisition.h" Line="23" />
+		<View File="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_regs.h" Line="29" />
+		<View File="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\hw_config.c" Line="85" />
+		<View File="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB\usb_type.h" Line="36" />
+		<View File="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.lst" Line="0" />
+																																																																																																																																																												
+	</Views>
+	<FindStrings>
+		<Find>scrol</Find>
+		<Find>OldDMA1ISR</Find>
+		<Find>group</Find>
+		<Find>USB_Interrupts_Stop</Find>
+		<Find>#include &quot;stm32f10x_lib.h&quot;</Find>
+		<Find>ENDP1</Find>
+		<Find>USB_Istr</Find>
+		<Find>USB_DEVICE_DESCRIPTOR_TYPE</Find>
+		<Find>Orientation_Send</Find>
+		<Find>JOYSTICK_SIZ_DEVICE_DESC</Find>
+		<Find>JOYSTICK_SIZ_REPORT_DESC</Find>
+		<Find>OrientOffsetY</Find>
+		<Find>short prevPos;</Find>
+		<Find>prevPos</Find>
+		<Find>NVIC</Find>
+																																																																																																																																																												
+	</FindStrings>
+	<ReplaceStrings>
+		<Find>ECG_SIZ_DEVICE_DESC</Find>
+		<Find>ECG_SIZ_REPORT_DESC</Find>
+																																																																																																																																																												
+	</ReplaceStrings>
+	<STM32ECG>
+		<MemoryView Focus="134218644" TopRow="0" NbPerLine="8" />
+		<CodeView TopRow="134218739" Focus="4294967295" />
+		<SpyWatch>
+			<Report>
+				<Def Header="InspectReport" NbCol="4" >
+					<Col Type="PT_STRING" Header="Name" sizeCache="DDDDDDDDDDDD" AutoSize="1" Edit="1" Sortable="1" />
+					<Col Type="PT_STRING" Header="Value" sizeCache="DDDDDDDDDDDDDDDDDDDDDDD" AutoSize="1" Edit="0" Sortable="1" />
+					<Col Type="PT_STRING" Header="File" sizeCache="DDDD" AutoSize="1" Edit="0" Visible="0" />
+					<Col Type="PT_STRING" Header="Line" sizeCache="DDDD" AutoSize="1" Edit="0" Visible="0" />
+				</Def>
+				<Rows>
+					<Row Expand="0" Name="xv" Value="{ -1 (0xFFFFFFFF), -1 (0xFFFFFFFF), -1 (0xFFFFFFFF), -1 (0xFFFFFFFF), -1 (0xFFFFFFFF) }" File="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="287" />
+					<Row Expand="0" Name="yv" Value="{ -1 (0xFFFFFFFF), -1 (0xFFFFFFFF), -1 (0xFFFFFFFF), -1 (0xFFFFFFFF), -1 (0xFFFFFFFF) }" File="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="290" />
+					<Row Expand="1" Name="DisplayBuff" Value="{ 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF),  65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF),  65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF),  65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF),  65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF),  65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF), 65535 (0xFFFF),  65535 (0xFFFF), 65535 (0xFFFF)... }" File="C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src\Application.c" Line="284" />
+				</Rows>
+			</Report>
+		</SpyWatch>
+	</STM32ECG>
+	<Flags>
+		<Report>
+			<Def Header="FlagReport" NbCol="8" >
+				<Col Type="PT_BOOL" Header="Check" sizeCache="18" AutoSize="0" Edit="1" Sortable="1" Icon="C:\Program Files\Raisonance\Ride\config\resources\check.bmp" />
+				<Col Type="PT_STRING" Header="Kind" sizeCache="DDDDDDDDDDD" AutoSize="1" Edit="0" Sortable="1" />
+				<Col Type="PT_STRING" Header="KindID" sizeCache="DD" AutoSize="1" Edit="0" Sortable="1" Visible="0" />
+				<Col Type="PT_STRING" Header="Space" sizeCache="DDDDDD" AutoSize="1" Edit="0" Sortable="1" />
+				<Col Type="PT_STRING" Header="SpaceID" sizeCache="DD" AutoSize="0" Edit="0" Sortable="0" Visible="0" />
+				<Col Type="PT_STRING" Header="Condition" sizeCache="DDDDDDDDDDDDDDDDDDDDDDDD" AutoSize="1" Edit="0" Sortable="0" />
+				<Col Type="PT_STRING" Header="Line" sizeCache="DDDDDD" AutoSize="1" Edit="0" Sortable="1" Visible="1" />
+				<Col Type="PT_STRING" Header="Path" sizeCache="DDDDDDDDDDDDDDDDDDDD" AutoSize="1" Edit="0" Sortable="1" Visible="1" />
+			</Def>
+			<Rows></Rows>
+		</Report>
+	</Flags>
+</Debug>

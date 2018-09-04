@@ -1,0 +1,137 @@
+
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o:     file format elf32-littlearm
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\hw_config.o
+
+Disassembly of section .text.USB_Interrupts_Stop:
+
+00000000 <USB_Interrupts_Stop>:
+USB_Interrupts_Stop():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:102
+   0:	b513      	push	{r0, r1, r4, lr}
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:104
+   2:	f44f 60e0 	mov.w	r0, #1792	; 0x700
+   6:	f7ff fffe 	bl	0 <NVIC_PriorityGroupConfig>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:106
+   a:	2314      	movs	r3, #20
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:108
+   c:	2400      	movs	r4, #0
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:106
+   e:	f88d 3004 	strb.w	r3, [sp, #4]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:110
+  12:	a801      	add	r0, sp, #4
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:107
+  14:	2303      	movs	r3, #3
+  16:	f88d 3005 	strb.w	r3, [sp, #5]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:108
+  1a:	f88d 4006 	strb.w	r4, [sp, #6]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:109
+  1e:	f88d 4007 	strb.w	r4, [sp, #7]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:110
+  22:	f7ff fffe 	bl	0 <NVIC_Init>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:113
+  26:	f44f 0000 	mov.w	r0, #8388608	; 0x800000
+  2a:	4621      	mov	r1, r4
+  2c:	f7ff fffe 	bl	0 <RCC_APB1PeriphClockCmd>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:114
+  30:	bd1c      	pop	{r2, r3, r4, pc}
+  32:	46c0      	nop			(mov r8, r8)
+Disassembly of section .text.USB_Interrupts_Config:
+
+00000000 <USB_Interrupts_Config>:
+USB_Interrupts_Config():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:77
+   0:	b507      	push	{r0, r1, r2, lr}
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:81
+   2:	f44f 60e0 	mov.w	r0, #1792	; 0x700
+   6:	f7ff fffe 	bl	0 <NVIC_PriorityGroupConfig>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:83
+   a:	2314      	movs	r3, #20
+   c:	f88d 3004 	strb.w	r3, [sp, #4]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:84
+  10:	2303      	movs	r3, #3
+  12:	f88d 3005 	strb.w	r3, [sp, #5]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:85
+  16:	2300      	movs	r3, #0
+  18:	f88d 3006 	strb.w	r3, [sp, #6]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:87
+  1c:	a801      	add	r0, sp, #4
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:86
+  1e:	3301      	adds	r3, #1
+  20:	f88d 3007 	strb.w	r3, [sp, #7]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:87
+  24:	f7ff fffe 	bl	0 <NVIC_Init>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:90
+  28:	2106      	movs	r1, #6
+  2a:	4802      	ldr	r0, [pc, #8]	(34 <USB_Interrupts_Config+0x34>)
+  2c:	460a      	mov	r2, r1
+  2e:	f7ff fffe 	bl	0 <NVIC_SystemHandlerPriorityConfig>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:91
+  32:	bd0e      	pop	{r1, r2, r3, pc}
+  34:	0002c39a 	.word	0x0002c39a
+Disassembly of section .text.Set_USBClock:
+
+00000000 <Set_USBClock>:
+Set_USBClock():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:61
+   0:	2000      	movs	r0, #0
+   2:	b510      	push	{r4, lr}
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:63
+   4:	f7ff fffe 	bl	0 <RCC_USBCLKConfig>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:66
+   8:	f44f 0000 	mov.w	r0, #8388608	; 0x800000
+   c:	2101      	movs	r1, #1
+   e:	f7ff fffe 	bl	0 <RCC_APB1PeriphClockCmd>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:67
+  12:	bd10      	pop	{r4, pc}
+Disassembly of section .text.Set_System:
+
+00000000 <Set_System>:
+Set_System():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:17
+   0:	b510      	push	{r4, lr}
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:21
+   2:	2000      	movs	r0, #0
+   4:	f7ff fffe 	bl	0 <RCC_SYSCLKConfig>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:24
+   8:	2000      	movs	r0, #0
+   a:	f7ff fffe 	bl	0 <RCC_PLLCmd>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:26
+   e:	f44f 3080 	mov.w	r0, #65536	; 0x10000
+  12:	f44f 1180 	mov.w	r1, #1048576	; 0x100000
+  16:	f7ff fffe 	bl	0 <RCC_PLLConfig>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:29
+  1a:	2001      	movs	r0, #1
+  1c:	f7ff fffe 	bl	0 <RCC_PLLCmd>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:32
+  20:	2039      	movs	r0, #57
+  22:	f7ff fffe 	bl	0 <RCC_GetFlagStatus>
+  26:	2800      	cmp	r0, #0
+  28:	d0fa      	beq.n	20 <Set_System+0x20>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:36
+  2a:	2002      	movs	r0, #2
+  2c:	f7ff fffe 	bl	0 <RCC_SYSCLKConfig>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:39
+  30:	f7ff fffe 	bl	0 <RCC_GetSYSCLKSource>
+  34:	2808      	cmp	r0, #8
+  36:	d1fb      	bne.n	30 <Set_System+0x30>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:43
+  38:	2101      	movs	r1, #1
+  3a:	3038      	adds	r0, #56
+  3c:	f7ff fffe 	bl	0 <RCC_APB2PeriphClockCmd>
+  40:	2200      	movs	r2, #0
+  42:	4611      	mov	r1, r2
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:49
+  44:	4b04      	ldr	r3, [pc, #16]	(58 <Set_System+0x58>)
+  46:	52d1      	strh	r1, [r2, r3]
+  48:	3202      	adds	r2, #2
+  4a:	f101 0345 	add.w	r3, r1, #69	; 0x45
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:47
+  4e:	2a78      	cmp	r2, #120
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:49
+  50:	b299      	uxth	r1, r3
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:47
+  52:	d1f7      	bne.n	44 <Set_System+0x44>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/hw_config.c:51
+  54:	bd10      	pop	{r4, pc}
+  56:	46c0      	nop			(mov r8, r8)
+  58:	00000000 	.word	0x00000000

@@ -1,0 +1,441 @@
+
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o:     file format elf32-littlearm
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\ECG_Acquisition.o
+
+Disassembly of section .text.InitTIM1:
+
+00000000 <InitTIM1>:
+InitTIM1():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:49
+   0:	4b19      	ldr	r3, [pc, #100]	(68 <InitTIM1+0x68>)
+   2:	b510      	push	{r4, lr}
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:54
+   4:	681b      	ldr	r3, [r3, #0]
+   6:	f8d3 32c4 	ldr.w	r3, [r3, #708]
+   a:	4798      	blx	r3
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:56
+   c:	b2c0      	uxtb	r0, r0
+   e:	3801      	subs	r0, #1
+  10:	2804      	cmp	r0, #4
+  12:	d806      	bhi.n	22 <InitTIM1+0x22>
+  14:	e8df f000 	tbb	[pc, r0]
+  18:	0d0b0907 	.word	0x0d0b0907
+  1c:	0003      	.short	0x0003
+  1e:	2217      	movs	r2, #23
+  20:	e008      	b.n	34 <InitTIM1+0x34>
+  22:	220c      	movs	r2, #12
+  24:	e006      	b.n	34 <InitTIM1+0x34>
+  26:	2205      	movs	r2, #5
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:60
+  28:	e004      	b.n	34 <InitTIM1+0x34>
+  2a:	2207      	movs	r2, #7
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:64
+  2c:	e002      	b.n	34 <InitTIM1+0x34>
+  2e:	220b      	movs	r2, #11
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:68
+  30:	e000      	b.n	34 <InitTIM1+0x34>
+  32:	220f      	movs	r2, #15
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:81
+  34:	4b0d      	ldr	r3, [pc, #52]	(6c <InitTIM1+0x6c>)
+  36:	f641 016a 	movw	r1, #6250	; 0x186a
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:82
+  3a:	b292      	uxth	r2, r2
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:81
+  3c:	8599      	strh	r1, [r3, #44]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:82
+  3e:	851a      	strh	r2, [r3, #40]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:85
+  40:	f04f 0160 	mov.w	r1, #96	; 0x60
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:83
+  44:	f04f 0200 	mov.w	r2, #0	; 0x0
+  48:	861a      	strh	r2, [r3, #48]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:85
+  4a:	8319      	strh	r1, [r3, #24]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:86
+  4c:	f04f 0203 	mov.w	r2, #3	; 0x3
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:87
+  50:	f640 4135 	movw	r1, #3125	; 0xc35
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:86
+  54:	841a      	strh	r2, [r3, #32]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:87
+  56:	8699      	strh	r1, [r3, #52]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:89
+  58:	f04f 0201 	mov.w	r2, #1	; 0x1
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:91
+  5c:	f248 0100 	movw	r1, #32768	; 0x8000
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:89
+  60:	801a      	strh	r2, [r3, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:91
+  62:	f8a3 1044 	strh.w	r1, [r3, #68]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:117
+  66:	bd10      	pop	{r4, pc}
+  68:	00000000 	.word	0x00000000
+  6c:	40012c00 	.word	0x40012c00
+Disassembly of section .text.ResetTIM1:
+
+00000000 <ResetTIM1>:
+ResetTIM1():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:120
+   0:	4b02      	ldr	r3, [pc, #8]	(c <ptrCircle_API+0xc>)
+   2:	f04f 0200 	mov.w	r2, #0	; 0x0
+   6:	801a      	strh	r2, [r3, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:122
+   8:	4770      	bx	lr
+   a:	46c0      	nop			(mov r8, r8)
+   c:	40012c00 	.word	0x40012c00
+Disassembly of section .text.InitDMA1:
+
+00000000 <InitDMA1>:
+InitDMA1():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:125
+   0:	b570      	push	{r4, r5, r6, lr}
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:128
+   2:	4c13      	ldr	r4, [pc, #76]	(50 <InitDMA1+0x50>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:129
+   4:	4a13      	ldr	r2, [pc, #76]	(54 <InitDMA1+0x54>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:128
+   6:	6823      	ldr	r3, [r4, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:132
+   8:	4d13      	ldr	r5, [pc, #76]	(58 <InitDMA1+0x58>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:128
+   a:	f023 0301 	bic.w	r3, r3, #1	; 0x1
+   e:	6023      	str	r3, [r4, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:129
+  10:	6853      	ldr	r3, [r2, #4]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:132
+  12:	206c      	movs	r0, #108
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:129
+  14:	f043 030f 	orr.w	r3, r3, #15	; 0xf
+  18:	6053      	str	r3, [r2, #4]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:132
+  1a:	682b      	ldr	r3, [r5, #0]
+  1c:	f8d3 32e8 	ldr.w	r3, [r3, #744]
+  20:	4798      	blx	r3
+  22:	4b0e      	ldr	r3, [pc, #56]	(5c <InitDMA1+0x5c>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:133
+  24:	490e      	ldr	r1, [pc, #56]	(60 <InitDMA1+0x60>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:132
+  26:	6018      	str	r0, [r3, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:133
+  28:	682b      	ldr	r3, [r5, #0]
+  2a:	206c      	movs	r0, #108
+  2c:	f8d3 32e4 	ldr.w	r3, [r3, #740]
+  30:	4798      	blx	r3
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:135
+  32:	f240 53a6 	movw	r3, #1446	; 0x5a6
+  36:	6023      	str	r3, [r4, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:136
+  38:	2378      	movs	r3, #120
+  3a:	6063      	str	r3, [r4, #4]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:137
+  3c:	4b09      	ldr	r3, [pc, #36]	(64 <InitDMA1+0x64>)
+  3e:	60a3      	str	r3, [r4, #8]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:138
+  40:	4b09      	ldr	r3, [pc, #36]	(68 <InitDMA1+0x68>)
+  42:	60e3      	str	r3, [r4, #12]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:139
+  44:	6823      	ldr	r3, [r4, #0]
+  46:	f043 0301 	orr.w	r3, r3, #1	; 0x1
+  4a:	6023      	str	r3, [r4, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:168
+  4c:	bd70      	pop	{r4, r5, r6, pc}
+  4e:	46c0      	nop			(mov r8, r8)
+  50:	40020008 	.word	0x40020008
+  54:	40020000 	.word	0x40020000
+	...
+  64:	4001244c 	.word	0x4001244c
+  68:	00000000 	.word	0x00000000
+Disassembly of section .text.ResetDMA1:
+
+00000000 <ResetDMA1>:
+ResetDMA1():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:172
+   0:	b510      	push	{r4, lr}
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:173
+   2:	4c10      	ldr	r4, [pc, #64]	(44 <ResetDMA1+0x44>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:174
+   4:	4a10      	ldr	r2, [pc, #64]	(48 <ResetDMA1+0x48>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:173
+   6:	6823      	ldr	r3, [r4, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:177
+   8:	206c      	movs	r0, #108
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:173
+   a:	f023 0301 	bic.w	r3, r3, #1	; 0x1
+   e:	6023      	str	r3, [r4, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:174
+  10:	6853      	ldr	r3, [r2, #4]
+  12:	f043 030f 	orr.w	r3, r3, #15	; 0xf
+  16:	6053      	str	r3, [r2, #4]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:177
+  18:	4b0c      	ldr	r3, [pc, #48]	(4c <ResetDMA1+0x4c>)
+  1a:	681b      	ldr	r3, [r3, #0]
+  1c:	f8d3 22e4 	ldr.w	r2, [r3, #740]
+  20:	4b0b      	ldr	r3, [pc, #44]	(50 <ResetDMA1+0x50>)
+  22:	6819      	ldr	r1, [r3, #0]
+  24:	4790      	blx	r2
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:179
+  26:	f240 53a1 	movw	r3, #1441	; 0x5a1
+  2a:	6023      	str	r3, [r4, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:180
+  2c:	f5a3 63b3 	sub.w	r3, r3, #1432	; 0x598
+  30:	6063      	str	r3, [r4, #4]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:181
+  32:	4b08      	ldr	r3, [pc, #32]	(54 <ResetDMA1+0x54>)
+  34:	60a3      	str	r3, [r4, #8]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:182
+  36:	4b08      	ldr	r3, [pc, #32]	(58 <ResetDMA1+0x58>)
+  38:	60e3      	str	r3, [r4, #12]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:183
+  3a:	6823      	ldr	r3, [r4, #0]
+  3c:	f043 0301 	orr.w	r3, r3, #1	; 0x1
+  40:	6023      	str	r3, [r4, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:184
+  42:	bd10      	pop	{r4, pc}
+  44:	40020008 	.word	0x40020008
+  48:	40020000 	.word	0x40020000
+	...
+  54:	4001244c 	.word	0x4001244c
+  58:	200045fc 	.word	0x200045fc
+Disassembly of section .text.InitADC:
+
+00000000 <InitADC>:
+InitADC():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:188
+   0:	4b07      	ldr	r3, [pc, #28]	(20 <InitADC+0x20>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:191
+   2:	4a08      	ldr	r2, [pc, #32]	(24 <InitADC+0x24>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:190
+   4:	2100      	movs	r1, #0
+   6:	6059      	str	r1, [r3, #4]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:191
+   8:	609a      	str	r2, [r3, #8]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:192
+   a:	f44f 12a0 	mov.w	r2, #1310720	; 0x140000
+   e:	60da      	str	r2, [r3, #12]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:193
+  10:	4a05      	ldr	r2, [pc, #20]	(28 <InitADC+0x28>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:188
+  12:	611a      	str	r2, [r3, #16]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:196
+  14:	2202      	movs	r2, #2
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:194
+  16:	62d9      	str	r1, [r3, #44]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:195
+  18:	6319      	str	r1, [r3, #48]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:196
+  1a:	635a      	str	r2, [r3, #52]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:222
+  1c:	4770      	bx	lr
+  1e:	46c0      	nop			(mov r8, r8)
+  20:	40012400 	.word	0x40012400
+  24:	00900101 	.word	0x00900101
+  28:	28000140 	.word	0x28000140
+Disassembly of section .text.ResetADC:
+
+00000000 <ResetADC>:
+ResetADC():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:226
+   0:	4a0a      	ldr	r2, [pc, #40]	(2c <ResetADC+0x2c>)
+   2:	f44f 7380 	mov.w	r3, #256	; 0x100
+   6:	6053      	str	r3, [r2, #4]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:229
+   8:	f44f 13a0 	mov.w	r3, #1310720	; 0x140000
+   c:	60d3      	str	r3, [r2, #12]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:230
+   e:	f04f 5320 	mov.w	r3, #671088640	; 0x28000000
+  12:	6113      	str	r3, [r2, #16]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:231
+  14:	f1a3 531e 	sub.w	r3, r3, #662700032	; 0x27800000
+  18:	62d3      	str	r3, [r2, #44]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:232
+  1a:	f244 2310 	movw	r3, #16912	; 0x4210
+  1e:	6313      	str	r3, [r2, #48]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:233
+  20:	4b03      	ldr	r3, [pc, #12]	(30 <ResetADC+0x30>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:226
+  22:	6353      	str	r3, [r2, #52]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:234
+  24:	4b03      	ldr	r3, [pc, #12]	(34 <ResetADC+0x34>)
+  26:	6093      	str	r3, [r2, #8]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:235
+  28:	4770      	bx	lr
+  2a:	46c0      	nop			(mov r8, r8)
+  2c:	40012400 	.word	0x40012400
+  30:	21084209 	.word	0x21084209
+  34:	009e0103 	.word	0x009e0103
+Disassembly of section .text.InitGPIO:
+
+00000000 <InitGPIO>:
+InitGPIO():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:239
+   0:	4a06      	ldr	r2, [pc, #24]	(1c <InitGPIO+0x1c>)
+   2:	6853      	ldr	r3, [r2, #4]
+   4:	f023 030f 	bic.w	r3, r3, #15	; 0xf
+   8:	6053      	str	r3, [r2, #4]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:243
+   a:	6853      	ldr	r3, [r2, #4]
+   c:	f043 0309 	orr.w	r3, r3, #9	; 0x9
+  10:	6053      	str	r3, [r2, #4]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:245
+  12:	6813      	ldr	r3, [r2, #0]
+  14:	f423 6370 	bic.w	r3, r3, #3840	; 0xf00
+  18:	6013      	str	r3, [r2, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:258
+  1a:	4770      	bx	lr
+  1c:	0800      	.short	0x0800
+  1e:	4001      	.short	0x4001
+Disassembly of section .text.ResetGPIO:
+
+00000000 <ResetGPIO>:
+ResetGPIO():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:261
+   0:	4a06      	ldr	r2, [pc, #24]	(1c <ResetGPIO+0x1c>)
+   2:	6853      	ldr	r3, [r2, #4]
+   4:	f023 030f 	bic.w	r3, r3, #15	; 0xf
+   8:	6053      	str	r3, [r2, #4]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:263
+   a:	6853      	ldr	r3, [r2, #4]
+   c:	f043 0304 	orr.w	r3, r3, #4	; 0x4
+  10:	6053      	str	r3, [r2, #4]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:264
+  12:	6813      	ldr	r3, [r2, #0]
+  14:	f443 6380 	orr.w	r3, r3, #1024	; 0x400
+  18:	6013      	str	r3, [r2, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:265
+  1a:	4770      	bx	lr
+  1c:	0800      	.short	0x0800
+  1e:	4001      	.short	0x4001
+Disassembly of section .text.ECG_NVIC_Configuration:
+
+00000000 <ECG_NVIC_Configuration>:
+ECG_NVIC_Configuration():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:269
+   0:	4a06      	ldr	r2, [pc, #24]	(1c <ECG_NVIC_Configuration+0x1c>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:283
+   2:	4b07      	ldr	r3, [pc, #28]	(20 <ECG_NVIC_Configuration+0x20>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:269
+   4:	68db      	ldr	r3, [r3, #12]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:293
+   6:	f8d2 3308 	ldr.w	r3, [r2, #776]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:295
+   a:	f023 437f 	bic.w	r3, r3, #4278190080	; 0xff000000
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:299
+   e:	f8c2 3308 	str.w	r3, [r2, #776]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:302
+  12:	f44f 6300 	mov.w	r3, #2048	; 0x800
+  16:	6013      	str	r3, [r2, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:317
+  18:	4770      	bx	lr
+  1a:	46c0      	nop			(mov r8, r8)
+  1c:	e100      	.short	0xe100
+  1e:	e000      	.short	0xe000
+  20:	e000ed00 	.word	0xe000ed00
+Disassembly of section .text.ECGInit:
+
+00000000 <ECGInit>:
+ECGInit():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:23
+   0:	4a0a      	ldr	r2, [pc, #40]	(2c <ECGInit+0x2c>)
+   2:	b510      	push	{r4, lr}
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:25
+   4:	6993      	ldr	r3, [r2, #24]
+   6:	f443 6320 	orr.w	r3, r3, #2560	; 0xa00
+   a:	f043 0314 	orr.w	r3, r3, #20	; 0x14
+   e:	6193      	str	r3, [r2, #24]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:30
+  10:	4b07      	ldr	r3, [pc, #28]	(30 <ECGInit+0x30>)
+  12:	2200      	movs	r2, #0
+  14:	601a      	str	r2, [r3, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:32
+  16:	f7ff fffe 	bl	0 <ECGInit>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:33
+  1a:	f7ff fffe 	bl	0 <ECGInit>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:34
+  1e:	f7ff fffe 	bl	0 <ECGInit>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:35
+  22:	f7ff fffe 	bl	0 <ECGInit>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:36
+  26:	f7ff fffe 	bl	0 <ECGInit>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:37
+  2a:	bd10      	pop	{r4, pc}
+  2c:	40021000 	.word	0x40021000
+  30:	00000000 	.word	0x00000000
+Disassembly of section .text.DMA1_ISR:
+
+00000000 <DMA1_ISR>:
+DMA1_ISR():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:335
+   0:	4a08      	ldr	r2, [pc, #32]	(24 <DMA1_ISR+0x24>)
+   2:	6813      	ldr	r3, [r2, #0]
+   4:	f013 0f04 	tst.w	r3, #4	; 0x4
+   8:	d001      	beq.n	e <DMA1_ISR+0xe>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:339
+   a:	4a07      	ldr	r2, [pc, #28]	(28 <DMA1_ISR+0x28>)
+   c:	e004      	b.n	18 <DMA1_ISR+0x18>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:341
+   e:	6813      	ldr	r3, [r2, #0]
+  10:	f013 0f02 	tst.w	r3, #2	; 0x2
+  14:	d002      	beq.n	1c <DMA1_ISR+0x1c>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:344
+  16:	4a05      	ldr	r2, [pc, #20]	(2c <DMA1_ISR+0x2c>)
+  18:	4b05      	ldr	r3, [pc, #20]	(30 <DMA1_ISR+0x30>)
+  1a:	601a      	str	r2, [r3, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:347
+  1c:	4b01      	ldr	r3, [pc, #4]	(24 <DMA1_ISR+0x24>)
+  1e:	2201      	movs	r2, #1
+  20:	605a      	str	r2, [r3, #4]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:349
+  22:	4770      	bx	lr
+  24:	40020000 	.word	0x40020000
+  28:	00000000 	.word	0x00000000
+  2c:	00000078 	.word	0x00000078
+  30:	00000000 	.word	0x00000000
+Disassembly of section .text.DMA1_Interrupts_Stop:
+
+00000000 <DMA1_Interrupts_Stop>:
+DMA1_Interrupts_Stop():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:320
+   0:	b513      	push	{r0, r1, r4, lr}
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:322
+   2:	f44f 60e0 	mov.w	r0, #1792	; 0x700
+   6:	f7ff fffe 	bl	0 <NVIC_PriorityGroupConfig>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:325
+   a:	2400      	movs	r4, #0
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:324
+   c:	230b      	movs	r3, #11
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:328
+   e:	a801      	add	r0, sp, #4
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:324
+  10:	f88d 3004 	strb.w	r3, [sp, #4]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:325
+  14:	f88d 4005 	strb.w	r4, [sp, #5]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:326
+  18:	f88d 4006 	strb.w	r4, [sp, #6]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:327
+  1c:	f88d 4007 	strb.w	r4, [sp, #7]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:328
+  20:	f7ff fffe 	bl	0 <NVIC_Init>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:331
+  24:	f44f 6000 	mov.w	r0, #2048	; 0x800
+  28:	4621      	mov	r1, r4
+  2a:	f7ff fffe 	bl	0 <RCC_APB1PeriphClockCmd>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:332
+  2e:	bd1c      	pop	{r2, r3, r4, pc}
+Disassembly of section .text.ECGReset:
+
+00000000 <ECGReset>:
+ECGReset():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:40
+   0:	b510      	push	{r4, lr}
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:41
+   2:	f7ff fffe 	bl	0 <ECGReset>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:42
+   6:	f7ff fffe 	bl	0 <ECGReset>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:43
+   a:	f7ff fffe 	bl	0 <ECGReset>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:44
+   e:	f7ff fffe 	bl	0 <ECGReset>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:45
+  12:	f7ff fffe 	bl	0 <ECGReset>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/ECG_Acquisition.c:46
+  16:	bd10      	pop	{r4, pc}

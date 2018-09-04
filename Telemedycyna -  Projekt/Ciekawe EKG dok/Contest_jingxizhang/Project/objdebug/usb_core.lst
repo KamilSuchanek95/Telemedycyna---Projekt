@@ -1,0 +1,1190 @@
+
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o:     file format elf32-littlearm
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_core.o
+
+Disassembly of section .text.Standard_GetConfiguration:
+
+00000000 <Standard_GetConfiguration>:
+Standard_GetConfiguration():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:61
+   0:	b510      	push	{r4, lr}
+   2:	4c07      	ldr	r4, [pc, #28]	(20 <Standard_GetConfiguration+0x20>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:62
+   4:	b920      	cbnz	r0, 10 <Standard_GetConfiguration+0x10>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:64
+   6:	6823      	ldr	r3, [r4, #0]
+   8:	f04f 0101 	mov.w	r1, #1	; 0x1
+   c:	8219      	strh	r1, [r3, #16]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:66
+   e:	e006      	b.n	1e <Standard_GetConfiguration+0x1e>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:68
+  10:	4b04      	ldr	r3, [pc, #16]	(24 <Standard_GetConfiguration+0x24>)
+  12:	681b      	ldr	r3, [r3, #0]
+  14:	681b      	ldr	r3, [r3, #0]
+  16:	4798      	blx	r3
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:69
+  18:	6823      	ldr	r3, [r4, #0]
+  1a:	f103 000a 	add.w	r0, r3, #10	; 0xa
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:70
+  1e:	bd10      	pop	{r4, pc}
+	...
+Disassembly of section .text.Standard_SetConfiguration:
+
+00000000 <Standard_SetConfiguration>:
+Standard_SetConfiguration():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:82
+   0:	b510      	push	{r4, lr}
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:84
+   2:	4b0a      	ldr	r3, [pc, #40]	(2c <Standard_SetConfiguration+0x2c>)
+   4:	681a      	ldr	r2, [r3, #0]
+   6:	4b0a      	ldr	r3, [pc, #40]	(30 <Standard_SetConfiguration+0x30>)
+   8:	78d1      	ldrb	r1, [r2, #3]
+   a:	785b      	ldrb	r3, [r3, #1]
+   c:	428b      	cmp	r3, r1
+   e:	d30a      	bcc.n	26 <Standard_SetConfiguration+0x26>
+  10:	7893      	ldrb	r3, [r2, #2]
+  12:	b943      	cbnz	r3, 26 <Standard_SetConfiguration+0x26>
+  14:	8894      	ldrh	r4, [r2, #4]
+  16:	b934      	cbnz	r4, 26 <Standard_SetConfiguration+0x26>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:89
+  18:	4b06      	ldr	r3, [pc, #24]	(34 <Standard_SetConfiguration+0x34>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:88
+  1a:	7291      	strb	r1, [r2, #10]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:89
+  1c:	681b      	ldr	r3, [r3, #0]
+  1e:	685b      	ldr	r3, [r3, #4]
+  20:	4798      	blx	r3
+  22:	4620      	mov	r0, r4
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:90
+  24:	e000      	b.n	28 <Standard_SetConfiguration+0x28>
+  26:	2002      	movs	r0, #2
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:96
+  28:	bd10      	pop	{r4, pc}
+  2a:	46c0      	nop			(mov r8, r8)
+	...
+Disassembly of section .text.Standard_GetInterface:
+
+00000000 <Standard_GetInterface>:
+Standard_GetInterface():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:107
+   0:	b510      	push	{r4, lr}
+   2:	4c07      	ldr	r4, [pc, #28]	(20 <Standard_GetInterface+0x20>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:108
+   4:	b920      	cbnz	r0, 10 <Standard_GetInterface+0x10>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:110
+   6:	6823      	ldr	r3, [r4, #0]
+   8:	f04f 0101 	mov.w	r1, #1	; 0x1
+   c:	8219      	strh	r1, [r3, #16]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:112
+   e:	e006      	b.n	1e <Standard_GetInterface+0x1e>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:114
+  10:	4b04      	ldr	r3, [pc, #16]	(24 <Standard_GetInterface+0x24>)
+  12:	681b      	ldr	r3, [r3, #0]
+  14:	689b      	ldr	r3, [r3, #8]
+  16:	4798      	blx	r3
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:115
+  18:	6823      	ldr	r3, [r4, #0]
+  1a:	f103 000c 	add.w	r0, r3, #12	; 0xc
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:116
+  1e:	bd10      	pop	{r4, pc}
+	...
+Disassembly of section .text.Standard_SetInterface:
+
+00000000 <Standard_SetInterface>:
+Standard_SetInterface():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:128
+   0:	b570      	push	{r4, r5, r6, lr}
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:132
+   2:	4b0f      	ldr	r3, [pc, #60]	(40 <Standard_SetInterface+0x40>)
+   4:	4d0f      	ldr	r5, [pc, #60]	(44 <Standard_SetInterface+0x44>)
+   6:	681b      	ldr	r3, [r3, #0]
+   8:	682a      	ldr	r2, [r5, #0]
+   a:	699b      	ldr	r3, [r3, #24]
+   c:	7950      	ldrb	r0, [r2, #5]
+   e:	78d1      	ldrb	r1, [r2, #3]
+  10:	4798      	blx	r3
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:134
+  12:	682a      	ldr	r2, [r5, #0]
+  14:	7a93      	ldrb	r3, [r2, #10]
+  16:	b183      	cbz	r3, 3a <Standard_SetInterface+0x3a>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:136
+  18:	b978      	cbnz	r0, 3a <Standard_SetInterface+0x3a>
+  1a:	7913      	ldrb	r3, [r2, #4]
+  1c:	b96b      	cbnz	r3, 3a <Standard_SetInterface+0x3a>
+  1e:	7894      	ldrb	r4, [r2, #2]
+  20:	b95c      	cbnz	r4, 3a <Standard_SetInterface+0x3a>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:143
+  22:	4b09      	ldr	r3, [pc, #36]	(48 <Standard_SetInterface+0x48>)
+  24:	681b      	ldr	r3, [r3, #0]
+  26:	68db      	ldr	r3, [r3, #12]
+  28:	4798      	blx	r3
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:144
+  2a:	682a      	ldr	r2, [r5, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:145
+  2c:	4620      	mov	r0, r4
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:144
+  2e:	7953      	ldrb	r3, [r2, #5]
+  30:	72d3      	strb	r3, [r2, #11]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:145
+  32:	682a      	ldr	r2, [r5, #0]
+  34:	78d3      	ldrb	r3, [r2, #3]
+  36:	7313      	strb	r3, [r2, #12]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:146
+  38:	e000      	b.n	3c <Standard_SetInterface+0x3c>
+  3a:	2002      	movs	r0, #2
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:152
+  3c:	bd70      	pop	{r4, r5, r6, pc}
+  3e:	46c0      	nop			(mov r8, r8)
+	...
+Disassembly of section .text.Standard_GetStatus:
+
+00000000 <Standard_GetStatus>:
+Standard_GetStatus():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:163
+   0:	b510      	push	{r4, lr}
+   2:	4b22      	ldr	r3, [pc, #136]	(8c <Standard_GetStatus+0x8c>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:164
+   4:	b920      	cbnz	r0, 10 <Standard_GetStatus+0x10>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:166
+   6:	681b      	ldr	r3, [r3, #0]
+   8:	f04f 0102 	mov.w	r1, #2	; 0x2
+   c:	8219      	strh	r1, [r3, #16]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:167
+   e:	e03b      	b.n	88 <Standard_GetStatus+0x88>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:170
+  10:	481f      	ldr	r0, [pc, #124]	(90 <Standard_GetStatus+0x90>)
+  12:	f04f 0200 	mov.w	r2, #0	; 0x0
+  16:	8002      	strh	r2, [r0, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:173
+  18:	681a      	ldr	r2, [r3, #0]
+  1a:	7813      	ldrb	r3, [r2, #0]
+  1c:	f013 037f 	ands.w	r3, r3, #127	; 0x7f
+  20:	d10e      	bne.n	40 <Standard_GetStatus+0x40>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:179
+  22:	7a52      	ldrb	r2, [r2, #9]
+  24:	f012 0f20 	tst.w	r2, #32	; 0x20
+  28:	d003      	beq.n	32 <Standard_GetStatus+0x32>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:181
+  2a:	7803      	ldrb	r3, [r0, #0]
+  2c:	f043 0302 	orr.w	r3, r3, #2	; 0x2
+  30:	7003      	strb	r3, [r0, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:185
+  32:	f012 0f40 	tst.w	r2, #64	; 0x40
+  36:	7803      	ldrb	r3, [r0, #0]
+  38:	d11e      	bne.n	78 <Standard_GetStatus+0x78>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:191
+  3a:	f023 0301 	bic.w	r3, r3, #1	; 0x1
+  3e:	e01d      	b.n	7c <Standard_GetStatus+0x7c>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:195
+  40:	2b01      	cmp	r3, #1
+  42:	d021      	beq.n	88 <Standard_GetStatus+0x88>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:200
+  44:	2b02      	cmp	r3, #2
+  46:	d001      	beq.n	4c <Standard_GetStatus+0x4c>
+  48:	2000      	movs	r0, #0
+  4a:	e01d      	b.n	88 <Standard_GetStatus+0x88>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:203
+  4c:	7953      	ldrb	r3, [r2, #5]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:206
+  4e:	f013 0f80 	tst.w	r3, #128	; 0x80
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:205
+  52:	f003 020f 	and.w	r2, r3, #15	; 0xf
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:206
+  56:	d006      	beq.n	66 <Standard_GetStatus+0x66>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:209
+  58:	4b0e      	ldr	r3, [pc, #56]	(94 <Standard_GetStatus+0x94>)
+  5a:	f853 3022 	ldr.w	r3, [r3, r2, lsl #2]
+  5e:	f003 0330 	and.w	r3, r3, #48	; 0x30
+  62:	2b10      	cmp	r3, #16
+  64:	e006      	b.n	74 <Standard_GetStatus+0x74>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:217
+  66:	4b0b      	ldr	r3, [pc, #44]	(94 <Standard_GetStatus+0x94>)
+  68:	f853 3022 	ldr.w	r3, [r3, r2, lsl #2]
+  6c:	f403 5340 	and.w	r3, r3, #12288	; 0x3000
+  70:	f5b3 5f80 	cmp.w	r3, #4096	; 0x1000
+  74:	d103      	bne.n	7e <Standard_GetStatus+0x7e>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:219
+  76:	7803      	ldrb	r3, [r0, #0]
+  78:	f043 0301 	orr.w	r3, r3, #1	; 0x1
+  7c:	7003      	strb	r3, [r0, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:228
+  7e:	4b06      	ldr	r3, [pc, #24]	(98 <Standard_GetStatus+0x98>)
+  80:	681b      	ldr	r3, [r3, #0]
+  82:	691b      	ldr	r3, [r3, #16]
+  84:	4798      	blx	r3
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:229
+  86:	4802      	ldr	r0, [pc, #8]	(90 <Standard_GetStatus+0x90>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:230
+  88:	bd10      	pop	{r4, pc}
+  8a:	46c0      	nop			(mov r8, r8)
+	...
+  94:	40005c00 	.word	0x40005c00
+  98:	00000000 	.word	0x00000000
+Disassembly of section .text.Standard_SetEndPointFeature:
+
+00000000 <Standard_SetEndPointFeature>:
+Standard_SetEndPointFeature():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:330
+   0:	b510      	push	{r4, lr}
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:336
+   2:	4b1e      	ldr	r3, [pc, #120]	(7c <Standard_SetEndPointFeature+0x7c>)
+   4:	681a      	ldr	r2, [r3, #0]
+   6:	7951      	ldrb	r1, [r2, #5]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:340
+   8:	f011 0f80 	tst.w	r1, #128	; 0x80
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:337
+   c:	f021 0080 	bic.w	r0, r1, #128	; 0x80
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:340
+  10:	d005      	beq.n	1e <Standard_SetEndPointFeature+0x1e>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:344
+  12:	4b1b      	ldr	r3, [pc, #108]	(80 <Standard_SetEndPointFeature+0x80>)
+  14:	f853 3020 	ldr.w	r3, [r3, r0, lsl #2]
+  18:	f003 0430 	and.w	r4, r3, #48	; 0x30
+  1c:	e004      	b.n	28 <Standard_SetEndPointFeature+0x28>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:348
+  1e:	4b18      	ldr	r3, [pc, #96]	(80 <Standard_SetEndPointFeature+0x80>)
+  20:	f853 3020 	ldr.w	r3, [r3, r0, lsl #2]
+  24:	f403 5440 	and.w	r4, r3, #12288	; 0x3000
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:351
+  28:	4b16      	ldr	r3, [pc, #88]	(84 <Standard_SetEndPointFeature+0x84>)
+  2a:	781b      	ldrb	r3, [r3, #0]
+  2c:	4298      	cmp	r0, r3
+  2e:	d222      	bcs.n	76 <Standard_SetEndPointFeature+0x76>
+  30:	8853      	ldrh	r3, [r2, #2]
+  32:	bb03      	cbnz	r3, 76 <Standard_SetEndPointFeature+0x76>
+  34:	b1fc      	cbz	r4, 76 <Standard_SetEndPointFeature+0x76>
+  36:	7a93      	ldrb	r3, [r2, #10]
+  38:	b1eb      	cbz	r3, 76 <Standard_SetEndPointFeature+0x76>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:359
+  3a:	f011 0f80 	tst.w	r1, #128	; 0x80
+  3e:	d009      	beq.n	54 <Standard_SetEndPointFeature+0x54>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:362
+  40:	490f      	ldr	r1, [pc, #60]	(80 <Standard_SetEndPointFeature+0x80>)
+  42:	f648 73bf 	movw	r3, #36799	; 0x8fbf
+  46:	f851 2020 	ldr.w	r2, [r1, r0, lsl #2]
+  4a:	ea02 0303 	and.w	r3, r2, r3
+  4e:	f083 0310 	eor.w	r3, r3, #16	; 0x10
+  52:	e008      	b.n	66 <Standard_SetEndPointFeature+0x66>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:368
+  54:	490a      	ldr	r1, [pc, #40]	(80 <Standard_SetEndPointFeature+0x80>)
+  56:	f64b 738f 	movw	r3, #49039	; 0xbf8f
+  5a:	f851 2020 	ldr.w	r2, [r1, r0, lsl #2]
+  5e:	ea02 0303 	and.w	r3, r2, r3
+  62:	f483 5380 	eor.w	r3, r3, #4096	; 0x1000
+  66:	f841 3020 	str.w	r3, [r1, r0, lsl #2]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:371
+  6a:	4b07      	ldr	r3, [pc, #28]	(88 <Standard_SetEndPointFeature+0x88>)
+  6c:	681b      	ldr	r3, [r3, #0]
+  6e:	699b      	ldr	r3, [r3, #24]
+  70:	4798      	blx	r3
+  72:	2000      	movs	r0, #0
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:372
+  74:	e000      	b.n	78 <Standard_SetEndPointFeature+0x78>
+  76:	2002      	movs	r0, #2
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:373
+  78:	bd10      	pop	{r4, pc}
+  7a:	46c0      	nop			(mov r8, r8)
+  7c:	00000000 	.word	0x00000000
+  80:	40005c00 	.word	0x40005c00
+	...
+Disassembly of section .text.Standard_SetDeviceFeature:
+
+00000000 <Standard_SetDeviceFeature>:
+Standard_SetDeviceFeature():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:384
+   0:	b510      	push	{r4, lr}
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:385
+   2:	4b06      	ldr	r3, [pc, #24]	(1c <Standard_SetDeviceFeature+0x1c>)
+   4:	681a      	ldr	r2, [r3, #0]
+   6:	7a53      	ldrb	r3, [r2, #9]
+   8:	f043 0320 	orr.w	r3, r3, #32	; 0x20
+   c:	7253      	strb	r3, [r2, #9]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:386
+   e:	4b04      	ldr	r3, [pc, #16]	(20 <Standard_SetDeviceFeature+0x20>)
+  10:	681b      	ldr	r3, [r3, #0]
+  12:	69db      	ldr	r3, [r3, #28]
+  14:	4798      	blx	r3
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:388
+  16:	2000      	movs	r0, #0
+  18:	bd10      	pop	{r4, pc}
+  1a:	46c0      	nop			(mov r8, r8)
+	...
+Disassembly of section .text.Standard_GetDescriptorData:
+
+00000000 <Standard_GetDescriptorData>:
+Standard_GetDescriptorData():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:410
+   0:	4b06      	ldr	r3, [pc, #24]	(1c <Standard_GetDescriptorData+0x1c>)
+   2:	b510      	push	{r4, lr}
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:413
+   4:	681a      	ldr	r2, [r3, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:410
+   6:	460c      	mov	r4, r1
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:414
+   8:	4686      	mov	lr, r0
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:413
+   a:	8a51      	ldrh	r1, [r2, #18]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:414
+   c:	b918      	cbnz	r0, 16 <Standard_GetDescriptorData+0x16>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:416
+   e:	88a3      	ldrh	r3, [r4, #4]
+  10:	1a5b      	subs	r3, r3, r1
+  12:	8213      	strh	r3, [r2, #16]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:417
+  14:	e001      	b.n	1a <Standard_GetDescriptorData+0x1a>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:420
+  16:	6823      	ldr	r3, [r4, #0]
+  18:	18c8      	adds	r0, r1, r3
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:421
+  1a:	bd10      	pop	{r4, pc}
+  1c:	00000000 	.word	0x00000000
+Disassembly of section .text.SetDeviceAddress:
+
+00000000 <SetDeviceAddress>:
+SetDeviceAddress():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:972
+   0:	b500      	push	{lr}
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:974
+   2:	4b0c      	ldr	r3, [pc, #48]	(34 <SetDeviceAddress+0x34>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:972
+   4:	4684      	mov	ip, r0
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:974
+   6:	f893 e000 	ldrb.w	lr, [r3]
+   a:	480b      	ldr	r0, [pc, #44]	(38 <SetDeviceAddress+0x38>)
+   c:	2100      	movs	r1, #0
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:977
+   e:	e009      	b.n	24 <SetDeviceAddress+0x24>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:979
+  10:	6803      	ldr	r3, [r0, #0]
+  12:	f648 728f 	movw	r2, #36751	; 0x8f8f
+  16:	ea03 0202 	and.w	r2, r3, r2
+  1a:	430a      	orrs	r2, r1
+  1c:	1c4b      	adds	r3, r1, #1
+  1e:	f840 2b04 	str.w	r2, [r0], #4
+  22:	b2d9      	uxtb	r1, r3
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:977
+  24:	4571      	cmp	r1, lr
+  26:	d1f3      	bne.n	10 <SetDeviceAddress+0x10>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:981
+  28:	4b04      	ldr	r3, [pc, #16]	(3c <SetDeviceAddress+0x3c>)
+  2a:	f04c 0280 	orr.w	r2, ip, #128	; 0x80
+  2e:	601a      	str	r2, [r3, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:982
+  30:	bd00      	pop	{pc}
+  32:	46c0      	nop			(mov r8, r8)
+  34:	00000000 	.word	0x00000000
+  38:	40005c00 	.word	0x40005c00
+  3c:	40005c4c 	.word	0x40005c4c
+Disassembly of section .text.NOP_Process:
+
+00000000 <NOP_Process>:
+NOP_Process():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:992
+   0:	4770      	bx	lr
+   2:	46c0      	nop			(mov r8, r8)
+Disassembly of section .text.Post0_Process:
+
+00000000 <Post0_Process>:
+Post0_Process():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:952
+   0:	b510      	push	{r4, lr}
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:953
+   2:	4b0c      	ldr	r3, [pc, #48]	(34 <Post0_Process+0x34>)
+   4:	2000      	movs	r0, #0
+   6:	f893 102c 	ldrb.w	r1, [r3, #44]
+   a:	f7ff fffe 	bl	0 <SetEPRxCount>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:955
+   e:	4b0a      	ldr	r3, [pc, #40]	(38 <Post0_Process+0x38>)
+  10:	681b      	ldr	r3, [r3, #0]
+  12:	7a18      	ldrb	r0, [r3, #8]
+  14:	2808      	cmp	r0, #8
+  16:	d107      	bne.n	28 <Post0_Process+0x28>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:957
+  18:	4b08      	ldr	r3, [pc, #32]	(3c <Post0_Process+0x3c>)
+  1a:	f44f 5280 	mov.w	r2, #4096	; 0x1000
+  1e:	801a      	strh	r2, [r3, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:958
+  20:	4b07      	ldr	r3, [pc, #28]	(40 <Post0_Process+0x40>)
+  22:	f04f 0210 	mov.w	r2, #16	; 0x10
+  26:	801a      	strh	r2, [r3, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:962
+  28:	2809      	cmp	r0, #9
+  2a:	bf14      	ite	ne
+  2c:	2000      	movne	r0, #0
+  2e:	2001      	moveq	r0, #1
+  30:	bd10      	pop	{r4, pc}
+  32:	46c0      	nop			(mov r8, r8)
+	...
+Disassembly of section .text.Out0_Process:
+
+00000000 <Out0_Process>:
+Out0_Process():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:911
+   0:	b570      	push	{r4, r5, r6, lr}
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:912
+   2:	4b2d      	ldr	r3, [pc, #180]	(b8 <Out0_Process+0xb8>)
+   4:	681e      	ldr	r6, [r3, #0]
+   6:	7a33      	ldrb	r3, [r6, #8]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:914
+   8:	2b03      	cmp	r3, #3
+   a:	d001      	beq.n	10 <Out0_Process+0x10>
+   c:	2b05      	cmp	r3, #5
+   e:	d145      	bne.n	9c <Out0_Process+0x9c>
+DataStageOut():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:437
+  10:	69b2      	ldr	r2, [r6, #24]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:435
+  12:	8a33      	ldrh	r3, [r6, #16]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:437
+  14:	b1aa      	cbz	r2, 42 <Out0_Process+0x42>
+  16:	b1a3      	cbz	r3, 42 <Out0_Process+0x42>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:442
+  18:	8ab4      	ldrh	r4, [r6, #20]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:448
+  1a:	429c      	cmp	r4, r3
+  1c:	bf28      	it	cs
+  1e:	461c      	movcs	r4, r3
+  20:	4620      	mov	r0, r4
+  22:	4790      	blx	r2
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:449
+  24:	8a33      	ldrh	r3, [r6, #16]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:448
+  26:	4605      	mov	r5, r0
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:449
+  28:	1b1b      	subs	r3, r3, r4
+  2a:	8233      	strh	r3, [r6, #16]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:450
+  2c:	8a73      	ldrh	r3, [r6, #18]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:452
+  2e:	2000      	movs	r0, #0
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:450
+  30:	18e3      	adds	r3, r4, r3
+  32:	8273      	strh	r3, [r6, #18]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:452
+  34:	f7ff fffe 	bl	0 <GetEPRxAddr>
+  38:	4622      	mov	r2, r4
+  3a:	4601      	mov	r1, r0
+  3c:	4628      	mov	r0, r5
+  3e:	f7ff fffe 	bl	0 <PMAToUserBufferCopy>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:455
+  42:	8a33      	ldrh	r3, [r6, #16]
+  44:	b15b      	cbz	r3, 5e <Out0_Process+0x5e>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:457
+  46:	4b1d      	ldr	r3, [pc, #116]	(bc <Out0_Process+0xbc>)
+  48:	f44f 5240 	mov.w	r2, #12288	; 0x3000
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:458
+  4c:	2000      	movs	r0, #0
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:457
+  4e:	801a      	strh	r2, [r3, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:458
+  50:	4601      	mov	r1, r0
+  52:	f7ff fffe 	bl	0 <SetEPTxCount>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:459
+  56:	4b1a      	ldr	r3, [pc, #104]	(c0 <Out0_Process+0xc0>)
+  58:	f04f 0230 	mov.w	r2, #48	; 0x30
+  5c:	801a      	strh	r2, [r3, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:462
+  5e:	8a31      	ldrh	r1, [r6, #16]
+  60:	8ab3      	ldrh	r3, [r6, #20]
+  62:	428b      	cmp	r3, r1
+  64:	d803      	bhi.n	6e <Out0_Process+0x6e>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:464
+  66:	4b14      	ldr	r3, [pc, #80]	(b8 <Out0_Process+0xb8>)
+  68:	681a      	ldr	r2, [r3, #0]
+  6a:	2303      	movs	r3, #3
+  6c:	e003      	b.n	76 <Out0_Process+0x76>
+  6e:	4a12      	ldr	r2, [pc, #72]	(b8 <Out0_Process+0xb8>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:468
+  70:	b119      	cbz	r1, 7a <Out0_Process+0x7a>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:470
+  72:	6812      	ldr	r2, [r2, #0]
+  74:	2305      	movs	r3, #5
+  76:	7213      	strb	r3, [r2, #8]
+  78:	e00c      	b.n	94 <Out0_Process+0x94>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:474
+  7a:	6812      	ldr	r2, [r2, #0]
+  7c:	2306      	movs	r3, #6
+  7e:	7213      	strb	r3, [r2, #8]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:475
+  80:	4b10      	ldr	r3, [pc, #64]	(c4 <Out0_Process+0xc4>)
+  82:	4a11      	ldr	r2, [pc, #68]	(c8 <Out0_Process+0xc8>)
+  84:	681b      	ldr	r3, [r3, #0]
+  86:	b29b      	uxth	r3, r3
+  88:	f842 1013 	str.w	r1, [r2, r3, lsl #1]
+  8c:	4b0c      	ldr	r3, [pc, #48]	(c0 <Out0_Process+0xc0>)
+  8e:	f04f 0230 	mov.w	r2, #48	; 0x30
+  92:	801a      	strh	r2, [r3, #0]
+Out0_Process():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:917
+  94:	4b08      	ldr	r3, [pc, #32]	(b8 <Out0_Process+0xb8>)
+  96:	681b      	ldr	r3, [r3, #0]
+  98:	7a1a      	ldrb	r2, [r3, #8]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:914
+  9a:	e006      	b.n	aa <Out0_Process+0xaa>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:920
+  9c:	2b07      	cmp	r3, #7
+  9e:	d103      	bne.n	a8 <Out0_Process+0xa8>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:922
+  a0:	4b0a      	ldr	r3, [pc, #40]	(cc <Out0_Process+0xcc>)
+  a2:	681b      	ldr	r3, [r3, #0]
+  a4:	68db      	ldr	r3, [r3, #12]
+  a6:	4798      	blx	r3
+  a8:	2208      	movs	r2, #8
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:938
+  aa:	4b03      	ldr	r3, [pc, #12]	(b8 <Out0_Process+0xb8>)
+  ac:	681b      	ldr	r3, [r3, #0]
+  ae:	721a      	strb	r2, [r3, #8]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:940
+  b0:	f7ff fffe 	bl	0 <Out0_Process>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:941
+  b4:	bd70      	pop	{r4, r5, r6, pc}
+  b6:	46c0      	nop			(mov r8, r8)
+	...
+  c4:	40005c50 	.word	0x40005c50
+  c8:	40006004 	.word	0x40006004
+  cc:	00000000 	.word	0x00000000
+Disassembly of section .text.DataStageIn:
+
+00000000 <DataStageIn>:
+DataStageIn():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:488
+   0:	4b1c      	ldr	r3, [pc, #112]	(74 <DataStageIn+0x74>)
+   2:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:489
+   6:	681e      	ldr	r6, [r3, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:490
+   8:	8a33      	ldrh	r3, [r6, #16]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:491
+   a:	7a32      	ldrb	r2, [r6, #8]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:496
+   c:	b93b      	cbnz	r3, 1e <DataStageIn+0x1e>
+   e:	2a04      	cmp	r2, #4
+  10:	d105      	bne.n	1e <DataStageIn+0x1e>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:500
+  12:	4b19      	ldr	r3, [pc, #100]	(78 <DataStageIn+0x78>)
+  14:	f04f 0210 	mov.w	r2, #16	; 0x10
+  18:	2707      	movs	r7, #7
+  1a:	801a      	strh	r2, [r3, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:501
+  1c:	e025      	b.n	6a <DataStageIn+0x6a>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:504
+  1e:	8ab4      	ldrh	r4, [r6, #20]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:505
+  20:	42a3      	cmp	r3, r4
+  22:	bf8c      	ite	hi
+  24:	2702      	movhi	r7, #2
+  26:	2704      	movls	r7, #4
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:512
+  28:	429c      	cmp	r4, r3
+  2a:	bf28      	it	cs
+  2c:	461c      	movcs	r4, r3
+  2e:	4620      	mov	r0, r4
+  30:	69b3      	ldr	r3, [r6, #24]
+  32:	4798      	blx	r3
+  34:	4605      	mov	r5, r0
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:514
+  36:	2000      	movs	r0, #0
+  38:	f7ff fffe 	bl	0 <GetEPTxAddr>
+  3c:	4622      	mov	r2, r4
+  3e:	4601      	mov	r1, r0
+  40:	4628      	mov	r0, r5
+  42:	f7ff fffe 	bl	0 <UserToPMABufferCopy>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:516
+  46:	4621      	mov	r1, r4
+  48:	2000      	movs	r0, #0
+  4a:	f7ff fffe 	bl	0 <SetEPTxCount>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:518
+  4e:	8a33      	ldrh	r3, [r6, #16]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:520
+  50:	f04f 0230 	mov.w	r2, #48	; 0x30
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:518
+  54:	1b1b      	subs	r3, r3, r4
+  56:	8233      	strh	r3, [r6, #16]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:519
+  58:	8a73      	ldrh	r3, [r6, #18]
+  5a:	18e4      	adds	r4, r4, r3
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:520
+  5c:	4b06      	ldr	r3, [pc, #24]	(78 <DataStageIn+0x78>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:519
+  5e:	8274      	strh	r4, [r6, #18]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:520
+  60:	801a      	strh	r2, [r3, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:522
+  62:	4b06      	ldr	r3, [pc, #24]	(7c <DataStageIn+0x7c>)
+  64:	f44f 5240 	mov.w	r2, #12288	; 0x3000
+  68:	801a      	strh	r2, [r3, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:525
+  6a:	4b02      	ldr	r3, [pc, #8]	(74 <DataStageIn+0x74>)
+  6c:	681b      	ldr	r3, [r3, #0]
+  6e:	721f      	strb	r7, [r3, #8]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:526
+  70:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+	...
+Disassembly of section .text.In0_Process:
+
+00000000 <In0_Process>:
+In0_Process():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:871
+   0:	b510      	push	{r4, lr}
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:872
+   2:	4c13      	ldr	r4, [pc, #76]	(50 <In0_Process+0x50>)
+   4:	6822      	ldr	r2, [r4, #0]
+   6:	7a13      	ldrb	r3, [r2, #8]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:874
+   8:	2b02      	cmp	r3, #2
+   a:	d001      	beq.n	10 <In0_Process+0x10>
+   c:	2b04      	cmp	r3, #4
+   e:	d104      	bne.n	1a <In0_Process+0x1a>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:876
+  10:	f7ff fffe 	bl	0 <In0_Process>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:878
+  14:	6823      	ldr	r3, [r4, #0]
+  16:	7a1a      	ldrb	r2, [r3, #8]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:874
+  18:	e014      	b.n	44 <In0_Process+0x44>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:881
+  1a:	2b06      	cmp	r3, #6
+  1c:	d111      	bne.n	42 <In0_Process+0x42>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:883
+  1e:	7853      	ldrb	r3, [r2, #1]
+  20:	2b05      	cmp	r3, #5
+  22:	d10a      	bne.n	3a <In0_Process+0x3a>
+  24:	7813      	ldrb	r3, [r2, #0]
+  26:	f013 0f7f 	tst.w	r3, #127	; 0x7f
+  2a:	d106      	bne.n	3a <In0_Process+0x3a>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:886
+  2c:	78d0      	ldrb	r0, [r2, #3]
+  2e:	f7ff fffe 	bl	0 <In0_Process>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:887
+  32:	4b08      	ldr	r3, [pc, #32]	(54 <In0_Process+0x54>)
+  34:	681b      	ldr	r3, [r3, #0]
+  36:	6a1b      	ldr	r3, [r3, #32]
+  38:	4798      	blx	r3
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:889
+  3a:	4b07      	ldr	r3, [pc, #28]	(58 <In0_Process+0x58>)
+  3c:	681b      	ldr	r3, [r3, #0]
+  3e:	689b      	ldr	r3, [r3, #8]
+  40:	4798      	blx	r3
+  42:	2208      	movs	r2, #8
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:898
+  44:	4b02      	ldr	r3, [pc, #8]	(50 <In0_Process+0x50>)
+  46:	681b      	ldr	r3, [r3, #0]
+  48:	721a      	strb	r2, [r3, #8]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:900
+  4a:	f7ff fffe 	bl	0 <In0_Process>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:901
+  4e:	bd10      	pop	{r4, pc}
+	...
+Disassembly of section .text.Standard_ClearFeature:
+
+00000000 <Standard_ClearFeature>:
+Standard_ClearFeature():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:241
+   0:	b570      	push	{r4, r5, r6, lr}
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:242
+   2:	4b33      	ldr	r3, [pc, #204]	(d0 <Standard_ClearFeature+0xd0>)
+   4:	681a      	ldr	r2, [r3, #0]
+   6:	7813      	ldrb	r3, [r2, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:246
+   8:	f013 007f 	ands.w	r0, r3, #127	; 0x7f
+   c:	d104      	bne.n	18 <Standard_ClearFeature+0x18>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:248
+   e:	7a53      	ldrb	r3, [r2, #9]
+  10:	f023 0320 	bic.w	r3, r3, #32	; 0x20
+  14:	7253      	strb	r3, [r2, #9]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:249
+  16:	e059      	b.n	cc <Standard_ClearFeature+0xcc>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:251
+  18:	2802      	cmp	r0, #2
+  1a:	d156      	bne.n	ca <Standard_ClearFeature+0xca>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:258
+  1c:	8853      	ldrh	r3, [r2, #2]
+  1e:	2b00      	cmp	r3, #0
+  20:	d153      	bne.n	ca <Standard_ClearFeature+0xca>
+  22:	7913      	ldrb	r3, [r2, #4]
+  24:	2b00      	cmp	r3, #0
+  26:	d150      	bne.n	ca <Standard_ClearFeature+0xca>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:265
+  28:	7951      	ldrb	r1, [r2, #5]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:269
+  2a:	f011 0f80 	tst.w	r1, #128	; 0x80
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:266
+  2e:	f021 0480 	bic.w	r4, r1, #128	; 0x80
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:269
+  32:	d005      	beq.n	40 <Standard_ClearFeature+0x40>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:273
+  34:	4b27      	ldr	r3, [pc, #156]	(d4 <Standard_ClearFeature+0xd4>)
+  36:	f853 3024 	ldr.w	r3, [r3, r4, lsl #2]
+  3a:	f003 0030 	and.w	r0, r3, #48	; 0x30
+  3e:	e004      	b.n	4a <Standard_ClearFeature+0x4a>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:277
+  40:	4b24      	ldr	r3, [pc, #144]	(d4 <Standard_ClearFeature+0xd4>)
+  42:	f853 3024 	ldr.w	r3, [r3, r4, lsl #2]
+  46:	f403 5040 	and.w	r0, r3, #12288	; 0x3000
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:280
+  4a:	4b23      	ldr	r3, [pc, #140]	(d8 <Standard_ClearFeature+0xd8>)
+  4c:	781b      	ldrb	r3, [r3, #0]
+  4e:	429c      	cmp	r4, r3
+  50:	d23b      	bcs.n	ca <Standard_ClearFeature+0xca>
+  52:	2800      	cmp	r0, #0
+  54:	d039      	beq.n	ca <Standard_ClearFeature+0xca>
+  56:	7a93      	ldrb	r3, [r2, #10]
+  58:	2b00      	cmp	r3, #0
+  5a:	d036      	beq.n	ca <Standard_ClearFeature+0xca>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:287
+  5c:	f011 0f80 	tst.w	r1, #128	; 0x80
+  60:	d00f      	beq.n	82 <Standard_ClearFeature+0x82>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:290
+  62:	4b1c      	ldr	r3, [pc, #112]	(d4 <Standard_ClearFeature+0xd4>)
+  64:	f853 3024 	ldr.w	r3, [r3, r4, lsl #2]
+  68:	f003 0330 	and.w	r3, r3, #48	; 0x30
+  6c:	2b10      	cmp	r3, #16
+  6e:	d126      	bne.n	be <Standard_ClearFeature+0xbe>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:292
+  70:	b2e4      	uxtb	r4, r4
+  72:	4620      	mov	r0, r4
+  74:	f7ff fffe 	bl	0 <ClearDTOG_TX>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:293
+  78:	4620      	mov	r0, r4
+  7a:	2130      	movs	r1, #48
+  7c:	f7ff fffe 	bl	0 <SetEPTxStatus>
+  80:	e01d      	b.n	be <Standard_ClearFeature+0xbe>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:299
+  82:	4d14      	ldr	r5, [pc, #80]	(d4 <Standard_ClearFeature+0xd4>)
+  84:	f855 3024 	ldr.w	r3, [r5, r4, lsl #2]
+  88:	f403 5340 	and.w	r3, r3, #12288	; 0x3000
+  8c:	f5b3 5f80 	cmp.w	r3, #4096	; 0x1000
+  90:	d115      	bne.n	be <Standard_ClearFeature+0xbe>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:301
+  92:	b93c      	cbnz	r4, a4 <Standard_ClearFeature+0xa4>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:304
+  94:	4b11      	ldr	r3, [pc, #68]	(dc <Standard_ClearFeature+0xdc>)
+  96:	4620      	mov	r0, r4
+  98:	f893 102c 	ldrb.w	r1, [r3, #44]
+  9c:	f7ff fffe 	bl	0 <SetEPRxCount>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:305
+  a0:	682a      	ldr	r2, [r5, #0]
+  a2:	e004      	b.n	ae <Standard_ClearFeature+0xae>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:309
+  a4:	4620      	mov	r0, r4
+  a6:	f7ff fffe 	bl	0 <ClearDTOG_RX>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:310
+  aa:	f855 2024 	ldr.w	r2, [r5, r4, lsl #2]
+  ae:	f64b 738f 	movw	r3, #49039	; 0xbf8f
+  b2:	ea02 0303 	and.w	r3, r2, r3
+  b6:	f483 5340 	eor.w	r3, r3, #12288	; 0x3000
+  ba:	f845 3024 	str.w	r3, [r5, r4, lsl #2]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:314
+  be:	4b08      	ldr	r3, [pc, #32]	(e0 <Standard_ClearFeature+0xe0>)
+  c0:	681b      	ldr	r3, [r3, #0]
+  c2:	695b      	ldr	r3, [r3, #20]
+  c4:	4798      	blx	r3
+  c6:	2000      	movs	r0, #0
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:315
+  c8:	e000      	b.n	cc <Standard_ClearFeature+0xcc>
+  ca:	2002      	movs	r0, #2
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:319
+  cc:	bd70      	pop	{r4, r5, r6, pc}
+  ce:	46c0      	nop			(mov r8, r8)
+  d0:	00000000 	.word	0x00000000
+  d4:	40005c00 	.word	0x40005c00
+	...
+Disassembly of section .text.Setup0_Process:
+
+00000000 <Setup0_Process>:
+Setup0_Process():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:827
+   0:	4b8d      	ldr	r3, [pc, #564]	(238 <Setup0_Process+0x238>)
+   2:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:835
+   6:	681b      	ldr	r3, [r3, #0]
+   8:	4a8c      	ldr	r2, [pc, #560]	(23c <Setup0_Process+0x23c>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:837
+   a:	4f8d      	ldr	r7, [pc, #564]	(240 <Setup0_Process+0x240>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:835
+   c:	b29b      	uxth	r3, r3
+   e:	f852 4013 	ldr.w	r4, [r2, r3, lsl #1]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:837
+  12:	683a      	ldr	r2, [r7, #0]
+  14:	7a13      	ldrb	r3, [r2, #8]
+  16:	2b09      	cmp	r3, #9
+  18:	d01c      	beq.n	54 <Setup0_Process+0x54>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:835
+  1a:	b2a4      	uxth	r4, r4
+  1c:	0064      	lsls	r4, r4, #1
+  1e:	f104 4480 	add.w	r4, r4, #1073741824	; 0x40000000
+  22:	f504 44c0 	add.w	r4, r4, #24576	; 0x6000
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:839
+  26:	4625      	mov	r5, r4
+  28:	f815 3b01 	ldrb.w	r3, [r5], #1
+  2c:	7013      	strb	r3, [r2, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:840
+  2e:	7863      	ldrb	r3, [r4, #1]
+  30:	683a      	ldr	r2, [r7, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:844
+  32:	340a      	adds	r4, #10
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:840
+  34:	7053      	strb	r3, [r2, #1]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:842
+  36:	f8b5 0003 	ldrh.w	r0, [r5, #3]
+  3a:	683e      	ldr	r6, [r7, #0]
+  3c:	f7ff fffe 	bl	0 <ByteSwap>
+  40:	8070      	strh	r0, [r6, #2]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:844
+  42:	f8b5 0007 	ldrh.w	r0, [r5, #7]
+  46:	683e      	ldr	r6, [r7, #0]
+  48:	f7ff fffe 	bl	0 <ByteSwap>
+  4c:	80b0      	strh	r0, [r6, #4]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:846
+  4e:	683b      	ldr	r3, [r7, #0]
+  50:	8864      	ldrh	r4, [r4, #2]
+  52:	80dc      	strh	r4, [r3, #6]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:849
+  54:	683b      	ldr	r3, [r7, #0]
+  56:	2201      	movs	r2, #1
+  58:	721a      	strb	r2, [r3, #8]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:850
+  5a:	683a      	ldr	r2, [r7, #0]
+  5c:	88d3      	ldrh	r3, [r2, #6]
+  5e:	7854      	ldrb	r4, [r2, #1]
+  60:	2b00      	cmp	r3, #0
+  62:	d161      	bne.n	128 <Setup0_Process+0x128>
+NoData_Setup0():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:541
+  64:	7813      	ldrb	r3, [r2, #0]
+  66:	f013 037f 	ands.w	r3, r3, #127	; 0x7f
+  6a:	d12e      	bne.n	ca <Setup0_Process+0xca>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:545
+  6c:	2c09      	cmp	r4, #9
+  6e:	d102      	bne.n	76 <Setup0_Process+0x76>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:547
+  70:	f7ff fffe 	bl	0 <Setup0_Process>
+  74:	e03b      	b.n	ee <Setup0_Process+0xee>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:551
+  76:	2c05      	cmp	r4, #5
+  78:	d10d      	bne.n	96 <Setup0_Process+0x96>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:553
+  7a:	f992 3003 	ldrsb.w	r3, [r2, #3]
+  7e:	2b00      	cmp	r3, #0
+  80:	db4d      	blt.n	11e <Setup0_Process+0x11e>
+  82:	7893      	ldrb	r3, [r2, #2]
+  84:	2b00      	cmp	r3, #0
+  86:	d14a      	bne.n	11e <Setup0_Process+0x11e>
+  88:	8893      	ldrh	r3, [r2, #4]
+  8a:	2b00      	cmp	r3, #0
+  8c:	d147      	bne.n	11e <Setup0_Process+0x11e>
+  8e:	7a93      	ldrb	r3, [r2, #10]
+  90:	2b00      	cmp	r3, #0
+  92:	d144      	bne.n	11e <Setup0_Process+0x11e>
+  94:	e036      	b.n	104 <Setup0_Process+0x104>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:567
+  96:	2c03      	cmp	r4, #3
+  98:	d10b      	bne.n	b2 <Setup0_Process+0xb2>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:569
+  9a:	78d3      	ldrb	r3, [r2, #3]
+  9c:	2b01      	cmp	r3, #1
+  9e:	d127      	bne.n	f0 <Setup0_Process+0xf0>
+  a0:	8893      	ldrh	r3, [r2, #4]
+  a2:	bb2b      	cbnz	r3, f0 <Setup0_Process+0xf0>
+  a4:	7a53      	ldrb	r3, [r2, #9]
+  a6:	f013 0f20 	tst.w	r3, #32	; 0x20
+  aa:	d021      	beq.n	46 <Setup0_Process+0x46>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:573
+  ac:	f7ff fffe 	bl	0 <Setup0_Process>
+  b0:	e01d      	b.n	ee <Setup0_Process+0xee>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:581
+  b2:	2c01      	cmp	r4, #1
+  b4:	d11c      	bne.n	f0 <Setup0_Process+0xf0>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:583
+  b6:	78d3      	ldrb	r3, [r2, #3]
+  b8:	2b01      	cmp	r3, #1
+  ba:	d119      	bne.n	f0 <Setup0_Process+0xf0>
+  bc:	8893      	ldrh	r3, [r2, #4]
+  be:	b9bb      	cbnz	r3, f0 <Setup0_Process+0xf0>
+  c0:	7a53      	ldrb	r3, [r2, #9]
+  c2:	f013 0f20 	tst.w	r3, #32	; 0x20
+  c6:	d013      	beq.n	f0 <Setup0_Process+0xf0>
+  c8:	e00a      	b.n	e0 <Setup0_Process+0xe0>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:598
+  ca:	2b01      	cmp	r3, #1
+  cc:	d104      	bne.n	d8 <Setup0_Process+0xd8>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:601
+  ce:	2c0b      	cmp	r4, #11
+  d0:	d10e      	bne.n	f0 <Setup0_Process+0xf0>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:603
+  d2:	f7ff fffe 	bl	0 <Setup0_Process>
+  d6:	e00a      	b.n	ee <Setup0_Process+0xee>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:608
+  d8:	2b02      	cmp	r3, #2
+  da:	d109      	bne.n	f0 <Setup0_Process+0xf0>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:611
+  dc:	2c01      	cmp	r4, #1
+  de:	d102      	bne.n	e6 <Setup0_Process+0xe6>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:613
+  e0:	f7ff fffe 	bl	0 <Setup0_Process>
+  e4:	e003      	b.n	ee <Setup0_Process+0xee>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:616
+  e6:	2c03      	cmp	r4, #3
+  e8:	d102      	bne.n	f0 <Setup0_Process+0xf0>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:618
+  ea:	f7ff fffe 	bl	0 <Setup0_Process>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:627
+  ee:	b148      	cbz	r0, 104 <Setup0_Process+0x104>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:629
+  f0:	4b54      	ldr	r3, [pc, #336]	(244 <Setup0_Process+0x244>)
+  f2:	4620      	mov	r0, r4
+  f4:	681b      	ldr	r3, [r3, #0]
+  f6:	695b      	ldr	r3, [r3, #20]
+  f8:	4798      	blx	r3
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:630
+  fa:	2803      	cmp	r0, #3
+  fc:	d101      	bne.n	102 <Setup0_Process+0x102>
+  fe:	2209      	movs	r2, #9
+ 100:	e00e      	b.n	120 <Setup0_Process+0x120>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:637
+ 102:	b960      	cbnz	r0, 11e <Setup0_Process+0x11e>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:645
+ 104:	4b4c      	ldr	r3, [pc, #304]	(238 <Setup0_Process+0x238>)
+ 106:	4a50      	ldr	r2, [pc, #320]	(248 <Setup0_Process+0x248>)
+ 108:	681b      	ldr	r3, [r3, #0]
+ 10a:	2100      	movs	r1, #0
+ 10c:	b29b      	uxth	r3, r3
+ 10e:	f842 1013 	str.w	r1, [r2, r3, lsl #1]
+ 112:	4b4e      	ldr	r3, [pc, #312]	(24c <Setup0_Process+0x24c>)
+ 114:	f04f 0230 	mov.w	r2, #48	; 0x30
+ 118:	801a      	strh	r2, [r3, #0]
+ 11a:	2206      	movs	r2, #6
+ 11c:	e000      	b.n	120 <Setup0_Process+0x120>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:647
+ 11e:	2208      	movs	r2, #8
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:648
+ 120:	4b47      	ldr	r3, [pc, #284]	(240 <Setup0_Process+0x240>)
+ 122:	681b      	ldr	r3, [r3, #0]
+ 124:	721a      	strb	r2, [r3, #8]
+ 126:	e0d1      	b.n	2cc <Setup0_Process+0x2cc>
+Data_Setup0():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:673
+ 128:	2c06      	cmp	r4, #6
+ 12a:	463e      	mov	r6, r7
+ 12c:	d118      	bne.n	160 <Setup0_Process+0x160>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:675
+ 12e:	7813      	ldrb	r3, [r2, #0]
+ 130:	f013 0f7f 	tst.w	r3, #127	; 0x7f
+ 134:	f040 8094 	bne.w	260 <Setup0_Process+0x260>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:677
+ 138:	7893      	ldrb	r3, [r2, #2]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:678
+ 13a:	2b01      	cmp	r3, #1
+ 13c:	d103      	bne.n	146 <Setup0_Process+0x146>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:680
+ 13e:	4b41      	ldr	r3, [pc, #260]	(244 <Setup0_Process+0x244>)
+ 140:	681b      	ldr	r3, [r3, #0]
+ 142:	69d9      	ldr	r1, [r3, #28]
+ 144:	e06e      	b.n	224 <Setup0_Process+0x224>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:682
+ 146:	2b02      	cmp	r3, #2
+ 148:	d103      	bne.n	152 <Setup0_Process+0x152>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:684
+ 14a:	4b3e      	ldr	r3, [pc, #248]	(244 <Setup0_Process+0x244>)
+ 14c:	681b      	ldr	r3, [r3, #0]
+ 14e:	6a19      	ldr	r1, [r3, #32]
+ 150:	e068      	b.n	224 <Setup0_Process+0x224>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:686
+ 152:	2b03      	cmp	r3, #3
+ 154:	f040 8084 	bne.w	260 <Setup0_Process+0x260>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:688
+ 158:	4b3a      	ldr	r3, [pc, #232]	(244 <Setup0_Process+0x244>)
+ 15a:	681b      	ldr	r3, [r3, #0]
+ 15c:	6a59      	ldr	r1, [r3, #36]
+ 15e:	e061      	b.n	224 <Setup0_Process+0x224>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:694
+ 160:	2c00      	cmp	r4, #0
+ 162:	d13d      	bne.n	1e0 <Setup0_Process+0x1e0>
+ 164:	8853      	ldrh	r3, [r2, #2]
+ 166:	2b00      	cmp	r3, #0
+ 168:	d17a      	bne.n	260 <Setup0_Process+0x260>
+ 16a:	6853      	ldr	r3, [r2, #4]
+ 16c:	f423 437f 	bic.w	r3, r3, #65280	; 0xff00
+ 170:	f5b3 3f00 	cmp.w	r3, #131072	; 0x20000
+ 174:	d174      	bne.n	260 <Setup0_Process+0x260>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:699
+ 176:	7813      	ldrb	r3, [r2, #0]
+ 178:	f013 037f 	ands.w	r3, r3, #127	; 0x7f
+ 17c:	d103      	bne.n	186 <Setup0_Process+0x186>
+ 17e:	8893      	ldrh	r3, [r2, #4]
+ 180:	2b00      	cmp	r3, #0
+ 182:	d16d      	bne.n	260 <Setup0_Process+0x260>
+ 184:	e02a      	b.n	1dc <Setup0_Process+0x1dc>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:706
+ 186:	2b01      	cmp	r3, #1
+ 188:	d10c      	bne.n	1a4 <Setup0_Process+0x1a4>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:708
+ 18a:	4b2e      	ldr	r3, [pc, #184]	(244 <Setup0_Process+0x244>)
+ 18c:	7950      	ldrb	r0, [r2, #5]
+ 18e:	681b      	ldr	r3, [r3, #0]
+ 190:	4621      	mov	r1, r4
+ 192:	699b      	ldr	r3, [r3, #24]
+ 194:	4798      	blx	r3
+ 196:	2800      	cmp	r0, #0
+ 198:	d162      	bne.n	260 <Setup0_Process+0x260>
+ 19a:	683b      	ldr	r3, [r7, #0]
+ 19c:	7a9b      	ldrb	r3, [r3, #10]
+ 19e:	2b00      	cmp	r3, #0
+ 1a0:	d05e      	beq.n	260 <Setup0_Process+0x260>
+ 1a2:	e01b      	b.n	1dc <Setup0_Process+0x1dc>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:716
+ 1a4:	2b02      	cmp	r3, #2
+ 1a6:	d15b      	bne.n	260 <Setup0_Process+0x260>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:718
+ 1a8:	7951      	ldrb	r1, [r2, #5]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:721
+ 1aa:	f011 0f80 	tst.w	r1, #128	; 0x80
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:718
+ 1ae:	f001 020f 	and.w	r2, r1, #15	; 0xf
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:721
+ 1b2:	d005      	beq.n	1c0 <Setup0_Process+0x1c0>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:725
+ 1b4:	4b26      	ldr	r3, [pc, #152]	(250 <Setup0_Process+0x250>)
+ 1b6:	f853 3022 	ldr.w	r3, [r3, r2, lsl #2]
+ 1ba:	f003 0030 	and.w	r0, r3, #48	; 0x30
+ 1be:	e004      	b.n	1ca <Setup0_Process+0x1ca>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:729
+ 1c0:	4b23      	ldr	r3, [pc, #140]	(250 <Setup0_Process+0x250>)
+ 1c2:	f853 3022 	ldr.w	r3, [r3, r2, lsl #2]
+ 1c6:	f403 5040 	and.w	r0, r3, #12288	; 0x3000
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:732
+ 1ca:	4b22      	ldr	r3, [pc, #136]	(254 <Setup0_Process+0x254>)
+ 1cc:	781b      	ldrb	r3, [r3, #0]
+ 1ce:	429a      	cmp	r2, r3
+ 1d0:	d246      	bcs.n	260 <Setup0_Process+0x260>
+ 1d2:	f011 0f70 	tst.w	r1, #112	; 0x70
+ 1d6:	d143      	bne.n	260 <Setup0_Process+0x260>
+ 1d8:	2800      	cmp	r0, #0
+ 1da:	d041      	beq.n	260 <Setup0_Process+0x260>
+ 1dc:	491e      	ldr	r1, [pc, #120]	(258 <Setup0_Process+0x258>)
+ 1de:	e022      	b.n	226 <Setup0_Process+0x226>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:742
+ 1e0:	2c08      	cmp	r4, #8
+ 1e2:	d105      	bne.n	1f0 <Setup0_Process+0x1f0>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:744
+ 1e4:	7813      	ldrb	r3, [r2, #0]
+ 1e6:	f013 0f7f 	tst.w	r3, #127	; 0x7f
+ 1ea:	d139      	bne.n	260 <Setup0_Process+0x260>
+ 1ec:	491b      	ldr	r1, [pc, #108]	(25c <Setup0_Process+0x25c>)
+ 1ee:	e01a      	b.n	226 <Setup0_Process+0x226>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:750
+ 1f0:	2c0a      	cmp	r4, #10
+ 1f2:	d135      	bne.n	260 <Setup0_Process+0x260>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:752
+ 1f4:	7813      	ldrb	r3, [r2, #0]
+ 1f6:	f003 037f 	and.w	r3, r3, #127	; 0x7f
+ 1fa:	2b01      	cmp	r3, #1
+ 1fc:	d130      	bne.n	260 <Setup0_Process+0x260>
+ 1fe:	7a93      	ldrb	r3, [r2, #10]
+ 200:	2b00      	cmp	r3, #0
+ 202:	d02d      	beq.n	260 <Setup0_Process+0x260>
+ 204:	8851      	ldrh	r1, [r2, #2]
+ 206:	bb59      	cbnz	r1, 260 <Setup0_Process+0x260>
+ 208:	6853      	ldr	r3, [r2, #4]
+ 20a:	f423 437f 	bic.w	r3, r3, #65280	; 0xff00
+ 20e:	f5b3 3f80 	cmp.w	r3, #65536	; 0x10000
+ 212:	d125      	bne.n	260 <Setup0_Process+0x260>
+ 214:	4b0b      	ldr	r3, [pc, #44]	(244 <Setup0_Process+0x244>)
+ 216:	7950      	ldrb	r0, [r2, #5]
+ 218:	681b      	ldr	r3, [r3, #0]
+ 21a:	699b      	ldr	r3, [r3, #24]
+ 21c:	4798      	blx	r3
+ 21e:	2800      	cmp	r0, #0
+ 220:	d052      	beq.n	2c8 <Setup0_Process+0x2c8>
+ 222:	e01d      	b.n	260 <Setup0_Process+0x260>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:763
+ 224:	b1e1      	cbz	r1, 260 <Setup0_Process+0x260>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:765
+ 226:	6833      	ldr	r3, [r6, #0]
+ 228:	f04f 0200 	mov.w	r2, #0	; 0x0
+ 22c:	825a      	strh	r2, [r3, #18]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:766
+ 22e:	6199      	str	r1, [r3, #24]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:769
+ 230:	2000      	movs	r0, #0
+ 232:	4788      	blx	r1
+ 234:	2000      	movs	r0, #0
+ 236:	e020      	b.n	27a <Setup0_Process+0x27a>
+ 238:	40005c50 	.word	0x40005c50
+ 23c:	40006008 	.word	0x40006008
+	...
+ 248:	40006004 	.word	0x40006004
+ 24c:	00000000 	.word	0x00000000
+ 250:	40005c00 	.word	0x40005c00
+	...
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:774
+ 260:	4b1c      	ldr	r3, [pc, #112]	(2d4 <Setup0_Process+0x2d4>)
+ 262:	681b      	ldr	r3, [r3, #0]
+ 264:	691a      	ldr	r2, [r3, #16]
+ 266:	6833      	ldr	r3, [r6, #0]
+ 268:	7858      	ldrb	r0, [r3, #1]
+ 26a:	4790      	blx	r2
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:775
+ 26c:	2803      	cmp	r0, #3
+ 26e:	d104      	bne.n	27a <Setup0_Process+0x27a>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:777
+ 270:	4b19      	ldr	r3, [pc, #100]	(2d8 <Setup0_Process+0x2d8>)
+ 272:	681a      	ldr	r2, [r3, #0]
+ 274:	2309      	movs	r3, #9
+ 276:	7213      	strb	r3, [r2, #8]
+ 278:	e028      	b.n	2cc <Setup0_Process+0x2cc>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:782
+ 27a:	4a17      	ldr	r2, [pc, #92]	(2d8 <Setup0_Process+0x2d8>)
+ 27c:	f64f 73ff 	movw	r3, #65535	; 0xffff
+ 280:	6811      	ldr	r1, [r2, #0]
+ 282:	8a0c      	ldrh	r4, [r1, #16]
+ 284:	429c      	cmp	r4, r3
+ 286:	d101      	bne.n	28c <Setup0_Process+0x28c>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:785
+ 288:	2309      	movs	r3, #9
+ 28a:	e003      	b.n	294 <Setup0_Process+0x294>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:788
+ 28c:	2802      	cmp	r0, #2
+ 28e:	d000      	beq.n	292 <Setup0_Process+0x292>
+ 290:	b914      	cbnz	r4, 298 <Setup0_Process+0x298>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:791
+ 292:	2308      	movs	r3, #8
+ 294:	720b      	strb	r3, [r1, #8]
+ 296:	e019      	b.n	2cc <Setup0_Process+0x2cc>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:796
+ 298:	f991 3000 	ldrsb.w	r3, [r1]
+ 29c:	2b00      	cmp	r3, #0
+ 29e:	da0c      	bge.n	2ba <Setup0_Process+0x2ba>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:799
+ 2a0:	88cb      	ldrh	r3, [r1, #6]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:807
+ 2a2:	6812      	ldr	r2, [r2, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:802
+ 2a4:	429c      	cmp	r4, r3
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:804
+ 2a6:	bf88      	it	hi
+ 2a8:	820b      	strhhi	r3, [r1, #16]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:807
+ 2aa:	4b0a      	ldr	r3, [pc, #40]	(2d4 <Setup0_Process+0x2d4>)
+ 2ac:	681b      	ldr	r3, [r3, #0]
+ 2ae:	f893 302c 	ldrb.w	r3, [r3, #44]
+ 2b2:	8293      	strh	r3, [r2, #20]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:808
+ 2b4:	f7ff fffe 	bl	0 <Setup0_Process>
+ 2b8:	e008      	b.n	2cc <Setup0_Process+0x2cc>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:812
+ 2ba:	2303      	movs	r3, #3
+ 2bc:	720b      	strb	r3, [r1, #8]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:813
+ 2be:	4b07      	ldr	r3, [pc, #28]	(2dc <Setup0_Process+0x2dc>)
+ 2c0:	f44f 5240 	mov.w	r2, #12288	; 0x3000
+ 2c4:	801a      	strh	r2, [r3, #0]
+ 2c6:	e001      	b.n	2cc <Setup0_Process+0x2cc>
+Setup0_Process():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:860
+ 2c8:	4905      	ldr	r1, [pc, #20]	(2e0 <Setup0_Process+0x2e0>)
+ 2ca:	e7ac      	b.n	226 <Setup0_Process+0x226>
+ 2cc:	f7ff fffe 	bl	0 <Setup0_Process>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\USBLIB/usb_core.c:861
+ 2d0:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+	...

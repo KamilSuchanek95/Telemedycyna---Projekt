@@ -1,0 +1,188 @@
+
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_pwr.o:     file format elf32-littlearm
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\objdebug\usb_pwr.o
+
+Disassembly of section .text.PowerOn:
+
+00000000 <PowerOn>:
+PowerOn():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:53
+   0:	4906      	ldr	r1, [pc, #24]	(1c <PowerOn+0x1c>)
+   2:	2301      	movs	r3, #1
+   4:	600b      	str	r3, [r1, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:68
+   6:	4b06      	ldr	r3, [pc, #24]	(20 <PowerOn+0x20>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:66
+   8:	2000      	movs	r0, #0
+   a:	6008      	str	r0, [r1, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:68
+   c:	6018      	str	r0, [r3, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:70
+   e:	4b05      	ldr	r3, [pc, #20]	(24 <PowerOn+0x24>)
+  10:	f44f 52e0 	mov.w	r2, #7168	; 0x1c00
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:53
+  14:	801a      	strh	r2, [r3, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:71
+  16:	600a      	str	r2, [r1, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:74
+  18:	4770      	bx	lr
+  1a:	46c0      	nop			(mov r8, r8)
+  1c:	40005c40 	.word	0x40005c40
+  20:	40005c44 	.word	0x40005c44
+  24:	00000000 	.word	0x00000000
+Disassembly of section .text.PowerOff:
+
+00000000 <PowerOff>:
+PowerOff():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:84
+   0:	4a04      	ldr	r2, [pc, #16]	(14 <wInterrupt_Mask+0x14>)
+   2:	2301      	movs	r3, #1
+   4:	6013      	str	r3, [r2, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:88
+   6:	4b04      	ldr	r3, [pc, #16]	(18 <wInterrupt_Mask+0x18>)
+   8:	2000      	movs	r0, #0
+   a:	6018      	str	r0, [r3, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:94
+   c:	2303      	movs	r3, #3
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:84
+   e:	6013      	str	r3, [r2, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:99
+  10:	4770      	bx	lr
+  12:	46c0      	nop			(mov r8, r8)
+  14:	40005c40 	.word	0x40005c40
+  18:	5c44      	.short	0x5c44
+  1a:	4000      	.short	0x4000
+Disassembly of section .text.Suspend:
+
+00000000 <Suspend>:
+Suspend():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:109
+   0:	4b05      	ldr	r3, [pc, #20]	(18 <wInterrupt_Mask+0x18>)
+   2:	681a      	ldr	r2, [r3, #0]
+   4:	b292      	uxth	r2, r2
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:117
+   6:	f042 0208 	orr.w	r2, r2, #8	; 0x8
+   a:	601a      	str	r2, [r3, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:125
+   c:	681a      	ldr	r2, [r3, #0]
+   e:	b292      	uxth	r2, r2
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:127
+  10:	f042 0204 	orr.w	r2, r2, #4	; 0x4
+  14:	601a      	str	r2, [r3, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:133
+  16:	4770      	bx	lr
+  18:	5c40      	.short	0x5c40
+  1a:	4000      	.short	0x4000
+Disassembly of section .text.Resume_Init:
+
+00000000 <Resume_Init>:
+Resume_Init():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:143
+   0:	4a05      	ldr	r2, [pc, #20]	(18 <wInterrupt_Mask+0x18>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:153
+   2:	f64f 73fb 	movw	r3, #65531	; 0xfffb
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:151
+   6:	6811      	ldr	r1, [r2, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:143
+   8:	ea01 0303 	and.w	r3, r1, r3
+   c:	6013      	str	r3, [r2, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:157
+   e:	f44f 433f 	mov.w	r3, #48896	; 0xbf00
+  12:	6013      	str	r3, [r2, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:162
+  14:	4770      	bx	lr
+  16:	46c0      	nop			(mov r8, r8)
+  18:	5c40      	.short	0x5c40
+  1a:	4000      	.short	0x4000
+Disassembly of section .text.Resume:
+
+00000000 <Resume>:
+Resume():
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:177
+   0:	2807      	cmp	r0, #7
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:181
+   2:	bf18      	it	ne
+   4:	4b1f      	ldrne	r3, [pc, #124]	(84 <Resume+0x84>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:177
+   6:	b510      	push	{r4, lr}
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:181
+   8:	bf18      	it	ne
+   a:	7018      	strbne	r0, [r3, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:183
+   c:	4b1d      	ldr	r3, [pc, #116]	(84 <Resume+0x84>)
+   e:	781a      	ldrb	r2, [r3, #0]
+  10:	461c      	mov	r4, r3
+  12:	2a05      	cmp	r2, #5
+  14:	d833      	bhi.n	7e <Resume+0x7e>
+  16:	e8df f002 	tbb	[pc, r2]
+  1a:	0603      	.short	0x0603
+  1c:	21160e0a 	.word	0x21160e0a
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:186
+  20:	f7ff fffe 	bl	0 <Resume>
+  24:	e02b      	b.n	5a <Resume+0x5a>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:190
+  26:	f7ff fffe 	bl	0 <Resume>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:191
+  2a:	2304      	movs	r3, #4
+  2c:	e028      	b.n	80 <Resume+0x80>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:194
+  2e:	2302      	movs	r3, #2
+  30:	7063      	strb	r3, [r4, #1]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:195
+  32:	3301      	adds	r3, #1
+  34:	e024      	b.n	80 <Resume+0x80>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:198
+  36:	7863      	ldrb	r3, [r4, #1]
+  38:	3b01      	subs	r3, #1
+  3a:	b2db      	uxtb	r3, r3
+  3c:	7063      	strb	r3, [r4, #1]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:199
+  3e:	7863      	ldrb	r3, [r4, #1]
+  40:	b9fb      	cbnz	r3, 82 <Resume+0x82>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:200
+  42:	2204      	movs	r2, #4
+  44:	e018      	b.n	78 <Resume+0x78>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:203
+  46:	4a10      	ldr	r2, [pc, #64]	(88 <Resume+0x88>)
+  48:	6813      	ldr	r3, [r2, #0]
+  4a:	b29b      	uxth	r3, r3
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:205
+  4c:	f043 0310 	orr.w	r3, r3, #16	; 0x10
+  50:	6013      	str	r3, [r2, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:206
+  52:	2305      	movs	r3, #5
+  54:	7023      	strb	r3, [r4, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:207
+  56:	18db      	adds	r3, r3, r3
+  58:	7063      	strb	r3, [r4, #1]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:208
+  5a:	e012      	b.n	82 <Resume+0x82>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:210
+  5c:	7863      	ldrb	r3, [r4, #1]
+  5e:	3b01      	subs	r3, #1
+  60:	b2db      	uxtb	r3, r3
+  62:	7063      	strb	r3, [r4, #1]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:211
+  64:	7863      	ldrb	r3, [r4, #1]
+  66:	b963      	cbnz	r3, 82 <Resume+0x82>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:213
+  68:	4907      	ldr	r1, [pc, #28]	(88 <Resume+0x88>)
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:215
+  6a:	f64f 73ef 	movw	r3, #65519	; 0xffef
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:213
+  6e:	680a      	ldr	r2, [r1, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:215
+  70:	ea02 0303 	and.w	r3, r2, r3
+  74:	600b      	str	r3, [r1, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:216
+  76:	2206      	movs	r2, #6
+  78:	4b02      	ldr	r3, [pc, #8]	(84 <Resume+0x84>)
+  7a:	701a      	strb	r2, [r3, #0]
+  7c:	e001      	b.n	82 <Resume+0x82>
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:222
+  7e:	2306      	movs	r3, #6
+  80:	7023      	strb	r3, [r4, #0]
+C:\Documents and Settings\Jingxi\My Documents\My Projects\STM32Primer\Projects\STM32ECG\src/usb_pwr.c:225
+  82:	bd10      	pop	{r4, pc}
+  84:	00000000 	.word	0x00000000
+  88:	40005c40 	.word	0x40005c40

@@ -1,0 +1,93 @@
+
+<ApplicationBuild Header="STM32ECG" Extern=".\STM32ECG.rapp" Path=".\STM32ECG.rapp" OutputFile=".\objdebug\STM32ECG.elf" sate="98" Config="Circle_Debug" >
+	<NodeC Path=".\src\usb_istr.c" Header="usb_istr.c" Marker="-1" OutputFile=".\objdebug\usb_istr.o" sate="0" />
+	<NodeC Path=".\src\usb_prop.c" Header="usb_prop.c" Marker="-1" OutputFile=".\objdebug\usb_prop.o" sate="0" />
+	<NodeC Path=".\src\usb_pwr.c" Header="usb_pwr.c" Marker="-1" OutputFile=".\objdebug\usb_pwr.o" sate="0" />
+	<NodeC Path=".\src\Application.c" Header="Application.c" Marker="-1" OutputFile=".\objdebug\Application.o" sate="0" />
+	<NodeC Path=".\src\hw_config.c" Header="hw_config.c" Marker="0" OutputFile=".\objdebug\hw_config.o" sate="0" >
+		<Options>
+			<Config Header="Circle_Debug" >
+				<Set Header="GCC" >
+					<Section Header="OPTIMIZE" >
+						<Property Header="Optimize" Value="-Os" Removable="1" />
+																																									
+					</Section>
+																																	
+				</Set>
+																					
+			</Config>
+															
+		</Options>
+									
+	</NodeC>
+	<NodeC Path=".\src\usb_desc.c" Header="usb_desc.c" Marker="-1" OutputFile=".\objdebug\usb_desc.o" sate="0" />
+	<NodeApp Path="..\..\..\..\..\..\..\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\Circle.elf" Header="Circle.elf" Marker="-1" OutputFile="" sate="0" />
+	<NodeApp Path="..\..\..\..\..\..\..\Program Files\Raisonance\Ride\Lib\ARM\CircleOS\FAT.elf" Header="FAT.elf" Marker="-1" OutputFile="" sate="0" />
+	<Group Header="USBLIB" Marker="-1" OutputFile="" sate="0" >
+		<NodeH Path=".\USBLIB\usb_core.h" Header="usb_core.h" Marker="-1" OutputFile="" sate="0" />
+		<NodeH Path=".\USBLIB\usb_def.h" Header="usb_def.h" Marker="-1" OutputFile="" sate="0" />
+		<NodeC Path=".\USBLIB\usb_init.c" Header="usb_init.c" Marker="-1" OutputFile=".\objdebug\usb_init.o" sate="0" />
+		<NodeH Path=".\USBLIB\usb_init.h" Header="usb_init.h" Marker="-1" OutputFile="" sate="0" />
+		<NodeC Path=".\USBLIB\usb_int.c" Header="usb_int.c" Marker="-1" OutputFile=".\objdebug\usb_int.o" sate="0" />
+		<NodeH Path=".\USBLIB\usb_int.h" Header="usb_int.h" Marker="-1" OutputFile="" sate="0" />
+		<NodeH Path=".\USBLIB\usb_lib.h" Header="usb_lib.h" Marker="-1" OutputFile="" sate="0" />
+		<NodeC Path=".\USBLIB\usb_mem.c" Header="usb_mem.c" Marker="-1" OutputFile=".\objdebug\usb_mem.o" sate="0" />
+		<NodeH Path=".\USBLIB\usb_mem.h" Header="usb_mem.h" Marker="-1" OutputFile="" sate="0" />
+		<NodeC Path=".\USBLIB\usb_regs.c" Header="usb_regs.c" Marker="-1" OutputFile=".\objdebug\usb_regs.o" sate="0" />
+		<NodeH Path=".\USBLIB\usb_regs.h" Header="usb_regs.h" Marker="-1" OutputFile="" sate="0" />
+		<NodeH Path=".\USBLIB\usb_type.h" Header="usb_type.h" Marker="-1" OutputFile="" sate="0" />
+		<NodeC Path=".\USBLIB\usb_core.c" Header="usb_core.c" Marker="-1" OutputFile=".\objdebug\usb_core.o" sate="0" />
+															
+	</Group>
+	<Options>
+		<Config Header="Standard" >
+			<Set Header="ApplicationBuild" >
+				<Section Header="General" >
+					<Property Header="TargetFamily" Value="ARM" />
+																																																																						
+				</Section>
+																																																						
+			</Set>
+			<Set Header="Target" >
+				<Section Header="ProcessorARM" >
+					<Property Header="Processor" Value="STM32F103RBT6_CircleOS" />
+																																																																						
+				</Section>
+				<Section Header="ToolSetARM" >
+					<Property Header="BuildToolSetARM" Value="ARM\\GNU.config" Removable="1" />
+																																																																						
+				</Section>
+																																																						
+			</Set>
+																																			
+		</Config>
+		<Config Header="Circle_Debug" >
+			<Set Header="ApplicationBuild" >
+				<Section Header="Directories" >
+					<Property Header="IncDir" Value=".;$(RkitLib)\ARM\include;$(ApplicationDir)\Include;$(ApplicationDir)\USBLIB" Removable="1" />
+																																																				
+				</Section>
+																																								
+			</Set>
+			<Set Header="GCC" >
+				<Section Header="OPTIMIZE" >
+					<Property Header="Optimize" Value="-Os" Removable="1" />
+																																		
+				</Section>
+																										
+			</Set>
+			<Set Header="LD" >
+				<Section Header="Linker" >
+					<Property Header="GC_SECTIONS" Value="-Wl,-static -Wl,--gc-sections" Removable="1" />
+																																		
+				</Section>
+																										
+			</Set>
+															
+		</Config>
+									
+	</Options>
+	<NodeC Path=".\src\ECG_Acquisition.c" Header="ECG_Acquisition.c" Marker="-1" OutputFile=".\objdebug\ECG_Acquisition.o" sate="0" />
+	<NodeH Path=".\src\ECG_Acquisition.h" Header="ECG_Acquisition.h" Marker="-1" OutputFile="" sate="0" />
+	<NodeH Path=".\stm32f10x_conf.h" Header="stm32f10x_conf.h" Marker="-1" OutputFile="" sate="0" />
+</ApplicationBuild>
