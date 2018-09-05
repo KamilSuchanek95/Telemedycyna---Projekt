@@ -8,14 +8,10 @@ Sd2Card card;
 SdVolume volume;
 SdFile root;
 
-/* change this to match your SD shield or module;
- Arduino Ethernet shield: pin 4
- Adafruit SD shields and modules: pin 10
- Sparkfun SD shield: pin 8
- MKRZero SD: SDCARD_SS_PIN*/
-const int chipSelect = 10;
+const int chipSelect = 15;
 
 void setup() {
+  delay(5000);
   // Open serial communications and wait for port to open:
   Serial.begin(9600);
   while (!Serial) {
