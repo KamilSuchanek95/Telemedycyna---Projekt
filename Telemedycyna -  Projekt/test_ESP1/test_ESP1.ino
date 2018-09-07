@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 
 /* Statements */
-const char* ssid     = "multimedia_LUMKA1";
-const char* password = "ATKAMIL1606";
+const char* ssid     = "miao";
+const char* password = "miau123MIAU";
 
 const char* host = "ec2-54-221-237-246.compute-1.amazonaws.com";
 const char* database = "d6vbf3bajgqsh4";
@@ -44,15 +44,26 @@ void loop() {
   }
 
  client.println("psql -U jdbigwjpuutcuh --password 8e684ca67665828a0bb7567d03d1faa3bb0875749d88f65af3db0fcb0cfd924d -p 5432 -h ec2-54-221-237-246.compute-1.amazonaws.com -d d6vbf3bajgqsh4 \r\n");
-
+      String line = client.readStringUntil('\n');
+      Serial.println(line);
   delay(1000);
  client.println("8e684ca67665828a0bb7567d03d1faa3bb0875749d88f65af3db0fcb0cfd924d");
+ line = client.readStringUntil('\n');
+
+ 
+      Serial.println(line);
   delay(1000);
  client.println("UPDATE users SET role=1 WHERE first_name='Kamil';");
+line = client.readStringUntil('\n');
+      Serial.println(line);
   // Read all the lines of the reply from server and print them to Serial
-  while (client.available()) {
-    String line = client.readStringUntil('\r');
-    Serial.print(line);
+  while (client.connected())
+  {
+    if (client.available())
+    {
+      String line = client.readStringUntil('\n');
+      Serial.println(line);
+    }
   }
 
   Serial.println();
