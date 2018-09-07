@@ -8,17 +8,53 @@ Sd2Card card;
 SdVolume volume;
 SdFile root;
 
-const int chipSelect = 15;
+const int chipSelect = 10;
 
 void setup() {
   delay(5000);
-  // Open serial communications and wait for port to open:
+
   Serial.begin(9600);
   while (!Serial) {
-    ; // wait for serial port to connect. Needed for native USB port only
+    ;
   }
 
+  if(!(SD.begin(chipSelect))){
+    Serial.println("Nie udało się zainicjować działania modułu czytnika kart SD.");
+    while(1);
+  }
+  else{
+    Serial.println("Moduł czytnika kart SD zainicjowany.");
+  }
 
+  /*File dataFile = SD.open("Test1.txt",FILE_WRITE);
+  
+  if(dataFile){
+    dataFile.print(1);dataFile.print(",");Serial.println(dataFile.available());
+    dataFile.print(2);dataFile.print(",");Serial.println(dataFile.available());
+    dataFile.print(3);dataFile.print(",");Serial.println(dataFile.available());
+    dataFile.print(4);dataFile.print(",");Serial.println(dataFile.available());
+    dataFile.print(5);dataFile.print(",");Serial.println(dataFile.available());
+    dataFile.close();
+  }else{Serial.println("Wystąpił błąd poczas kreacji pliku.");}
+  */
+  if(SD.exists("Test1.txt")){
+    Serial.println("Plik Test1.txt istnieje.");
+  }else{Serial.println("Plik Test1.txt NIE istnieje.");}
+
+  File dataFile = SD.open("Test1.txt",FILE_READ);
+  if(dataFile){
+    while(dataFile.available()){
+      Serial.write(dataFile.read());
+      //Serial.print(dataFile.read());Serial.print(dataFile.read());Serial.println(dataFile.available());
+      //Serial.print(dataFile.read());Serial.print(dataFile.read());Serial.println(dataFile.available());
+      //Serial.print(dataFile.read());Serial.print(dataFile.read());Serial.println(dataFile.available());
+      //Serial.print(dataFile.read());Serial.print(dataFile.read());Serial.println(dataFile.available());
+      
+    }dataFile.close();
+  }else{Serial.println("Wystąpił błąd poczas odczytu pliku.");}
+
+  
+#if 0
   Serial.print("\nInitializing SD card...");
 
   // we'll use the initialization code from the utility libraries
@@ -86,6 +122,7 @@ void setup() {
 
   // list all files in the card with date and size
   root.ls(LS_R | LS_DATE | LS_SIZE);
+#endif
 }
 
 void loop(void) {
