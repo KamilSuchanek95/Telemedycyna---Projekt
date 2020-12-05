@@ -25,6 +25,14 @@
 
 >https://github.com/KamilSuchanek95/ZapisEKG_WPF
 
+### Filmiki, które musiałem oddać razem z sprawozdaniem
 
 
+[![Złożenie urządzenia 1](https://img.youtube.com/vi/SpOnCm-p1CQ/0.jpg)](https://www.youtube.com/watch?v=SpOnCm-p1CQ)
+
+[![Złożenie, późniejsze włożenie karty SD, reakcja urządzenia na monitorze](https://img.youtube.com/vi/GMcE6DthpAg/0.jpg)](https://www.youtube.com/watch?v=GMcE6DthpAg)
+
+[![Widok Monitora](https://img.youtube.com/vi/ndEQ74grKH0/0.jpg)](https://www.youtube.com/watch?v=ndEQ74grKH0)
+
+[![Wgrywanie przykładowych rekordów do bazy danych](https://img.youtube.com/vi/nCj1PFEzOXY/0.jpg)](https://www.youtube.com/watch?v=nCj1PFEzOXY)
 
