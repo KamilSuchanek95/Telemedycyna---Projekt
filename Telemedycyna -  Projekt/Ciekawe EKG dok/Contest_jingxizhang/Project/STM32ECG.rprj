@@ -1,4 +1,0 @@
-
-<Project Header="Project 'STM32ECG'" Path=".\STM32ECG.rprj" Project="Yes" OutputFile="" sate="96" ActiveApp="STM32ECG" >
-	<ApplicationBuild Header="STM32ECG" Extern=".\STM32ECG.rapp" Path=".\STM32ECG.rapp" OutputFile=".\objdebug\STM32ECG.elf" sate="98" Config="Circle_Debug" ></ApplicationBuild>
-</Project>
