@@ -1,9 +1,11 @@
 ## Projekt z Telemedycyny 
 
 >Akwizycja, zapis i przesyłanie sygnału EKG do bazy danych Heroku.
-* Moduł AD8232 - rejestracja sygnału,
-* Moduł czytnika kart SD - zapis,
-* Moduł WiFi ESP8266 - przesyłanie - nie udało się więc powstała aplikacja okienkowa, zakłada się, że urządzenie przynajmniej raz dziennie jest w domu, gdzie możemy przesłać dane do bazy.
+  * Moduł AD8232 - rejestracja sygnału,
+  * Moduł czytnika kart SD - zapis,
+  * Moduł WiFi ESP8266 - przesyłanie - nie udało się więc powstała aplikacja okienkowa, zakłada się, że urządzenie przynajmniej raz dziennie jest w domu, gdzie możemy przesłać dane do bazy.
+
+![Schemat połaczeń](/schemat.png)
 
 ### Program Arduino do zapisywania 5 minutowych sygnałów do plików
 
@@ -16,6 +18,8 @@
 ### Programy do sprawdzania, co jest na karcie SD i czy działa
 
 >Folder **Testowanie modułu czytnika kart SD**
+
+![Prototyp](/prototyp.jpg)
 
 ### Aplikacja okienkowa WPF C# do przesyłania danych
 
